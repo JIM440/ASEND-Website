@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+i {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+}
+
+.btn {
+  color: white;
+  background-color: royalblue;
+  border-radius: 4px;
+  padding: 6px 12px;
+  margin-top: 10px;
+  text-align: center;
+}
+.btn:hover {
+  background-color: #214cce;
+}
+
+.mobile-nav-menu.active {
+  right: -100%;
+}
+
+.mobile-nav-menu {
+  width: 293px;
+  max-width: 300px;
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  right: 0;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: 0.5s ease-in;
+}
+.mobile-nav-menu .close {
+  display: flex;
+  justify-content: space-between;
+}
+.mobile-nav-menu nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  margin-block: 3rem;
+}
+.mobile-nav-menu nav a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  width: 50%;
+  color: black;
+}
+.mobile-nav-menu nav a:hover {
+  color: royalblue;
+  font-weight: 600;
+}
+.mobile-nav-menu nav .btn {
+  color: white;
+}
+.mobile-nav-menu nav .btn:hover {
+  color: white;
+}
+.mobile-nav-menu .socials-nav {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-block: 2rem;
+}
+.mobile-nav-menu .socials-nav a {
+  color: black;
+}
+.mobile-nav-menu .socials-nav a:hover {
+  color: royalblue;
+}
