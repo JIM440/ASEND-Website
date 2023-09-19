@@ -1,0 +1,96 @@
+// mobile nav 
+.mobile-nav-menu.active{
+        right: 0;
+    }
+.mobile-nav-menu{
+    min-width: 293px;
+    max-width: 400px;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    right: -200%;
+    text-align: center;
+    padding: 20px;
+    box-shadow: $box-shadow;
+    transition: .5s ease-in;
+    background-color: $white;
+
+
+    .close{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        justify-content: center;
+        align-items: center;
+        margin-block: 3rem;
+
+        a{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+            width: 50%;
+            color: $black;
+            &:hover{
+                color: $blue;                    
+                font-weight: 600;
+            }
+        }
+
+     
+        .btn{
+            color: $white;
+            &:hover{
+                color: $white;
+            }
+        }
+
+    }
+       .socials-nav{
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            justify-content: center;
+            margin-block: 2rem;
+        
+            a{
+                color: $black;
+            &:hover{
+                color: $blue;
+            }
+        }
+        }
+}
+
+
+// desktop nav
+      header nav:nth-child(2){
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        ul{
+            display: none;
+            gap: 2rem;        
+            
+            @include breakpointLaptop{
+            display: flex;
+        }
+        }
+      }
+
+      .menu{
+        @include breakpointLaptop{
+            display: none !important;
+        }
+      }
+
+      .desktop-nav.active{
+        filter: blur(5px) brightness(0.7);
+    }

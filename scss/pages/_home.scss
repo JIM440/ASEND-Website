@@ -1,0 +1,178 @@
+// stats
+.stats{
+    background-color: $blue;
+    text-align: center;
+.container{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    div{
+     display: flex;
+     flex-direction: column;
+     text-align: center;   
+     color: $white;
+     gap: 10px;
+    }
+    span{
+        font-size: 12px;
+        line-height: 0;
+    }
+    h2{
+        line-height: 0;
+        font-size: 22px;
+    }
+}
+    img{
+        width: 75px;
+        @include breakpointLaptop{
+width: 200px;
+        }
+    }
+}
+
+
+
+// our team
+.team{
+    text-align: center;
+
+    .card-container{
+        margin-bottom: 1.4rem;
+        .cards{
+            .description{
+                font-size: 14px;
+                margin-top: -8px;
+            }
+                    .header{
+                        text-align-last: left !important;
+                        line-height: 0;
+                    }
+                    text-align: left!important;
+            
+                    .link{
+                        justify-content: space-between;
+            
+                        div a img{
+                            width: 25px;
+                            height: 25px;
+                        }
+                    }
+                }
+    }
+}
+
+// testimonial
+.testimonials{
+    .swiper-wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+
+        @include breakpointTablet{
+            grid-template-columns: 1fr 1fr;
+        }
+        @include breakpointLaptop{
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+    .swiper-slide{
+        border: 1px solid $black;
+        padding: 10px;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+
+        .user{
+            display: flex;
+            gap: 16px;
+            align-items: center;
+            img{
+                border-radius: 100%;
+                width: 50px;
+                height: 50px;
+            }
+            .text > *{
+                font-size: 12px;
+            }
+        }
+    }
+    .stars{
+        i{
+            color: gold;
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+        }
+    }
+}
+
+
+
+// recent activities
+#recent-activities {
+    .container {
+        .btn{
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+            width: 200px;  
+            margin: 2rem auto;
+           }
+    }
+}
+
+// support us
+.support-us{
+    text-align: center;
+    max-width: 510px;
+    margin: auto;
+}
+
+
+// faqs section
+.faqs-container{
+    max-width: 768px;
+    text-align: center;
+    margin: auto;
+
+
+    .faqs{
+        border: 1px solid $black;
+        padding: 10px;
+        margin-top: 15px;
+        &:hover{
+            cursor: pointer;
+        }
+
+        .question{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+p{
+    font-weight: 600;
+}
+        
+        }
+        .answer{
+            text-align: left;
+            color:$text-muted;
+            display: none;
+        }
+        
+
+        @include breakpointLaptop{
+            padding: 22.5px 20px;
+        }
+    }
+    .faqs.active{
+        transition: 0.4s ease-in;
+        .question i{
+            transform: rotate(180deg);
+            transition: 0.4s ease;
+        }
+        .answer{
+            display: block;
+        }
+    }
+}

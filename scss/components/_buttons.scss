@@ -1,0 +1,25 @@
+.btn{
+    color: $white;
+    background-color: $blue;
+    border-radius: $btn-border-radius;
+    padding: $btn-padding;
+    margin-top: 10px;
+    text-align: center;
+
+    &:hover{
+        background-color: darken($blue, 10%);
+    }
+}
+
+.btn-white{
+    @extend .btn;
+    color: $white;
+    background-color: $blue;
+    border: 1px solid $white;
+
+    &:hover{
+        background-color: $white;
+        border: 1px solid $blue;
+        color: $blue;
+    }
+}

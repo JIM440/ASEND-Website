@@ -1,0 +1,23 @@
+@mixin flex($gap, $direction: row){
+    display: flex;
+    gap: $gap;
+    flex-direction: $direction;
+}
+
+@mixin grid-two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+// breakpoints
+@mixin breakpointLaptop{
+    @media (min-width: 768px){
+  @content;
+    }
+}
+
+@mixin breakpointTablet{
+    @media (min-width: 576px) {
+        @content;
+    }
+}

@@ -1,0 +1,127 @@
+// footer styles
+footer{
+    background-color: $blue;
+    overflow-x: hidden;
+
+    a{
+        color: $black;
+        font-size: 14px;
+        display: block;
+
+        &:hover{
+            color: $white;
+            transition: 0.4s ease;
+        }
+    }
+
+    p{
+        font-size: 14px;
+    }
+    .bold{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    hr{
+            border: 1px solid $black;
+            margin-block: 25px;
+        }
+
+        .news-letter{
+            display: flex;
+            gap: 14px;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            
+
+            @include breakpointLaptop{
+                flex-direction: row;
+            }
+
+            div, form{
+                width: 100%;
+            }
+
+            form{
+                display: flex;
+                gap: 10px;
+    margin-bottom: 10px;
+
+
+                input{
+                    width: 70%;                    
+                    height: 48px;
+                    border-radius: 4px;
+                    font-size: 16px;
+                    padding-inline: 12px;
+
+                }
+                button{
+                    width: 30%;
+                    height: 48px;
+                    margin-top: 0px !important;
+
+                }
+            }
+        }
+
+.links{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-between;
+    gap: 1.625rem;
+
+    div{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        min-width: 120px;
+    }
+}
+
+    .privacy-policy{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+       
+
+        .text{
+            display: flex;
+            flex-wrap: wrap;        
+            justify-content: space-between;
+            align-items: center;
+            gap: 0.75rem;
+
+            .policy{
+                text-decoration: underline;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 1.5rem;
+
+                div{
+                    margin-bottom: 10px;
+                }
+            }
+
+
+        }
+
+        .socials{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            margin: auto;
+        }
+    }
+
+    @include breakpointLaptop{
+        padding: 80px 0px 56px 0px;
+    }
+}

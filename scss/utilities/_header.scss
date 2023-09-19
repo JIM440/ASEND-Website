@@ -1,0 +1,25 @@
+.header{
+    text-align: center;
+    font-size: 22px;
+    color: $blue;
+    
+
+
+    @include breakpointTablet{
+        font-size: 48pxpx;
+    }
+}
+
+.header-description{
+    text-align: center;
+    max-width: 500px;
+    font-size: 14px;
+    color: $text-muted;
+    margin: auto;
+   }
+
+   .mw{
+    max-width: 500px;
+    margin: auto;
+    margin-block: 15px;
+   }
