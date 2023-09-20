@@ -1,0 +1,40 @@
+.aboutPage{
+    p{
+        max-width: 700px;
+@include breakpointLaptop{
+    text-align: center;
+    margin: 10px auto;
+
+}
+}
+    .header{
+        margin-top: -20px;
+        @include breakpointLaptop{
+            margin: 0;
+        }
+    }
+}
+
+#our-mission{
+    p{
+        max-width: 700px;
+    @include breakpointLaptop{
+        text-align: center;        margin: 10px auto;
+
+    }
+    }
+}
+
+
+.teamAbout{
+    .container > .header{
+        margin-top: -20px;
+
+        @include breakpointLaptop{
+            margin: 0;
+        }
+    }
+    .container > .teamH{
+        margin: 30px 0px 0px;
+    }
+}

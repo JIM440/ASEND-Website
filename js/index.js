@@ -1,19 +1,28 @@
 // menu section
+const header = document.querySelector('header')
 const close = document.querySelector('.bx-x');
 const mobileNav = document.querySelector('.mobile-nav-menu')
 const menu = document.querySelector('.bx-menu')
 const blur = document.querySelector('.overlay-nav')
+const body = document.querySelector('body')
+
+
+menu.addEventListener('click', ()=>{
+  mobileNav.classList.add('active')
+  header.classList.add('active')
+blur.classList.add('active')
+menu.style.display = 'none'
+body.classList.add('no-scroll')
+  })
 
 close.addEventListener('click', ()=>{
 mobileNav.classList.remove('active')
+header.classList.remove('active')
 menu.style.display = 'block'
 blur.classList.remove('active')
+body.classList.remove('no-scroll')
 })
-menu.addEventListener('click', ()=>{
-    mobileNav.classList.add('active')
-blur.classList.add('active')
-menu.style.display = 'none'
-    })
+
 
 // faqs section
 const faqs = document.querySelectorAll('.faqs')
@@ -64,4 +73,15 @@ faqs.forEach(faq => {
         tabA.classList.add('active')
         targetA.classList.add('active')
       })
+    })
+
+    // back to top
+    const backTop = document.getElementById('back-top')
+    window.addEventListener('scroll', () => {
+      if(body.scrollTop > 200 || document.documentElement.scrollTop > 200){
+backTop.classList.add('active')
+      }
+      else{
+        backTop.classList.remove('active')
+      }
     })

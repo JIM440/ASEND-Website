@@ -56,6 +56,24 @@ body {
   color: royalblue;
 }
 
+.back {
+  position: fixed;
+  bottom: 32px;
+  right: 15px;
+}
+.back #back-top {
+  border-radius: 100%;
+  padding: 8px;
+  background-color: royalblue;
+  color: white;
+  font-size: 24px;
+  border: 1px solid white;
+  display: none;
+}
+.back #back-top.active {
+  display: block;
+}
+
 .card-container {
   display: grid;
   grid-template-columns: 1fr;
@@ -182,6 +200,10 @@ body {
   text-decoration: underline;
 }
 
+body.no-scroll {
+  overflow: hidden;
+}
+
 .mobile-nav-menu.active {
   right: 0;
 }
@@ -198,7 +220,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   transition: 0.3s ease-in;
   background-color: white;
-  z-index: 10;
+  z-index: 11;
 }
 .mobile-nav-menu .close {
   display: flex;
@@ -251,6 +273,14 @@ header nav:nth-child(2) {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 header nav:nth-child(2) ul {
   display: none;
@@ -455,6 +485,46 @@ footer .privacy-policy .socials {
     flex-direction: row;
     gap: 2rem;
   }
+}
+
+.aboutPage p {
+  max-width: 700px;
+}
+@media (min-width: 768px) {
+  .aboutPage p {
+    text-align: center;
+    margin: 10px auto;
+  }
+}
+.aboutPage .header, .aboutPage .sub-header {
+  margin-top: -20px;
+}
+@media (min-width: 768px) {
+  .aboutPage .header, .aboutPage .sub-header {
+    margin: 0;
+  }
+}
+
+#our-mission p {
+  max-width: 700px;
+}
+@media (min-width: 768px) {
+  #our-mission p {
+    text-align: center;
+    margin: 10px auto;
+  }
+}
+
+.teamAbout .container > .header, .teamAbout .container > .sub-header {
+  margin-top: -20px;
+}
+@media (min-width: 768px) {
+  .teamAbout .container > .header, .teamAbout .container > .sub-header {
+    margin: 0;
+  }
+}
+.teamAbout .container > .teamH {
+  margin: 30px 0px 0px;
 }
 
 #concour .concour-boxes {
@@ -720,6 +790,7 @@ footer .privacy-policy .socials {
 .services .services-container .service-box {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
   border-radius: 6px;
+  margin-top: 10px;
   border-bottom: 6px solid royalblue;
   padding: 6px;
 }
@@ -910,6 +981,10 @@ footer .privacy-policy .socials {
   justify-content: center;
   width: 200px;
   margin: 2rem auto;
+}
+#recent-activities .container .link {
+  letter-spacing: 2px;
+  text-decoration: underline;
 }
 
 .support-us {
