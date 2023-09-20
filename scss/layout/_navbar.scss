@@ -43,6 +43,10 @@
             }
         }
 
+        a.active{
+            color: $blue;
+        }
+
      
         .btn{
             color: $white;
@@ -83,6 +87,36 @@
             @include breakpointLaptop{
             display: flex;
         }
+            a{
+                color: $black;
+                position: relative;
+
+                &:hover{
+                    color: $blue;
+                }
+            }
+
+            a::before{
+                content: '';
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: $blue;
+        transition: width 0.3s;
+            }
+            a.active::before, a:hover::before{
+                width: 100%;
+            }
+
+            a.active{
+                color: $blue;
+            }
+            .btn{
+                color: $white;
+            }
         }
       }
 

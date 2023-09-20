@@ -156,7 +156,7 @@ h1{
         }
 
 .service-box{
-    box-shadow: 4px 4px 10px(rgba($black, 0.3));
+    box-shadow: 0px 4px 10px(rgba($black, 0.3));
     border-radius: 6px;
     border-bottom: 6px solid $blue;
     padding: 6px;
@@ -166,10 +166,11 @@ h1{
     }
 
     img, i{
-        width: 75px;
+        width: 60px;
         padding: 8px;
         border-radius: 100%;
         background-color: $blue;
+        margin-bottom: 6px;
 
         @include breakpointTablet{
             width: 124px;
@@ -177,6 +178,7 @@ h1{
     }
     .service-heading{
         font-size: 18px;
+        margin: 0;
 
         @include breakpointTablet{
             font-size: 2rem;
@@ -184,6 +186,7 @@ h1{
     }
     .service-description{
         font-size: 12px;
+        margin-bottom: 0;
 
         @include breakpointTablet{
             font-size: 16px;
@@ -213,7 +216,9 @@ h1{
     div{
      display: flex;
      flex-direction: column;
-     text-align: center;   
+     text-align: center;  
+     justify-content: center;
+     align-items: center; 
      color: $white;
      width: 100%;
      gap: 10px;
@@ -229,21 +234,37 @@ h1{
         padding: 10px;
     }
 }
-    img{
-        width: 75px;
-        @include breakpointLaptop{
-width: 200px;
-        }
-        
+.team-members{
+.text{
+    margin-top: -20px;
+
+    @include breakpointLaptop{
+        margin-top: 0;
+    }
 }
-.team-icon{
+
+    .team-icon{
             width:100px !important;
-            height: 75px;
+            height: 100px;
+            margin-top: -30px;
         @include breakpointLaptop{
 width: 250px !important;
+margin-top: 0;
 height: 200px;
         }
     }
+}
+    img{
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        @include breakpointTablet{
+width: 200px;
+height: auto;
+        }
+        
+}
+
 }
 
 
@@ -251,9 +272,17 @@ height: 200px;
 // our team
 .team{
     text-align: center;
+hr{
+    margin: 50px auto 0px;
+}
+    .mw{
+        margin-bottom: 1.5rem;
+    }
+
+
 
     .card-container{
-        margin-bottom: 1.4rem;
+        margin-bottom: 2.7rem;
         .cards{
             .description{
                 font-size: 14px;
@@ -281,7 +310,9 @@ height: 200px;
 
 // testimonial
 .testimonials{
-    .swiper-wrapper{
+    margin-top: 0px;
+    .swiper-wrappers{
+        margin-top: 1rem;
         display: grid;
         grid-template-columns: 1fr;
         gap: 1rem;
@@ -293,6 +324,7 @@ height: 200px;
             grid-template-columns: 1fr 1fr 1fr;
         }
     }
+
     .swiper-slide{
         border: 1px solid $black;
         padding: 10px;
@@ -344,6 +376,10 @@ height: 200px;
     text-align: center;
     max-width: 510px;
     margin: auto;
+
+    p{
+        margin-bottom: 2rem;
+    }
 }
 
 

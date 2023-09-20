@@ -26,8 +26,9 @@ faqs.forEach(faq => {
 
 
   // tabs concour page
+  // engineering
   const tabs = document.querySelectorAll('[data-tab-target')
-  const tabContents = document.querySelectorAll('.tab-content > div')
+  const tabContents = document.querySelectorAll('.tab-content1 > div')
 
   tabs.forEach(tab => {
     tab.addEventListener('click', ()=>{
@@ -38,3 +39,29 @@ faqs.forEach(faq => {
       target.classList.add('active')
     })
   })
+  // medicine
+  const tabsM = document.querySelectorAll('[data-tab-target1')
+  const tabContentsM = document.querySelectorAll('.tab-content2 > div')
+
+  tabsM.forEach(tabM => {
+    tabM.addEventListener('click', ()=>{
+      const targetM = document.querySelector(tabM.dataset.tabTarget1)
+      tabContentsM.forEach(tabContentM => tabContentM.classList.remove('active'))
+      tabsM.forEach(tabM => tabM.classList.remove('active'))
+      tabM.classList.add('active')
+      targetM.classList.add('active')
+    })
+  })
+    // agriculture
+    const tabsA = document.querySelectorAll('[data-tab-target2')
+    const tabContentsA = document.querySelectorAll('.tab-content3 > div')
+  
+    tabsA.forEach(tabA => {
+      tabA.addEventListener('click', ()=>{
+        const targetA = document.querySelector(tabA.dataset.tabTarget2)
+        tabContentsA.forEach(tabContentA => tabContentA.classList.remove('active'))
+        tabsA.forEach(tabA => tabA.classList.remove('active'))
+        tabA.classList.add('active')
+        targetA.classList.add('active')
+      })
+    })

@@ -1,0 +1,22 @@
+.services{
+    .sub-header{
+        text-align: left;
+        font-size: 16px;
+        padding: 10px 0px 0px;
+
+        @include breakpointTablet{
+            font-size: 20px;
+        }
+        @include breakpointLaptop{
+            text-align: center;
+        }
+    }
+    .service-page-hr{
+        margin: 0;
+    }
+}
+
+.service-contact{
+    margin-top: 0;
+    padding-top: 0;
+}

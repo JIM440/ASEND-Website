@@ -4,10 +4,13 @@
         display: grid;
         gap: 2rem;
         grid-template-columns: 1fr;
-        padding: 10px;
 
         @include breakpointLaptop{
             grid-template-columns: 1fr 1fr;
+        }
+
+        .sub-header{
+            text-decoration: underline;
         }
 
         .concour-box{
@@ -34,11 +37,10 @@
                     display: inline;
                     background-color: white;
                     cursor: pointer;
-                    width: 110px;
+                    width: 100px;
                     text-align: center;
                     padding: 10px;
                     border: 1px solid rgb(173, 165, 165);
-                    min-width: 100px;
 
                     &:hover{
                         background-color: $blue;
