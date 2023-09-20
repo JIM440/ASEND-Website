@@ -2,16 +2,16 @@
 const close = document.querySelector('.bx-x');
 const mobileNav = document.querySelector('.mobile-nav-menu')
 const menu = document.querySelector('.bx-menu')
-const body = document.querySelector('.desktop-nav')
+const blur = document.querySelector('.overlay-nav')
 
 close.addEventListener('click', ()=>{
 mobileNav.classList.remove('active')
 menu.style.display = 'block'
-body.classList.remove('active')
+blur.classList.remove('active')
 })
 menu.addEventListener('click', ()=>{
     mobileNav.classList.add('active')
-    body.classList.add('active')
+blur.classList.add('active')
 menu.style.display = 'none'
     })
 

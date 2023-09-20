@@ -6,8 +6,7 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     list-style: none;
-    outline: none;
-}
+    outline: none;}
 
 img{
     width: 100%;
@@ -23,4 +22,7 @@ button{
 
 hr{
     margin-block: 30px;
+}
+body{
+    margin: 0;
 }

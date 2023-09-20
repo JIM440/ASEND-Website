@@ -1,9 +1,210 @@
+// hero
+.hero{
+    background-image: url(../assets/img/people.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    color: $white;
+
+    @include breakpointLaptop{
+        padding: 4rem;
+        text-align: center;
+        height: 100vh;
+    }
+
+p{
+    font-size: 14px;
+    @include breakpointTablet{
+        font-size: 18px;
+    }
+}
+
+h1{
+        font-size: 32px;
+    @include breakpointTablet{
+        font-size: 48px;
+    }
+}
+
+
+
+    .btn-container{
+        display: flex;
+        gap: 1rem;
+
+        .btn-white{
+            background-color: $white;
+            border: 1px solid $black;        
+            color: $black;
+
+            &:hover{
+                color: $white;
+                border: none;
+                background-color: $blue;
+            }
+        }
+        @include breakpointTablet{
+            justify-content: center;
+        }
+
+    }
+
+}
+
+// about us
+.about{
+    padding-bottom: 20px;
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+
+    @include breakpointLaptop{
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
+.text{
+    ul{
+        list-style-type: square;   
+        li::before{
+            content: '';
+            height: 10px;
+            width: 10px;
+            display: inline-block;
+            margin-right: 10px;
+            background-color: $blue;
+        }
+}}
+.image{
+    width: 100%;
+
+    img{
+        width: 100%;
+    }
+}
+    .btn{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        width: fit-content;
+    }
+}
+}
+
+
+// partners
+.partners{
+    background-color: $blue;
+    color: $black;
+    padding: 10px;
+    padding-block: 1rem;
+
+    .header, .header-description{
+        color: $black;
+    }
+    .partners{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px;
+        img{
+            width: 60px;
+            max-width: 100%;
+            height: 60px;
+            
+            @include breakpointLaptop{
+                width: 100px;
+                height: 100px;
+            }
+        }
+        @include breakpointTablet{
+            justify-content: center;
+            gap: 2rem;
+        }
+    }
+
+}
+
+
+
+// services
+.services{
+    text-align: center;
+    padding-bottom: 20px;
+
+    .services-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        padding-block: 20px;
+
+        @include breakpointTablet{
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+        @include breakpointLaptop{
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 1.5rem;
+        }
+
+.service-box{
+    box-shadow: 4px 4px 10px(rgba($black, 0.3));
+    border-radius: 6px;
+    border-bottom: 6px solid $blue;
+    padding: 6px;
+
+    @include breakpointTablet{
+        padding: 10px;
+    }
+
+    img, i{
+        width: 75px;
+        padding: 8px;
+        border-radius: 100%;
+        background-color: $blue;
+
+        @include breakpointTablet{
+            width: 124px;
+        }
+    }
+    .service-heading{
+        font-size: 18px;
+
+        @include breakpointTablet{
+            font-size: 2rem;
+        }
+    }
+    .service-description{
+        font-size: 12px;
+
+        @include breakpointTablet{
+            font-size: 16px;
+        }
+    }
+
+
+    &:hover{
+        border: 1px solid $blue;
+        border-bottom: 6px solid $blue;
+    }
+}
+    }
+}
+
+
+
 // stats
 .stats{
     background-color: $blue;
     text-align: center;
 .container{
     display: flex;
+    align-items: center;
     gap: 2rem;
     justify-content: space-between;
     div{
@@ -11,21 +212,33 @@
      flex-direction: column;
      text-align: center;   
      color: $white;
+     width: 100%;
      gap: 10px;
     }
     span{
         font-size: 12px;
-        line-height: 0;
+        line-height: 1;
     }
     h2{
         line-height: 0;
-        font-size: 22px;
+        font-size: 28px;
+        margin: 0;
+        padding: 10px;
     }
 }
     img{
         width: 75px;
         @include breakpointLaptop{
 width: 200px;
+        }
+        
+}
+.team-icon{
+            width:100px !important;
+            height: 75px;
+        @include breakpointLaptop{
+width: 250px !important;
+height: 200px;
         }
     }
 }
@@ -42,10 +255,12 @@ width: 200px;
             .description{
                 font-size: 14px;
                 margin-top: -8px;
+                color: $text-muted;
             }
                     .header{
                         text-align-last: left !important;
                         line-height: 0;
+                        text-decoration: none;
                     }
                     text-align: left!important;
             
@@ -148,9 +363,19 @@ width: 200px;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            text-align: left;
             
 p{
     font-weight: 600;
+    max-width: 270px;
+    align-self: flex-start;
+
+    @include breakpointLaptop{
+        max-width: 100%;
+    }
+}
+i{
+    color: $text-muted;
 }
         
         }

@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 15px;
+    padding-top: 20px;
     justify-content: center;
     align-items: center;
 
@@ -35,8 +36,9 @@
             }
         }
         .description{
-            font-size: 1rem;
+            font-size: 0.875rem;
             color: $text-muted;
+            margin-block: 10px;
         }
         .link{
             color: $blue;
