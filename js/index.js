@@ -24,17 +24,17 @@ faqs.forEach(faq => {
     })
 })
 
-// swiper js
-  var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    loop: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  });
+
+  // tabs concour page
+  const tabs = document.querySelectorAll('[data-tab-target')
+  const tabContents = document.querySelectorAll('.tab-content > div')
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', ()=>{
+      const target = document.querySelector(tab.dataset.tabTarget)
+      tabContents.forEach(tabContent => tabContent.classList.remove('active'))
+      tabs.forEach(tab => tab.classList.remove('active'))
+      tab.classList.add('active')
+      target.classList.add('active')
+    })
+  })

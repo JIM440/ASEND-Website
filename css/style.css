@@ -148,14 +148,14 @@ body {
   text-align: center;
 }
 
-.header {
+.header, .sub-header {
   text-align: center;
   font-size: 22px;
   color: royalblue;
   text-decoration: underline;
 }
 @media (min-width: 576px) {
-  .header {
+  .header, .sub-header {
     font-size: 48pxpx;
   }
 }
@@ -172,6 +172,10 @@ body {
   max-width: 500px;
   margin: auto;
   margin-block: 15px;
+}
+
+.sub-header {
+  font-size: 1.3rem;
 }
 
 .underline {
@@ -423,6 +427,112 @@ footer .privacy-policy .socials {
   }
 }
 
+#concour .concour-boxes {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr;
+  padding: 10px;
+}
+@media (min-width: 768px) {
+  #concour .concour-boxes {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+#concour .concour-boxes .concour-box {
+  max-width: 558px;
+  margin: auto;
+}
+#concour .concour-boxes .concour-box .tab {
+  border: 1px solid royalblue;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin-top: 1rem;
+}
+#concour .concour-boxes .concour-box .tab .tab-menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+#concour .concour-boxes .concour-box .tab .tab-menu ul li {
+  display: inline;
+  background-color: white;
+  cursor: pointer;
+  width: 110px;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid rgb(173, 165, 165);
+  min-width: 100px;
+}
+#concour .concour-boxes .concour-box .tab .tab-menu ul li:hover {
+  background-color: royalblue;
+  color: white;
+  transition: 0.3s ease;
+}
+#concour .concour-boxes .concour-box .tab .tab-menu ul li.active {
+  background-color: royalblue;
+  color: white;
+}
+#concour .concour-boxes .concour-box .tab .tab-content {
+  padding: 10px;
+}
+#concour .concour-boxes .concour-box .tab .tab-content .concour-link {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  color: royalblue;
+  font-size: 1rem;
+  text-decoration: underline;
+  letter-spacing: 2px;
+}
+#concour .concour-boxes .concour-box .tab .tab-content .concour-link span {
+  color: royalblue;
+  font-size: 1rem;
+}
+#concour .concour-boxes .concour-box .tab .tab-content li {
+  margin: unset;
+}
+#concour .concour-boxes .concour-box .tab .tab-content p {
+  font-size: 14px;
+}
+#concour .concour-boxes .concour-box .tab .tab-content h3 {
+  text-decoration: underline;
+}
+#concour .concour-boxes .concour-box .tab .tab-content .requirements {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1rem;
+}
+@media (min-width: 576px) {
+  #concour .concour-boxes .concour-box .tab .tab-content .requirements {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}
+#concour .concour-boxes .concour-box .tab .tab-content * {
+  list-style: disc;
+}
+#concour .concour-boxes .concour-box .tab .tab-content h2 {
+  font-size: 22px;
+  color: royalblue;
+  margin: 0;
+}
+#concour .concour-boxes .concour-box .tab .tab-content span {
+  color: #524040;
+  font-size: 14px;
+}
+#concour .concour-boxes .concour-box .tab .tab-content > div {
+  display: none;
+}
+#concour .concour-boxes .concour-box .tab .tab-content > div.active {
+  display: block;
+}
+
 .hero {
   background-image: url(../assets/img/people.jpg);
   height: 50vh;
@@ -431,6 +541,11 @@ footer .privacy-policy .socials {
   display: flex;
   align-items: center;
   color: white;
+}
+@media (min-width: 576px) {
+  .hero {
+    height: 75vh;
+  }
 }
 @media (min-width: 768px) {
   .hero {
@@ -521,7 +636,7 @@ footer .privacy-policy .socials {
   padding: 10px;
   padding-block: 1rem;
 }
-.partners .header, .partners .header-description {
+.partners .header, .partners .sub-header, .partners .header-description {
   color: black;
 }
 .partners .partners {
@@ -675,7 +790,7 @@ footer .privacy-policy .socials {
   margin-top: -8px;
   color: #524040;
 }
-.team .card-container .cards .header {
+.team .card-container .cards .header, .team .card-container .cards .sub-header {
   text-align-last: left !important;
   line-height: 0;
   text-decoration: none;

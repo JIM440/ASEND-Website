@@ -7,6 +7,9 @@
     display: flex;
     align-items: center;
     color: $white;
+    @include breakpointTablet{
+    height: 75vh;
+}
 
     @include breakpointLaptop{
         padding: 4rem;

@@ -23,3 +23,8 @@
     margin: auto;
     margin-block: 15px;
    }
+
+   .sub-header{
+    @extend .header;
+    font-size: 1.3rem;
+   }
