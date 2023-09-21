@@ -853,6 +853,7 @@ footer .privacy-policy .socials {
   color: white;
   width: 100%;
   gap: 10px;
+  overflow: hidden;
 }
 .stats .container span {
   font-size: 12px;
@@ -877,6 +878,13 @@ footer .privacy-policy .socials {
   height: 100px;
   margin-top: -30px;
 }
+@media (min-width: 576px) {
+  .stats .team-members .team-icon {
+    width: 200px !important;
+    margin-top: 0;
+    height: 150px;
+  }
+}
 @media (min-width: 768px) {
   .stats .team-members .team-icon {
     width: 250px !important;
@@ -891,8 +899,13 @@ footer .privacy-policy .socials {
 }
 @media (min-width: 576px) {
   .stats img {
-    width: 200px;
+    width: 100px;
     height: auto;
+  }
+}
+@media (min-width: 768px) {
+  .stats img {
+    width: 200px;
   }
 }
 
@@ -929,52 +942,85 @@ footer .privacy-policy .socials {
   height: 25px;
 }
 
-.testimonials {
-  margin-top: 0px;
+#testimonial hr {
+  width: 90%;
+  margin-inline: auto;
 }
-.testimonials .swiper-wrappers {
-  margin-top: 1rem;
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
+
+.swiper {
+  width: 100%;
+  height: 100%;
 }
-@media (min-width: 576px) {
-  .testimonials .swiper-wrappers {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-@media (min-width: 768px) {
-  .testimonials .swiper-wrappers {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-.testimonials .swiper-slide {
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid black;
+  border-radius: 4px;
+  width: 70%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-slide {
+  border: 1px solid black;
+  height: fit-content;
   padding: 10px;
+  margin-top: 1rem;
+  gap: 0.4rem;
   border-radius: 4px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.testimonials .swiper-slide .user {
+
+.user {
   display: flex;
   gap: 16px;
   align-items: center;
 }
-.testimonials .swiper-slide .user img {
+
+.user img {
   border-radius: 100%;
   width: 50px;
   height: 50px;
 }
-.testimonials .swiper-slide .user .text > * {
+
+.user .text > * {
   font-size: 12px;
 }
-.testimonials .stars i {
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: none !important;
+}
+
+.stars i {
   color: gold;
   width: 20px;
   height: 20px;
   margin-right: 5px;
 }
 
+@media (min-width: 700px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: block;
+  }
+}
+#recent-activities {
+  margin-top: -30px;
+}
 #recent-activities .container .btn, #recent-activities .container .btn-white {
   display: flex;
   align-items: center;
