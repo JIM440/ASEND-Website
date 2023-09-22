@@ -86,20 +86,21 @@ backTop.classList.add('active')
       }
     })
 
-    // swiper
-    var swiper = new Swiper(".mySwiper", {
-      spaceBetween: 30,
-      centeredSlides: true,
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
+    // see more and see less about us page
+    const cardSeeMore = document.querySelector('.card-container-seeMore')
+    const seeLess = document.querySelector('.see-less')
+    const seeMore = document.querySelector('.see-more')
+    console.log(seeLess);
+    console.log(seeMore);
+    console.log(cardSeeMore);
+
+    seeMore.addEventListener('click', ()=>{
+      cardSeeMore.classList.remove('active')
+      seeMore.classList.add('active')
+      seeLess.classList.remove('active')
+    })
+    seeLess.addEventListener('click', ()=>{
+      cardSeeMore.classList.add('active')
+      seeLess.classList.add('active')
+      seeMore.classList.remove('active')
+    })

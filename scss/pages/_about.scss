@@ -34,7 +34,19 @@
             margin: 0;
         }
     }
+    .card-container.active{
+        display: none;
+    }
     .container > .teamH{
         margin: 30px 0px 0px;
+    }
+    .container{
+        button{
+            border: none;
+            outline: none;
+        }
+        button.active{
+            display: none;
+        }
     }
 }
