@@ -23,6 +23,17 @@ blur.classList.remove('active')
 body.classList.remove('no-scroll')
 })
 
+const contact = document.querySelector('.contact')
+const conPos = document.getElementById('#contact')
+contact.addEventListener('click', ()=>{
+  mobileNav.classList.remove('active')
+  header.classList.remove('active')
+  menu.style.display = 'block'
+  blur.classList.remove('active')
+  body.classList.remove('no-scroll')
+document.documentElement.scrollTop = conPos.offsetTop
+  
+})
 
 // faqs section
 const faqs = document.querySelectorAll('.faqs')
