@@ -122,12 +122,19 @@ nav{
         a.active::before, a:hover::before{
             width: 100%;
         }
+a.btn:hover::before{
+    width: 0;
+        }
 
         a.active{
             color: $blue;
         }
         .btn{
             color: $white;
+        
+        &:hover{
+            color: $white !important;
+        }
         }
     }
   }

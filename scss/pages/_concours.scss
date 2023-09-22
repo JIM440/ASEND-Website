@@ -86,7 +86,6 @@
                         display: grid;
                         grid-template-columns: 1fr;
                         justify-content: space-between;
-                        align-items: center;
                         margin-left: 1rem;
 
                         @include breakpointTablet{

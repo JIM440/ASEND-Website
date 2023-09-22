@@ -60,6 +60,7 @@ body {
   position: fixed;
   bottom: 32px;
   right: 15px;
+  z-index: 10;
 }
 .back #back-top {
   border-radius: 100%;
@@ -85,7 +86,7 @@ body {
 .card-container .cards {
   display: flex;
   flex-direction: column;
-  padding: 0px 10px;
+  padding: 8px 10px;
   margin: auto;
   width: 100%;
   max-width: 400px;
@@ -95,7 +96,7 @@ body {
 .card-container .cards img {
   width: 100%;
   border-radius: 8px;
-  height: 300px;
+  height: 270px;
 }
 .card-container .cards .recent {
   display: flex;
@@ -183,7 +184,7 @@ body {
   max-width: 500px;
   font-size: 14px;
   color: #524040;
-  margin: auto;
+  margin: -15px auto 12px;
 }
 
 .mw {
@@ -312,11 +313,17 @@ header nav:nth-child(2) ul a::before {
 header nav:nth-child(2) ul a.active::before, header nav:nth-child(2) ul a:hover::before {
   width: 100%;
 }
+header nav:nth-child(2) ul a.btn:hover::before, header nav:nth-child(2) ul a.btn-white:hover::before {
+  width: 0;
+}
 header nav:nth-child(2) ul a.active {
   color: royalblue;
 }
 header nav:nth-child(2) ul .btn, header nav:nth-child(2) ul .btn-white {
   color: white;
+}
+header nav:nth-child(2) ul .btn:hover, header nav:nth-child(2) ul .btn-white:hover {
+  color: white !important;
 }
 
 @media (min-width: 768px) {
@@ -504,15 +511,14 @@ footer .privacy-policy .socials {
     margin: 10px auto;
   }
 }
+.aboutPage .header-description {
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
 .aboutPage .header, .aboutPage .sub-header {
   margin-top: -20px;
+  margin-bottom: 0px;
 }
-@media (min-width: 768px) {
-  .aboutPage .header, .aboutPage .sub-header {
-    margin: 0;
-  }
-}
-
 #our-mission p {
   max-width: 700px;
 }
@@ -521,6 +527,10 @@ footer .privacy-policy .socials {
     text-align: center;
     margin: 10px auto;
   }
+}
+#our-mission .header-description {
+  margin-top: -16px;
+  margin-bottom: 10px;
 }
 
 .teamAbout .container > .header, .teamAbout .container > .sub-header {
@@ -536,6 +546,9 @@ footer .privacy-policy .socials {
 }
 .teamAbout .container > .teamH {
   margin: 30px 0px 0px;
+}
+.teamAbout .header-description {
+  margin-top: 0;
 }
 .teamAbout .container button {
   border: none;
@@ -624,7 +637,6 @@ footer .privacy-policy .socials {
   display: grid;
   grid-template-columns: 1fr;
   justify-content: space-between;
-  align-items: center;
   margin-left: 1rem;
 }
 @media (min-width: 576px) {
@@ -663,14 +675,14 @@ footer .privacy-policy .socials {
 }
 @media (min-width: 576px) {
   .hero {
-    height: 75vh;
+    height: 50vh;
   }
 }
 @media (min-width: 768px) {
   .hero {
     padding: 4rem;
     text-align: center;
-    height: 100vh;
+    height: 70vh;
   }
 }
 .hero p {
@@ -700,7 +712,7 @@ footer .privacy-policy .socials {
 }
 .hero .btn-container .btn-white:hover {
   color: white;
-  border: none;
+  border: 1px solid royalblue;
   background-color: royalblue;
 }
 @media (min-width: 576px) {
@@ -755,9 +767,9 @@ footer .privacy-policy .socials {
   padding: 10px;
 }
 .partners .partners img {
-  width: 60px;
+  width: 30px;
   max-width: 100%;
-  height: 60px;
+  height: 30px;
 }
 @media (min-width: 768px) {
   .partners .partners img {
@@ -877,7 +889,7 @@ footer .privacy-policy .socials {
 }
 .stats .container h2 {
   line-height: 0;
-  font-size: 28px;
+  font-size: 24px;
   margin: 0;
   padding: 10px;
 }
@@ -890,38 +902,38 @@ footer .privacy-policy .socials {
   }
 }
 .stats .team-members .team-icon {
-  width: 100px !important;
-  height: 100px;
-  margin-top: -30px;
+  width: 90px !important;
+  height: 95px;
+  margin-top: -25px;
 }
 @media (min-width: 576px) {
   .stats .team-members .team-icon {
-    width: 200px !important;
+    width: 100px !important;
     margin-top: 0;
     height: 150px;
   }
 }
 @media (min-width: 768px) {
   .stats .team-members .team-icon {
-    width: 250px !important;
+    width: 200px !important;
     margin-top: 0;
     height: 200px;
   }
 }
 .stats img {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   text-align: center;
 }
 @media (min-width: 576px) {
   .stats img {
-    width: 100px;
+    width: 80px;
     height: auto;
   }
 }
 @media (min-width: 768px) {
   .stats img {
-    width: 200px;
+    width: 110px;
   }
 }
 
