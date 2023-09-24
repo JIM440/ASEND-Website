@@ -26,6 +26,8 @@
   </head>
   <body>
     <!-- body starts -->
+    <!-- pre loader -->
+    <div id="preloader"></div>
     <!-- ====================================================================================================================================================================================================================================================== -->
     <!-- header  -->
     <header class="container">
@@ -87,7 +89,7 @@
     <h1>Headline that highlights the value or proposition</h1>
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, et eligendi nulla libero repellat quam magnam culpa fugit provident. Impedit ab magni cumque dolores, quia veniam expedita saepe ratione blanditiis?</p>
   <div class="btn-container"><a href="#contact" class="btn">Contact Us</a> 
-    <a href="" class="btn-white">Learn More</a></div>
+</div>
   </div>
 </section>
 <!-- mission statement -->
@@ -117,8 +119,8 @@
     <!-- our team  -->
     <section class="team teamAbout">
       <div class="container">
-        <h2 class="header">Meet Our Leadership</h2>
-        <p class="header-description">Get to Know Our Visionary Leadership</p>
+        <h2 class="header header-leadershipt">Meet Our Leadership</h2>
+        <p class="header-description header-leadership">Get to Know Our Visionary Leadership</p>
         <div class="card-container">
 <div class="cards">
   <img src="assets/img/table7.webp" alt="">
@@ -399,10 +401,10 @@
       <div class="contact-form">
         <h2>OR</h2>
         <p class="bold">Leave us a message</p>
-        <form action="https://submit-form.com/X4rYrLKC" method="post">
+        <form action="https://formspree.io/f/xvojwyga" method="post">
           <input type="text" name="Name" placeholder="Name" required>
           <input type="text" name="email" placeholder="email (optional)">
-          <input type="text" name="Phone Number" placeholder="Phone Number" required>
+          <input type="text" name="Phone Number" placeholder="Phone Number" required id="numberInput">
           <input type="text" name="subject" placeholder="subject" required>
           <textarea name="message" id="" cols="30" rows="10" placeholder="Message" required></textarea>
           <button type="submit" class="btn">Send Message</button>
@@ -423,13 +425,15 @@
               activities.
             </p>
           </div>
-          <form action="https://submit-form.com/fcAUaFlh" method="post">
+          <form action="https://formspree.io/f/xvojwyga" method="post">
             <input type="text" name="Newsletter Email" placeholder="Enter your email" />
             <button type="submit" class="btn-white">Subscribe</button>
           </form>
         </div>
         <div class="links">
-          <div class="img"><img src="assets/img/logo.png" alt="" /></div>
+          <div class="img"><img src="assets/img/logo.png" alt="" />
+            <p class="text-white">ASEND: <br> "Association Of Engineering and Medical Students"</p>
+          </div>
           <div>
             <p class="bold">Links</p>
             <div>
@@ -441,18 +445,18 @@
           </div>
           <div>
             <p class="bold">Concour</p>
-            <div>
-              <a href="index.html">Engineering</a>
-              <a href="">Agriculture</a>
-              <a href="">Medicine</a>
+            <div class="conour-footer">
+              <p>Engineering</p>
+              <p>Agriculture</p>
+              <p>Medicine</p>
             </div>
           </div>
           <div>
             <p class="bold">Support</p>
-            <div>
-              <a href="index.html">FAQS</a>
-              <a href="">Help Center</a>
-              <a href="">Privacy Policy</a>
+            <div class="conour-footer">
+              <a href="index.html#faqs">FAQS</a>
+              <p>Help Center</p>
+              <a href="#contact">Contact</a>
             </div>
           </div>
           </div>
@@ -483,5 +487,8 @@
     <a href="#" class="back"><i class='bx bx-up-arrow-alt' id="back-top"></i></a>
 
     <script src="js/index.js"></script>
+    <script>
+
+    </script>
   </body>
 </html>

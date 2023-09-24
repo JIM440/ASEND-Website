@@ -6,9 +6,12 @@
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    color: $white;
+    color: $white;    
+    min-height: 375px;
+    margin-top: 43px;
     @include breakpointTablet{
     height: 50vh;
+
 }
 
     @include breakpointLaptop{
@@ -232,6 +235,10 @@ h1{
         font-size: 24px;
         margin: 0;
         padding: 10px;
+        span{
+            font-size: 24px;
+            margin: 0;
+        }
     }
 }
 .team-members{

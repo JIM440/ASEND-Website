@@ -75,6 +75,23 @@ body {
   display: block;
 }
 
+#preloader {
+  background-color: #f1f2f3;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 101;
+  background-image: url(../assets/img/loader-200px.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80px;
+}
+@media (min-width: 768px) {
+  #preloader {
+    background-size: 100px;
+  }
+}
+
 .card-container {
   display: grid;
   grid-template-columns: 1fr;
@@ -362,6 +379,15 @@ footer a:hover {
   color: white;
   transition: 0.4s ease;
 }
+footer .conour-footer p {
+  margin: 0;
+}
+footer .img {
+  width: 200px;
+}
+footer .img img {
+  width: 100px !important;
+}
 footer p {
   font-size: 14px;
 }
@@ -519,6 +545,14 @@ footer .privacy-policy .socials {
   margin-top: -20px;
   margin-bottom: 0px;
 }
+.header-leadership {
+  margin-top: -20px;
+}
+
+.header-leadershipt {
+  margin-bottom: 0px;
+}
+
 #our-mission p {
   max-width: 700px;
 }
@@ -672,6 +706,8 @@ footer .privacy-policy .socials {
   display: flex;
   align-items: center;
   color: white;
+  min-height: 375px;
+  margin-top: 43px;
 }
 @media (min-width: 576px) {
   .hero {
@@ -892,6 +928,10 @@ footer .privacy-policy .socials {
   font-size: 24px;
   margin: 0;
   padding: 10px;
+}
+.stats .container h2 span {
+  font-size: 24px;
+  margin: 0;
 }
 .stats .team-members .text {
   margin-top: -30px;

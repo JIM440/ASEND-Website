@@ -96,22 +96,34 @@ backTop.classList.add('active')
         backTop.classList.remove('active')
       }
     })
+    
+    // css loader
+    const preloader = document.getElementById('preloader')
 
-    // see more and see less about us page
-    const cardSeeMore = document.querySelector('.card-container-seeMore')
-    const seeLess = document.querySelector('.see-less')
-    const seeMore = document.querySelector('.see-more')
-    console.log(seeLess);
-    console.log(seeMore);
-    console.log(cardSeeMore);
+    window.addEventListener('load', ()=>{
+      preloader.style.display = 'none'
+    })
 
-    seeMore.addEventListener('click', ()=>{
-      cardSeeMore.classList.remove('active')
-      seeMore.classList.add('active')
-      seeLess.classList.remove('active')
-    })
-    seeLess.addEventListener('click', ()=>{
-      cardSeeMore.classList.add('active')
-      seeLess.classList.add('active')
-      seeMore.classList.remove('active')
-    })
+// input accept just numbers
+    const numberInput = document.getElementById('numberInput');
+
+    numberInput.addEventListener('input', function(e) {
+      const inputValue = e.target.value;
+      const sanitizedValue = inputValue.replace(/[^0-9]/g, '');
+      e.target.value = sanitizedValue;
+    });
+              // see more and see less about us page
+              const cardSeeMore = document.querySelector('.card-container-seeMore')
+              const seeLess = document.querySelector('.see-less')
+              const seeMore = document.querySelector('.see-more')
+          
+              seeMore.addEventListener('click', ()=>{
+                cardSeeMore.classList.remove('active')
+                seeMore.classList.add('active')
+                seeLess.classList.remove('active')
+              })
+              seeLess.addEventListener('click', ()=>{
+                cardSeeMore.classList.add('active')
+                seeLess.classList.add('active')
+                seeMore.classList.remove('active')
+              })
