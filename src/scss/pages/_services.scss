@@ -1,0 +1,13 @@
+.services {
+  .sub-header {
+    color: $primary-color;
+    margin-top: 2rem;
+    text-decoration: underline;
+    text-align: left;
+    padding: 10px 0px 0px;
+
+    @include breakpointTablet {
+      font-size: 20px;
+    }
+  }
+}

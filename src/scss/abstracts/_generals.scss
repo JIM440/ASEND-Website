@@ -1,0 +1,23 @@
+.icon-container,
+.icons-container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s ease;
+
+  a,
+  i {
+    color: $black;
+    font-size: 24px;
+  }
+}
+
+.logo img {
+  min-width: 40px;
+  min-height: 40px;
+  max-width: 70px;
+  height: 70px;
+  border-radius: 8px;
+  background-color: $text-muted;
+}

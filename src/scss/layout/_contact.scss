@@ -1,0 +1,55 @@
+#contact {
+  margin-top: -26px;
+  @include breakpointLaptop {
+    margin-top: 0;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    p,
+    span {
+      line-height: 1.8;
+    }
+
+    div {
+      width: 100%;
+    }
+
+    .contact-details > div {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .contact-details > div > div {
+      display: flex;
+      align-items: start;
+      gap: 2.5rem;
+    }
+
+    .contact-form {
+      text-align: center;
+      input,
+      textarea {
+        width: 100%;
+        margin-top: 15px;
+        padding: 10px 12px;
+      }
+      textarea {
+        resize: none;
+      }
+
+      button {
+        margin-left: auto;
+        margin-right: auto;
+        border: none;
+      }
+    }
+
+    @include breakpointLaptop {
+      flex-direction: row;
+      gap: 2rem;
+    }
+  }
+}

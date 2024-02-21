@@ -1,0 +1,47 @@
+// hero
+.hero {
+  // background-image: ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url();
+
+  .container {
+    min-height: 375px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    line-height: 1.2;
+    margin-top: 3.6rem;
+    background-color: $bg-light;
+    justify-content: center;
+    height: 60vh;
+
+    @include breakpointTablet {
+      height: 65vh;
+    }
+
+    @include breakpointLaptop {
+      padding: 4rem;
+      height: 100vh;
+    }
+
+    p {
+      color: $black;
+      font-size: 14px;
+      @include breakpointTablet {
+        font-size: 18px;
+        max-width: 600px;
+      }
+    }
+
+    h1 {
+      max-width: 600px;
+
+      color: $black;
+      font-size: 32px;
+      @include breakpointTablet {
+        font-size: 48px;
+      }
+    }
+  }
+}
