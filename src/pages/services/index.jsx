@@ -1,8 +1,28 @@
 import React from 'react';
+import staffs from '../../img/Staffs.jpg';
 
 const Services = () => {
   return (
     <>
+      {/*hero */}
+      <section className="hero">
+        <div
+          className="container"
+          style={{
+            backgroundImage: `${staffs}`,
+            alignItems: 'center',
+          }}
+        >
+          <h1
+            style={{
+              textAlign: 'center',
+              fontSize: '48px',
+            }}
+          >
+            What We Offer
+          </h1>
+        </div>
+      </section>
       {/* <!-- ====================================================================================================================================================================================================================================================== -->
     <!-- services  --> */}
       <section className="services">

@@ -2,10 +2,32 @@ import { Link } from 'react-router-dom';
 // images
 import Linkedin from '../../img/linkedin.png';
 import Instagram from '../../img/ig.jpg';
+import salif from '../../img/salif.jpg';
+import staffs from '../../img/Staffs2.jpg';
 
 const About = () => {
   return (
     <>
+      {/*hero */}
+      <section className="hero">
+        <div
+          className="container"
+          style={{
+            backgroundImage: `${staffs}`,
+            alignItems: 'center',
+          }}
+        >
+          <h1
+            style={{
+              textAlign: 'center',
+              fontSize: '48px',
+            }}
+          >
+            ABOUT ASEND
+          </h1>
+        </div>
+      </section>
+      {/* how we started */}
       <section id="how-we-started">
         <div className="container">
           <div className="even-columns">
@@ -172,15 +194,12 @@ const About = () => {
             </div>
             <div className="team-box">
               <div className="img">
-                <img
-                  src="https://www.shutterstock.com/image-photo/portrait-caucasian-handsome-business-man-260nw-2235232693.jpg"
-                  alt=""
-                />
+                <img src={salif} alt="" />
               </div>
-              <h3>Tracy D. Wright</h3>
-              <p className="title">Doctor Of Veterinary Medicine</p>
+              <h3>Engr. Njidda Salifu</h3>
+              <p className="title"></p>
               <div className="position">
-                <p className="position">Veterinary/Agriculture Tutor</p>
+                <p className="position">Coordinator Of Engineering - Buea</p>
                 <div className="profile-links">
                   <a href="">
                     <img src={Linkedin} alt="LinkenIn Icon" />

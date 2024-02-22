@@ -37,9 +37,6 @@ hr {
 textarea {
   resize: none;
 }
-section {
-  margin-bottom: 1.4rem;
-}
 
 input,
 textarea {
@@ -54,6 +51,10 @@ input,
 textarea {
   border: 1px solid lighten($text-muted, 15%);
   border-radius: 6px;
+}
+
+section {
+  margin-top: 55px;
 }
 
 @include breakpointDynamic(810px) {

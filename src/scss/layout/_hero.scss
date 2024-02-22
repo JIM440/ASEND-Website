@@ -4,6 +4,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(./img/Staffs2.jpg);
+  background-color: #00000052;
   background-position: center;
   height: auto;
 
@@ -11,9 +12,10 @@
     min-height: 375px;
     display: flex;
     flex-direction: column;
-    gap: 1.4rem;
+    gap: 1.6rem;
     line-height: 1.2;
-    margin-top: 3.6rem;
+    margin-top: 36px;
+    background-color: #0000001f;
     justify-content: center;
     height: 60vh;
 
@@ -22,12 +24,13 @@
     }
 
     @include breakpointLaptop {
-      padding: 4rem;
+      padding-inline: 4rem;
       height: 100vh;
     }
 
     p {
       color: $white;
+      font-weight: 600;
       font-size: 14px;
       @include breakpointTablet {
         font-size: 18px;

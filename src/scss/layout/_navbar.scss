@@ -191,6 +191,7 @@ nav.clicked {
   ul {
     display: flex;
     flex-direction: column;
+    max-width: 160px;
     justify-content: center;
 
     li {
@@ -202,7 +203,7 @@ nav.clicked {
 
       a {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         gap: 1.2rem;
 

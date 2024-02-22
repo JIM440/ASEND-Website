@@ -53,10 +53,6 @@ textarea {
   resize: none;
 }
 
-section {
-  margin-bottom: 1.4rem;
-}
-
 input,
 textarea {
   background-color: white;
@@ -70,6 +66,10 @@ input,
 textarea {
   border: 1px solid #aba3a3;
   border-radius: 6px;
+}
+
+section {
+  margin-top: 55px;
 }
 
 @media (min-width: 810px) {
@@ -155,7 +155,7 @@ textarea {
 
 .services-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 1.2rem;
   justify-content: center;
   align-items: center;
@@ -179,6 +179,7 @@ textarea {
   gap: 0.5rem;
   align-items: center;
   max-width: 250px;
+  margin: 0 auto;
 }
 @media (min-width: 576px) {
   .services-container .service-box {
@@ -223,6 +224,7 @@ textarea {
 .team-container .team-box {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 0.8rem;
   padding: 8px;
   max-width: 400px;
@@ -247,11 +249,13 @@ textarea {
 .team-container .team-box .position {
   display: flex;
   gap: 1rem;
+  width: 100%;
   justify-content: space-between;
 }
 .team-container .team-box .position .profile-links {
   display: flex;
   gap: 6px;
+  width: 25%;
 }
 .team-container .team-box .position .profile-links img {
   width: 25px;
@@ -513,6 +517,7 @@ nav.clicked {
 .mobile-nav ul {
   display: flex;
   flex-direction: column;
+  max-width: 160px;
   justify-content: center;
 }
 .mobile-nav ul li {
@@ -524,7 +529,7 @@ nav.clicked {
 }
 .mobile-nav ul li a {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 1.2rem;
 }
@@ -617,6 +622,9 @@ nav.clicked {
   flex-direction: column;
   gap: 1rem;
 }
+#footer .container .footer-grid-container .footer-grid-box li {
+  margin-bottom: 10px;
+}
 #footer .container .footer-grid-container .footer-grid-box > p {
   text-decoration: underline;
   font-weight: 600;
@@ -692,6 +700,7 @@ nav.clicked {
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(./img/Staffs2.jpg);
+  background-color: rgba(0, 0, 0, 0.3215686275);
   background-position: center;
   height: auto;
 }
@@ -699,9 +708,10 @@ nav.clicked {
   min-height: 375px;
   display: flex;
   flex-direction: column;
-  gap: 1.4rem;
+  gap: 1.6rem;
   line-height: 1.2;
-  margin-top: 3.6rem;
+  margin-top: 36px;
+  background-color: rgba(0, 0, 0, 0.1215686275);
   justify-content: center;
   height: 60vh;
 }
@@ -712,12 +722,13 @@ nav.clicked {
 }
 @media (min-width: 768px) {
   .hero .container {
-    padding: 4rem;
+    padding-inline: 4rem;
     height: 100vh;
   }
 }
 .hero .container p {
   color: white;
+  font-weight: 600;
   font-size: 14px;
 }
 @media (min-width: 576px) {
@@ -737,9 +748,6 @@ nav.clicked {
   }
 }
 
-#contact {
-  margin-top: -26px;
-}
 @media (min-width: 768px) {
   #contact {
     margin-top: 0;
@@ -1097,7 +1105,7 @@ nav.clicked {
 
 .faqs {
   max-width: 768px;
-  margin: auto;
+  margin-inline: auto;
 }
 .faqs .faqs-container {
   display: flex;

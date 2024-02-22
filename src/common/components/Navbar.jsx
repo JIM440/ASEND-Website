@@ -130,9 +130,9 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li>
-            <a href="" className="btn">
+            <Link to="" className="btn">
               Support Us
-            </a>
+            </Link>
           </li>
           <li>
             <div className="social-links">
@@ -151,7 +151,7 @@ const Navbar = () => {
             </div>
           </li>
           <li>
-            <a href="#contact" className="btn">
+            <a href="#contact" className="btn" onClick={toggleAll}>
               Contact Us
             </a>
           </li>

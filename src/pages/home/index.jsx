@@ -8,6 +8,7 @@ import staffs from '../../img/Staffs.jpg';
 import orientation from '../../img/orientation1.jpg';
 import WorldEng from '../../img/orientation2.jpg';
 import Premed from '../../img/orientation3.jpg';
+import staffs2 from '../../img/Staffs.jpg';
 // services images
 import { Link } from 'react-router-dom';
 
@@ -37,6 +38,29 @@ const Home = () => {
   ];
   return (
     <>
+      {/* hero */}
+      <section className="hero">
+        <div
+          className="container"
+          style={{
+            backgroundImage: `${staffs2}`,
+          }}
+        >
+          <h1>One Student One Professional School</h1>
+          <p>
+            We are aimed at bridging the gap between students and entrance into
+            various professional schools in Cameroon.
+          </p>
+          <div className="btn-container">
+            <Link to="about" className="btn btn-white">
+              Learn More
+            </Link>
+            <a href="#contact" className="btn">
+              Contact Us
+            </a>
+          </div>
+        </div>
+      </section>
       {/* <!-- ====================================================================================================================================================================================================================================================== -->
     <!-- About Us  --> */}
       <section className="about">
