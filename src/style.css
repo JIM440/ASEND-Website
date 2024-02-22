@@ -235,7 +235,7 @@ section {
 .team-container .team-box .img img {
   width: 100%;
   border-radius: 8px;
-  min-height: 300px;
+  height: 300px;
   object-fit: cover;
   background-color: #877b7b;
 }
@@ -364,6 +364,9 @@ nav .container .logo {
   display: flex;
   gap: 4px;
   align-items: center;
+}
+nav .container .logo h2 {
+  color: #0e3a77;
 }
 nav .container i {
   font-size: 24px;
@@ -617,6 +620,14 @@ nav.clicked {
     grid-template-columns: 2fr 1fr 1fr 2fr;
   }
 }
+#footer .container .footer-grid-container .logo {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+#footer .container .footer-grid-container .logo h2 {
+  color: black;
+}
 #footer .container .footer-grid-container .footer-grid-box {
   display: flex;
   flex-direction: column;
@@ -697,6 +708,7 @@ nav.clicked {
 }
 
 .hero {
+  margin-top: 45px;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(./img/Staffs2.jpg);
@@ -734,11 +746,11 @@ nav.clicked {
 @media (min-width: 576px) {
   .hero .container p {
     font-size: 18px;
-    max-width: 600px;
+    max-width: 750px;
   }
 }
 .hero .container h1 {
-  max-width: 600px;
+  max-width: 750px;
   color: white;
   font-size: 32px;
 }

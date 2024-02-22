@@ -52,6 +52,7 @@ const Navbar = () => {
         <div className="container">
           <Link to="/" className="logo" onClick={toggleAll}>
             <img src={logo} alt="" />
+            <h2>ASEND</h2>
           </Link>
 
           {/* desktop nav */}

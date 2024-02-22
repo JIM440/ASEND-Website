@@ -25,6 +25,15 @@
         grid-template-columns: 2fr 1fr 1fr 2fr;
       }
 
+      .logo {
+        display: flex;
+        gap: 4px;
+        align-items: center;
+
+        h2 {
+          color: $black;
+        }
+      }
       .footer-grid-box {
         display: flex;
         flex-direction: column;

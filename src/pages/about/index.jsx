@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Linkedin from '../../img/linkedin.png';
 import Instagram from '../../img/ig.jpg';
 import salif from '../../img/salif.jpg';
+import story from '../../img/how_we_started.jpg';
 import staffs from '../../img/Staffs2.jpg';
 
 const About = () => {
@@ -47,7 +48,7 @@ const About = () => {
               </p>
             </div>
             <div className="img">
-              <img src="" alt="" />
+              <img src={story} alt="" />
             </div>
           </div>
         </div>

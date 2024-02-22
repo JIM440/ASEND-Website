@@ -19,6 +19,10 @@ nav {
       display: flex;
       gap: 4px;
       align-items: center;
+
+      h2 {
+        color: darken($primary-color, 20%);
+      }
     }
 
     i {

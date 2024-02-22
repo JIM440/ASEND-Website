@@ -1,6 +1,6 @@
 // hero
 .hero {
-  // background-image: ;
+  margin-top: 45px;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(./img/Staffs2.jpg);
@@ -34,12 +34,12 @@
       font-size: 14px;
       @include breakpointTablet {
         font-size: 18px;
-        max-width: 600px;
+        max-width: 750px;
       }
     }
 
     h1 {
-      max-width: 600px;
+      max-width: 750px;
 
       color: $white;
       font-size: 32px;

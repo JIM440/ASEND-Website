@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+// images
+import logo from '../../img/logo.png';
 const Footer = () => {
   return (
     <footer id="footer">
@@ -7,11 +9,8 @@ const Footer = () => {
         <div className="footer-grid-container">
           <div className="footer-grid-box">
             <Link to="/" className="logo">
-              <img src="" alt="" />
-              <div>
-                <h2>ASEND</h2>
-                <p>"One Student One Professional School"</p>
-              </div>
+              <img src={logo} alt="" />
+              <h2>ASEND</h2>
             </Link>
             <form action="" className="flex-col">
               <h3>Subscribe To Our Newsletter</h3>
