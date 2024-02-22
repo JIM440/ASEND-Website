@@ -5,44 +5,44 @@ const Services = () => {
     <>
       {/* <!-- ====================================================================================================================================================================================================================================================== -->
     <!-- services  --> */}
-      <section class="services">
-        <div class="container">
-          <h2 class="header">Our Services</h2>
-          <p class="header-description">
+      <section className="services">
+        <div className="container">
+          <h2 className="header">Our Services</h2>
+          <p className="header-description">
             Explore Our Services to Support Students Before, During, and After
             the Concour
           </p>
           <h3 className="sub-header">Before Concour</h3>
 
-          <div class="services-container">
-            <div class="service-box">
+          <div className="services-container">
+            <div className="service-box">
               <img src="assets/img/students.png" alt="" />
-              <h3 class="service-heading">Career Orientation</h3>
-              <p class="service-description">
+              <h3 className="service-heading">Career Orientation</h3>
+              <p className="service-description">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
                 veritatis cum at velit, corporis quas?
               </p>
             </div>
-            <div class="service-box">
+            <div className="service-box">
               <img src="assets/img/students.png" alt="" />
-              <h3 class="service-heading">Online Mentorship</h3>
-              <p class="service-description">
+              <h3 className="service-heading">Online Mentorship</h3>
+              <p className="service-description">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
                 veritatis cum at velit, corporis quas?
               </p>
             </div>
-            <div class="service-box">
+            <div className="service-box">
               <img src="assets/img/students.png" alt="" />
-              <h3 class="service-heading">Career Orientation</h3>
-              <p class="service-description">
+              <h3 className="service-heading">Career Orientation</h3>
+              <p className="service-description">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
                 veritatis cum at velit, corporis quas?
               </p>
             </div>
-            <div class="service-box">
+            <div className="service-box">
               <img src="assets/img/students.png" alt="" />
-              <h3 class="service-heading">Online Mentorship</h3>
-              <p class="service-description">
+              <h3 className="service-heading">Online Mentorship</h3>
+              <p className="service-description">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
                 veritatis cum at velit, corporis quas?
               </p>
@@ -50,35 +50,35 @@ const Services = () => {
           </div>
           <h3 className="sub-header">After Concour</h3>
 
-          <div class="services-container">
-            <div class="service-box">
+          <div className="services-container">
+            <div className="service-box">
               <img src="assets/img/students.png" alt="" />
-              <h3 class="service-heading">Career Orientation</h3>
-              <p class="service-description">
+              <h3 className="service-heading">Career Orientation</h3>
+              <p className="service-description">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
                 veritatis cum at velit, corporis quas?
               </p>
             </div>
-            <div class="service-box">
+            <div className="service-box">
               <img src="assets/img/students.png" alt="" />
-              <h3 class="service-heading">Online Mentorship</h3>
-              <p class="service-description">
+              <h3 className="service-heading">Online Mentorship</h3>
+              <p className="service-description">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
                 veritatis cum at velit, corporis quas?
               </p>
             </div>
-            <div class="service-box">
+            <div className="service-box">
               <img src="assets/img/students.png" alt="" />
-              <h3 class="service-heading">Career Orientation</h3>
-              <p class="service-description">
+              <h3 className="service-heading">Career Orientation</h3>
+              <p className="service-description">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
                 veritatis cum at velit, corporis quas?
               </p>
             </div>
-            <div class="service-box">
+            <div className="service-box">
               <img src="assets/img/students.png" alt="" />
-              <h3 class="service-heading">Online Mentorship</h3>
-              <p class="service-description">
+              <h3 className="service-heading">Online Mentorship</h3>
+              <p className="service-description">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
                 veritatis cum at velit, corporis quas?
               </p>
@@ -87,35 +87,35 @@ const Services = () => {
 
           <h3 className="sub-header">IT Services</h3>
 
-          <div class="services-container">
-            <div class="service-box">
+          <div className="services-container">
+            <div className="service-box">
               <img src="assets/img/students.png" alt="" />
-              <h3 class="service-heading">Career Orientation</h3>
-              <p class="service-description">
+              <h3 className="service-heading">Career Orientation</h3>
+              <p className="service-description">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
                 veritatis cum at velit, corporis quas?
               </p>
             </div>
-            <div class="service-box">
+            <div className="service-box">
               <img src="assets/img/students.png" alt="" />
-              <h3 class="service-heading">Online Mentorship</h3>
-              <p class="service-description">
+              <h3 className="service-heading">Online Mentorship</h3>
+              <p className="service-description">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
                 veritatis cum at velit, corporis quas?
               </p>
             </div>
-            <div class="service-box">
+            <div className="service-box">
               <img src="assets/img/students.png" alt="" />
-              <h3 class="service-heading">Career Orientation</h3>
-              <p class="service-description">
+              <h3 className="service-heading">Career Orientation</h3>
+              <p className="service-description">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
                 veritatis cum at velit, corporis quas?
               </p>
             </div>
-            <div class="service-box">
+            <div className="service-box">
               <img src="assets/img/students.png" alt="" />
-              <h3 class="service-heading">Online Mentorship</h3>
-              <p class="service-description">
+              <h3 className="service-heading">Online Mentorship</h3>
+              <p className="service-description">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
                 veritatis cum at velit, corporis quas?
               </p>

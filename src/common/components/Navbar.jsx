@@ -108,24 +108,24 @@ const Navbar = () => {
         <ul>
           <li>
             <NavLink to="/" onClick={toggleAll}>
-              <i class="bx bxs-home"></i>
+              <i className="bx bxs-home"></i>
               <span>Home</span>
             </NavLink>
           </li>
           <li>
             <NavLink to="about" onClick={toggleAll}>
-              <i class="bx bxs-user"></i> <span>About</span>
+              <i className="bx bxs-user"></i> <span>About</span>
             </NavLink>
           </li>
           <li>
             <NavLink to="services" onClick={toggleAll}>
-              <i class="bx bx-cog"></i>
+              <i className="bx bxs-cog"></i>
               <span>Services</span>
             </NavLink>
           </li>
           <li>
             <NavLink to="concours" onClick={toggleAll}>
-              <i class="bx bx-book"></i>
+              <i className="bx bxs-book"></i>
               <span>Concours</span>
             </NavLink>
           </li>

@@ -60,10 +60,10 @@ const About = () => {
 
       {/* <!-- ====================================================================================================================================================================================================================================================== -->
     <!-- our team  --> */}
-      <section class="team teamAbout">
-        <div class="container">
-          <h2 class="header header-leadershipt">Meet Our Leadership</h2>
-          <p class="header-description header-leadership">
+      <section className="team teamAbout">
+        <div className="container">
+          <h2 className="header header-leadershipt">Meet Our Leadership</h2>
+          <p className="header-description header-leadership">
             Get to Know Our Visionary Leadership
           </p>
           <div className="team-container">
@@ -139,13 +139,13 @@ const About = () => {
                 velit perferendis nesciunt expedita vel explicabo. Quo fugiat
                 molestiae, excepturi inventore eaque voluptas.
               </p>
-              <Link to="" class="btn">
+              <Link to="" className="btn">
                 Join Our Team
               </Link>
             </div>
           </div>
-          <h2 class="header teamH">Meet Our Team</h2>
-          <p class="header-description">
+          <h2 className="header teamH">Meet Our Team</h2>
+          <p className="header-description">
             Collaborating to Empower Students for Academic Excellence
           </p>
           <div className="team-container">
@@ -276,7 +276,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <button class="btn see-more">See More</button>
+          <button className="btn see-more">See More</button>
         </div>
       </section>
     </>
