@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
+// images
+import logo from '../../img/logo.png';
 
 const Navbar = () => {
   // states
@@ -49,11 +51,7 @@ const Navbar = () => {
       <nav className={open ? 'clicked' : ''}>
         <div className="container">
           <Link to="/" className="logo" onClick={toggleAll}>
-            <img src="" alt="" />
-            <div>
-              <h2>ASEND</h2>
-              <p>"One Student One Professional School"</p>
-            </div>
+            <img src={logo} alt="" />
           </Link>
 
           {/* desktop nav */}

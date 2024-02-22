@@ -19,53 +19,6 @@ nav {
       display: flex;
       gap: 4px;
       align-items: center;
-      max-width: 260px;
-      img {
-        width: 50px;
-      }
-      p {
-        font-size: 9px;
-        color: $text-muted;
-      }
-      h2 {
-        font-size: 15px;
-        color: $primary-color;
-        font-weight: 700;
-      }
-    }
-    @include breakpointDynamic(400px) {
-      .logo {
-        max-width: 300px;
-
-        p {
-          font-size: 10px;
-        }
-        h2 {
-          font-size: 18px;
-        }
-        img {
-          width: 60px;
-        }
-      }
-    }
-    @include breakpointDynamic(560px) {
-      .logo {
-        width: 380px;
-        min-width: 350px;
-
-        p {
-          font-size: 14px;
-        }
-        img {
-          width: 80px;
-        }
-      }
-    }
-    @include breakpointDynamic(1000px) {
-      .logo {
-        max-width: 346px;
-        min-width: 344px;
-      }
     }
 
     i {

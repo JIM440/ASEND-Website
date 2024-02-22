@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section class="hero">
       <div class="container">
-        <h1>One student One professional school</h1>
+        <h1>One Student One Professional School</h1>
         <p>
           We are aimed at bridging the gap between students and entrance into
           various professional schools in Cameroon.

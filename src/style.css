@@ -14,15 +14,6 @@
   font-size: 24px;
 }
 
-.logo img {
-  min-width: 40px;
-  min-height: 40px;
-  max-width: 70px;
-  height: 70px;
-  border-radius: 8px;
-  background-color: #877b7b;
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -242,7 +233,8 @@ textarea {
 .team-container .team-box .img img {
   width: 100%;
   border-radius: 8px;
-  min-height: 250px;
+  min-height: 300px;
+  object-fit: cover;
   background-color: #877b7b;
 }
 .team-container .team-box .title {
@@ -287,7 +279,8 @@ textarea {
 .recent-activities-container .recent-activities-box .img img {
   width: 100%;
   border-radius: 8px;
-  min-height: 250px;
+  height: 300px;
+  object-fit: cover;
   background-color: #877b7b;
 }
 .recent-activities-container .recent-activities-box h3 {
@@ -367,51 +360,6 @@ nav .container .logo {
   display: flex;
   gap: 4px;
   align-items: center;
-  max-width: 260px;
-}
-nav .container .logo img {
-  width: 50px;
-}
-nav .container .logo p {
-  font-size: 9px;
-  color: #877b7b;
-}
-nav .container .logo h2 {
-  font-size: 15px;
-  color: #1967d2;
-  font-weight: 700;
-}
-@media (min-width: 400px) {
-  nav .container .logo {
-    max-width: 300px;
-  }
-  nav .container .logo p {
-    font-size: 10px;
-  }
-  nav .container .logo h2 {
-    font-size: 18px;
-  }
-  nav .container .logo img {
-    width: 60px;
-  }
-}
-@media (min-width: 560px) {
-  nav .container .logo {
-    width: 380px;
-    min-width: 350px;
-  }
-  nav .container .logo p {
-    font-size: 14px;
-  }
-  nav .container .logo img {
-    width: 80px;
-  }
-}
-@media (min-width: 1000px) {
-  nav .container .logo {
-    max-width: 346px;
-    min-width: 344px;
-  }
 }
 nav .container i {
   font-size: 24px;
@@ -673,24 +621,6 @@ nav.clicked {
   text-decoration: underline;
   font-weight: 600;
 }
-#footer .container .footer-grid-container .footer-grid-box .logo {
-  display: flex;
-  gap: 4px;
-  align-items: center;
-  max-width: 300px;
-}
-#footer .container .footer-grid-container .footer-grid-box .logo img {
-  width: 70px;
-}
-#footer .container .footer-grid-container .footer-grid-box .logo p {
-  font-size: 14px;
-  color: black;
-}
-#footer .container .footer-grid-container .footer-grid-box .logo h2 {
-  font-size: 18px;
-  color: #0e3a77;
-  font-weight: 700;
-}
 #footer .container .footer-grid-container .footer-grid-box .form-group {
   display: flex;
   gap: 0px;
@@ -761,7 +691,9 @@ nav.clicked {
 .hero {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url();
+  background-image: url(./img/Staffs2.jpg);
+  background-position: center;
+  height: auto;
 }
 .hero .container {
   min-height: 375px;
@@ -770,7 +702,6 @@ nav.clicked {
   gap: 1.4rem;
   line-height: 1.2;
   margin-top: 3.6rem;
-  background-color: #e3eefc;
   justify-content: center;
   height: 60vh;
 }
@@ -786,7 +717,7 @@ nav.clicked {
   }
 }
 .hero .container p {
-  color: black;
+  color: white;
   font-size: 14px;
 }
 @media (min-width: 576px) {
@@ -797,7 +728,7 @@ nav.clicked {
 }
 .hero .container h1 {
   max-width: 600px;
-  color: black;
+  color: white;
   font-size: 32px;
 }
 @media (min-width: 576px) {
@@ -1044,11 +975,11 @@ nav.clicked {
   }
 }
 
-.about ul {
-  margin-left: 16px;
-}
-.about ul li {
-  list-style: disc;
+.about .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
 
 .services {
@@ -1150,6 +1081,7 @@ nav.clicked {
 .testimonials .testimonial-container .testimonial-box img {
   width: 120px;
   height: 120px;
+  object-fit: cover;
   border-radius: 100%;
   background-color: #877b7b;
 }

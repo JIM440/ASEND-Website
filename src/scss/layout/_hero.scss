@@ -3,7 +3,9 @@
   // background-image: ;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url();
+  background-image: url(./img/Staffs2.jpg);
+  background-position: center;
+  height: auto;
 
   .container {
     min-height: 375px;
@@ -12,7 +14,6 @@
     gap: 1.4rem;
     line-height: 1.2;
     margin-top: 3.6rem;
-    background-color: $bg-light;
     justify-content: center;
     height: 60vh;
 
@@ -26,7 +27,7 @@
     }
 
     p {
-      color: $black;
+      color: $white;
       font-size: 14px;
       @include breakpointTablet {
         font-size: 18px;
@@ -37,7 +38,7 @@
     h1 {
       max-width: 600px;
 
-      color: $black;
+      color: $white;
       font-size: 32px;
       @include breakpointTablet {
         font-size: 48px;

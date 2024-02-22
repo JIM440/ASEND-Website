@@ -1,25 +1,36 @@
+import Linkedin from '../../img/linkedin.png';
+import Instagram from '../../img/ig.jpg';
 import map from '../../assets/img/cameroom.png';
 import team from '../../assets/img/hands together.png';
 import students from '../../assets/img/students.png';
+import staffs from '../../img/Staffs.jpg';
+// recent activities images
+import orientation from '../../img/orientation1.jpg';
+import WorldEng from '../../img/orientation2.jpg';
+import Premed from '../../img/orientation3.jpg';
+// services images
 import { Link } from 'react-router-dom';
 
 const Home = () => {
   const testimonials = [
     {
       name: 'John Doe',
-      image: 'anisha',
+      image:
+        'https://media.gettyimages.com/id/1257207393/de/foto/single-male-college-student-blick-auf-kamera-f%C3%BCr-close-up-portrait.jpg?s=612x612&w=gi&k=20&c=X8mLl7x6uXmcs6fE5ayNcUVHKjwfz4CTbSr1z0KFezE=',
       content:
         "I absolutely love this product! It has made a significant difference in my life and I can't recommend it enough. The quality is top-notch and the results are amazing. Thank you!",
     },
     {
       name: 'Jane Smith',
-      image: 'cheng',
+      image:
+        'https://media.gettyimages.com/id/681887813/photo/close-up-portrait-of-boy-standing-in-classroom.jpg?s=612x612&w=gi&k=20&c=np7t5eZndwuf2WtU8Kl4SFerjdtEuGqmw_Pt0_eFLVs=',
       content:
         "This product exceeded my expectations! The innovative features and user-friendly design have made it a game-changer for me. I'm so glad I found it and now I can't imagine my life without it.",
     },
     {
       name: 'David Johnson',
-      image: 'xhang',
+      image:
+        'https://media.gettyimages.com/id/1438427420/de/foto/close-up-portrait-of-cheerful-young-black-hispanic-latin-teenager-man-smiling-at-camera-over.jpg?s=612x612&w=gi&k=20&c=DojZ5b8vxqyxaKpMkvsybvaj_luzibF1yXy_aCryQRk=',
       content:
         "I was skeptical at first, but this product has proven to be worth every penny. It has simplified my daily routine and the results have been remarkable. I've recommended it to all my friends and family.",
     },
@@ -31,36 +42,25 @@ const Home = () => {
       <section className="about">
         <div className="even-columns container">
           <div className="text">
-            <h2 className="header">About Us</h2>
+            <h2 className="header">About ASEND</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
-              illum!
+              Welcome to ASend, the leading prep class for competitive exams in
+              Cameroon. Our mission is to empower students with the knowledge,
+              skills, and confidence needed to excel in concours and other
+              challenging exams. With a team of experienced mentors and a proven
+              curriculum, we provide comprehensive preparation that ensures our
+              students are fully equipped to outperform their peers. We offer
+              personalized guidance and support, helping students navigate
+              through the complexities of exam content and format.. Join ASend
+              and unlock your potential for success. Enroll today and let us be
+              your partner in achieving your academic goals.
             </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Provident iure rerum magnam dolorem adipisci id quas laboriosam
-              ipsum impedit veritatis.
-            </p>
-            <ul>
-              <li>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
-                quas!
-              </li>
-              <li>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Exercitationem, repellat.
-              </li>
-              <li>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
-                saepe?
-              </li>
-            </ul>
-            <a href="about.html" className="btn">
+            <Link to="about" className="btn">
               Learn More
-            </a>
+            </Link>
           </div>
           <div className="image">
-            <img src="assets/img/people.jpg" alt="" />
+            <img src={staffs} alt="" />
           </div>
         </div>
       </section>
@@ -75,7 +75,7 @@ const Home = () => {
 
           <div className="services-container">
             <div className="service-box">
-              <img src="assets/img/students.png" alt="" />
+              <img src={students} alt="" />
               <h3 className="service-heading">Career Orientation</h3>
               <p className="service-description">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
@@ -83,7 +83,10 @@ const Home = () => {
               </p>
             </div>
             <div className="service-box">
-              <img src="assets/img/students.png" alt="" />
+              <img
+                src="https://t4.ftcdn.net/jpg/02/33/87/01/360_F_233870161_ff4IxGVm7dXS9wjxAB7hAMJ4qanRvt1R.jpg"
+                alt=""
+              />
               <h3 className="service-heading">Online Mentorship</h3>
               <p className="service-description">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
@@ -91,7 +94,7 @@ const Home = () => {
               </p>
             </div>
             <div className="service-box">
-              <img src="assets/img/students.png" alt="" />
+              <img src={students} alt="" />
               <h3 className="service-heading">Career Orientation</h3>
               <p className="service-description">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
@@ -99,7 +102,10 @@ const Home = () => {
               </p>
             </div>
             <div className="service-box">
-              <img src="assets/img/students.png" alt="" />
+              <img
+                src="https://t4.ftcdn.net/jpg/02/33/87/01/360_F_233870161_ff4IxGVm7dXS9wjxAB7hAMJ4qanRvt1R.jpg"
+                alt=""
+              />
               <h3 className="service-heading">Online Mentorship</h3>
               <p className="service-description">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
@@ -107,9 +113,9 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <a href="services.html" className="btn">
+          <Link to="services.html" className="btn">
             See More
-          </a>
+          </Link>
         </div>
       </section>
 
@@ -164,43 +170,64 @@ const Home = () => {
           <div className="team-container">
             <div className="team-box">
               <div className="img">
-                <img src="" alt="" />
+                <img
+                  src="https://cdn.eduadvisor.my/articles/2022/04/how-to-be-teacher-malaysia-feature.png"
+                  alt=""
+                />
               </div>
               <h3>Tracy D. Wright</h3>
               <p className="title">B.eng Telecom Engineering</p>
               <div className="position">
                 <p className="position">Engineering Tutor</p>
                 <div className="profile-links">
-                  <img alt="LI" />
-                  <img alt="IG" />
+                  <a href="">
+                    <img src={Linkedin} alt="LinkenIn Icon" />
+                  </a>
+                  <a href="">
+                    <img src={Instagram} alt="ig icon" />
+                  </a>
                 </div>
               </div>
             </div>
             <div className="team-box">
               <div className="img">
-                <img src="" alt="" />
+                <img
+                  src="https://images.squarespace-cdn.com/content/v1/5dc5d641498834108f7c46a5/564a726c-ec6a-470b-9769-1c5045358424/What%27s+Your+Why+Hero.jpg"
+                  alt=""
+                />
               </div>
               <h3>Tracy D. Wright</h3>
-              <p className="title">B.eng Telecom Engineering</p>
+              <p className="title">MD Doctor Of Medicine</p>
               <div className="position">
-                <p className="position">Engineering Tutor</p>
+                <p className="position">Medicine Tutor</p>
                 <div className="profile-links">
-                  <img alt="LI" />
-                  <img alt="IG" />
+                  <a href="">
+                    <img src={Linkedin} alt="LinkenIn Icon" />
+                  </a>
+                  <a href="">
+                    <img src={Instagram} alt="ig icon" />
+                  </a>
                 </div>
               </div>
             </div>
             <div className="team-box">
               <div className="img">
-                <img src="" alt="" />
+                <img
+                  src="https://www.shutterstock.com/image-photo/portrait-half-turn-brunet-hair-260nw-1216693528.jpg"
+                  alt=""
+                />
               </div>
               <h3>Tracy D. Wright</h3>
-              <p className="title">B.eng Telecom Engineering</p>
+              <p className="title">Doctor Of Veterinary Medicine</p>
               <div className="position">
-                <p className="position">Engineering Tutor</p>
+                <p className="position">Vet/Agric Tutor</p>
                 <div className="profile-links">
-                  <img alt="LI" />
-                  <img alt="IG" />
+                  <a href="">
+                    <img src={Linkedin} alt="LinkenIn Icon" />
+                  </a>
+                  <a href="">
+                    <img src={Instagram} alt="ig icon" />
+                  </a>
                 </div>
               </div>
             </div>
@@ -247,7 +274,24 @@ const Home = () => {
           <div className="recent-activities-container">
             <div className="recent-activities-box">
               <div className="img">
-                <img src="assets/img/table7.jpg" alt="" />
+                <img src={WorldEng} alt="" />
+              </div>
+              <div>
+                <h3>Career Orientation</h3>
+                <span className="date">17/06/12</span>
+              </div>
+              <p className="description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Officiis veniam possimus, cupiditate alias eveniet itaque.
+              </p>
+              <Link to="" className="link">
+                <span>Read More</span>
+                <i className="bx bx-chevron-right"></i>
+              </Link>
+            </div>
+            <div className="recent-activities-box">
+              <div className="img">
+                <img src={Premed} alt="" />
               </div>
               <div>
                 <h3>World Engineering Day</h3>
@@ -264,27 +308,10 @@ const Home = () => {
             </div>
             <div className="recent-activities-box">
               <div className="img">
-                <img src="assets/img/table7.jpg" alt="" />
+                <img src={orientation} alt="" />
               </div>
               <div>
-                <h3>World Engineering Day</h3>
-                <span className="date">17/06/12</span>
-              </div>
-              <p className="description">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Officiis veniam possimus, cupiditate alias eveniet itaque.
-              </p>
-              <Link to="" className="link">
-                <span>Read More</span>
-                <i className="bx bx-chevron-right"></i>
-              </Link>
-            </div>
-            <div className="recent-activities-box">
-              <div className="img">
-                <img src="assets/img/table7.jpg" alt="" />
-              </div>
-              <div>
-                <h3>World Engineering Day</h3>
+                <h3>PreMedicne/PreEngineering Exams</h3>
                 <span className="date">17/06/12</span>
               </div>
               <p className="description">
