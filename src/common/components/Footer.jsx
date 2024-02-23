@@ -74,7 +74,7 @@ const Footer = () => {
                 <Link to="concours/medicine">Medicine</Link>
               </li>
               <li>
-                <Link to="concours/agric">Agric/Vet</Link>
+                <Link to="concours/agriculture">Agric/Vet</Link>
               </li>
             </ul>
           </div>

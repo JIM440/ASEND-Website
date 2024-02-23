@@ -195,21 +195,22 @@ nav.clicked {
   ul {
     display: flex;
     flex-direction: column;
+    gap: 10px;
     max-width: 160px;
     justify-content: center;
 
     li {
       display: flex;
       flex-direction: column;
+      align-items: center;
       gap: 10px;
-      padding: 18px;
-      padding-inline: 10px;
 
       a {
         display: flex;
-        justify-content: space-between;
+        justify-content: start;
+        padding: 1rem;
         align-items: center;
-        gap: 1.2rem;
+        gap: 2rem;
 
         span {
           color: $black;
@@ -233,12 +234,22 @@ nav.clicked {
       }
     }
 
+    .links {
+      display: flex;
+      flex-direction: column;
+      a {
+        width: 100%;
+      }
+    }
     .social-links {
       display: flex;
       justify-content: center;
       align-items: center;
       padding: 0px;
-      gap: 1.5rem;
+      gap: 16px;
+      a {
+        padding: 16px 0px;
+      }
 
       i {
         font-size: 28px;

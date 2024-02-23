@@ -520,21 +520,22 @@ nav.clicked {
 .mobile-nav ul {
   display: flex;
   flex-direction: column;
+  gap: 10px;
   max-width: 160px;
   justify-content: center;
 }
 .mobile-nav ul li {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 10px;
-  padding: 18px;
-  padding-inline: 10px;
 }
 .mobile-nav ul li a {
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
+  padding: 1rem;
   align-items: center;
-  gap: 1.2rem;
+  gap: 2rem;
 }
 .mobile-nav ul li a span {
   color: black;
@@ -551,12 +552,22 @@ nav.clicked {
 .mobile-nav ul li a.active span {
   color: #1967d2;
 }
+.mobile-nav ul .links {
+  display: flex;
+  flex-direction: column;
+}
+.mobile-nav ul .links a {
+  width: 100%;
+}
 .mobile-nav ul .social-links {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0px;
-  gap: 1.5rem;
+  gap: 16px;
+}
+.mobile-nav ul .social-links a {
+  padding: 16px 0px;
 }
 .mobile-nav ul .social-links i {
   font-size: 28px;
@@ -1138,7 +1149,7 @@ nav.clicked {
   display: flex;
   justify-content: space-between;
   gap: 10px;
-  align-items: center;
+  align-items: start;
 }
 .faqs .faqs-container .faq .question i {
   color: #877b7b;
@@ -1148,14 +1159,11 @@ nav.clicked {
   color: #877b7b;
   display: none;
 }
-.faqs .faqs-container .faqs.active {
-  transition: 0.4s ease-in;
-}
-.faqs .faqs-container .faqs.active .question i {
+.faqs .faqs-container .faq .question.active i {
   transform: rotate(180deg);
 }
-.faqs .faqs-container .faqs.active .answer {
-  display: block;
+.faqs .faqs-container .faq .answer.active {
+  display: inline-block;
 }
 
 .partners {

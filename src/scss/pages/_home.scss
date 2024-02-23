@@ -154,7 +154,7 @@
         display: flex;
         justify-content: space-between;
         gap: 10px;
-        align-items: center;
+        align-items: start;
 
         i {
           color: $text-muted;
@@ -165,14 +165,11 @@
         color: $text-muted;
         display: none;
       }
-    }
-    .faqs.active {
-      transition: 0.4s ease-in;
-      .question i {
+      .question.active i {
         transform: rotate(180deg);
       }
-      .answer {
-        display: block;
+      .answer.active {
+        display: inline-block;
       }
     }
   }
