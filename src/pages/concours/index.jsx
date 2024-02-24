@@ -28,7 +28,9 @@ const Concours = () => {
       <section id="concour">
         <div className="container">
           {/* <h2 className="header">What We Prepare You For</h2> */}
-          <Outlet />
+          <div className="concour-boxes">
+            <Outlet />
+          </div>
         </div>
       </section>
     </>

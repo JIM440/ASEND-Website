@@ -8,7 +8,7 @@ const VetAgricTab = () => {
     setVisible(value);
   };
   return (
-    <div className="concour-boxes">
+    <>
       <div className="concour-box">
         <h3 className="sub-header">Agriculture/Veterinary Medicine</h3>
         <div className="tab">
@@ -253,7 +253,7 @@ const VetAgricTab = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

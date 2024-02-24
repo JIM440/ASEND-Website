@@ -8,7 +8,7 @@ const MedicineTab = () => {
     setVisible(value);
   };
   return (
-    <div className="concour-boxes">
+    <>
       <div className="concour-box">
         <h3 className="sub-header">Medicine</h3>
         <div className="tab">
@@ -253,7 +253,7 @@ const MedicineTab = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

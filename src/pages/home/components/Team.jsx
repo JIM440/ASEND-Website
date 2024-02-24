@@ -75,7 +75,7 @@ const Team = () => {
             </div>
           </div>
         </div>
-        <div className="mw">
+        <div className="mw container bg-blue">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. In tenetur
             nostrum, asperiores quia obcaecati, a eligendi provident velit

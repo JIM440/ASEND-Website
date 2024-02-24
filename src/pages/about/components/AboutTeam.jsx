@@ -119,7 +119,7 @@ const AboutTeam = () => {
             </div>
           </div>
         </div>
-        <div className="container bg-blue">
+        <div className="mw container bg-blue">
           <div className="mw">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. In

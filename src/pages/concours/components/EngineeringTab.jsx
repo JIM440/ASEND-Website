@@ -9,7 +9,7 @@ const EngineeringTab = () => {
   };
 
   return (
-    <div className="concour-boxes">
+    <>
       <div className="concour-box">
         <h3 className="sub-header">Engineering</h3>
         <div className="tab">
@@ -254,7 +254,7 @@ const EngineeringTab = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

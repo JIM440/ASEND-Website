@@ -63,6 +63,23 @@ const RecentActivities = () => {
             </Link>
           </div>
         </div>
+        <section className="container">
+          <div
+            className="container mw bg-blue"
+            style={{
+              borderRadius: '10px',
+            }}
+          >
+            <p>
+              Be an impact to someone’s life today by helping us provide them
+              with access to quality education, orientation, and the possibility
+              of them studying their dream school.
+            </p>
+            <Link to="" className="btn">
+              Support Us
+            </Link>
+          </div>
+        </section>
       </div>
     </section>
   );
