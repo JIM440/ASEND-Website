@@ -1,9 +1,12 @@
-import staffs from '../../img/Staffs2.jpg';
+import staffs from '../../assets/img/hero/Staffs.jpg';
 import AboutTeam from './components/AboutTeam';
 import HowWeStarted from './components/HowWeStarted';
 import Mission from './components/Mission';
+import UseScrollTop from '../../common/components/UseScrollTop';
 
 const About = () => {
+  const scrollToTop = UseScrollTop();
+
   return (
     <>
       {/*hero */}

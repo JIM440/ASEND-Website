@@ -1,6 +1,6 @@
-import map from '../../../assets/img/cameroom.png';
-import team from '../../../assets/img/hands together.png';
-import students from '../../../assets/img/students.png';
+import map from '../../../assets/icons/cameroom.png';
+import team from '../../../assets/icons/hands together.png';
+import students from '../../../assets/icons/students.png';
 
 const Stats = () => {
   return (

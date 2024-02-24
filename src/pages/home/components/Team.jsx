@@ -1,5 +1,5 @@
-import Linkedin from '../../../img/linkedin.png';
-import Instagram from '../../../img/ig.jpg';
+import Linkedin from '../../../assets/icons/linkedin.png';
+import Instagram from '../../../assets/icons/ig.jpg';
 import { Link } from 'react-router-dom';
 
 const Team = () => {
@@ -16,15 +16,15 @@ const Team = () => {
                 alt=""
               />
             </div>
-            <h3>Tracy D. Wright</h3>
-            <p className="title">B.eng Telecom Engineering</p>
+            <h3>Engr. Usmanu Chuka</h3>
+            <p className="title">B.eng Telecommunications Engineering</p>
             <div className="position">
-              <p className="position">Engineering Tutor</p>
+              <p className="position">DAAS | Engineering Tutor</p>
               <div className="profile-links">
-                <a href="">
+                <a href="linkedin.com">
                   <img src={Linkedin} alt="LinkenIn Icon" />
                 </a>
-                <a href="">
+                <a href="instagram.com">
                   <img src={Instagram} alt="ig icon" />
                 </a>
               </div>
@@ -37,15 +37,17 @@ const Team = () => {
                 alt=""
               />
             </div>
-            <h3>Tracy D. Wright</h3>
-            <p className="title">MD Doctor Of Medicine</p>
+            <h3>Sir Harry Mukete</h3>
+            <p className="title">6th Year Medical Student</p>
             <div className="position">
-              <p className="position">Medicine Tutor</p>
+              <p className="position">
+                Cordinator Medicine Buea | Medicine Tutor
+              </p>
               <div className="profile-links">
-                <a href="">
+                <a href="linkedin.com">
                   <img src={Linkedin} alt="LinkenIn Icon" />
                 </a>
-                <a href="">
+                <a href="instagram.com">
                   <img src={Instagram} alt="ig icon" />
                 </a>
               </div>
@@ -63,10 +65,10 @@ const Team = () => {
             <div className="position">
               <p className="position">Vet/Agric Tutor</p>
               <div className="profile-links">
-                <a href="">
+                <a href="linkedin.com">
                   <img src={Linkedin} alt="LinkenIn Icon" />
                 </a>
-                <a href="">
+                <a href="instagram.com">
                   <img src={Instagram} alt="ig icon" />
                 </a>
               </div>

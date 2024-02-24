@@ -1,4 +1,4 @@
-import students from '../../../assets/img/students.png';
+import students from '../../../assets/icons/students.png';
 import { Link } from 'react-router-dom';
 
 const Services = () => {
@@ -48,8 +48,9 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <Link to="services.html" className="btn">
-          See More
+        <Link to="services.html" className="link">
+          <span>See More</span>
+          <i className="bx bxs-chevron-right"></i>
         </Link>
       </div>
     </section>

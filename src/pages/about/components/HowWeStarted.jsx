@@ -1,4 +1,4 @@
-import story from '../../../img/how_we_started.jpg';
+import story from '../../../assets/img/how_we_started.jpg';
 
 const HowWeStarted = () => {
   return (

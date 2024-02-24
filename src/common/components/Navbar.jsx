@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 // images
-import logo from '../../img/logo.png';
+import logo from '../../assets/img/logo.png';
 
 const Navbar = () => {
   // states

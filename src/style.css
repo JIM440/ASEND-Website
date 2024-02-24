@@ -103,8 +103,8 @@ section {
 
 .btn-white {
   background-color: white;
-  border: 1px solid black;
-  color: black;
+  border: 1px solid #666666;
+  color: #1a1a1a;
 }
 .btn-white:hover {
   background-color: #e6e6e6;
@@ -250,6 +250,7 @@ section {
   display: flex;
   gap: 1rem;
   width: 100%;
+  text-align: left;
   justify-content: space-between;
 }
 .team-container .team-box .position .profile-links {
@@ -722,8 +723,8 @@ nav.clicked {
   margin-top: 45px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(./img/Staffs2.jpg);
-  background-color: rgba(0, 0, 0, 0.3215686275);
+  background-image: url(./assets/img/hero/Staffs2.jpg);
+  background-color: rgba(0, 0, 0, 0.4);
   background-position: center;
   height: auto;
 }
@@ -734,7 +735,7 @@ nav.clicked {
   gap: 1.6rem;
   line-height: 1.2;
   margin-top: 36px;
-  background-color: rgba(0, 0, 0, 0.1215686275);
+  background-color: rgba(0, 0, 0, 0.4);
   justify-content: center;
   height: 60vh;
 }
@@ -841,9 +842,6 @@ nav.clicked {
 }
 .header-leadership {
   margin-top: -20px;
-}
-
-.header-leadershipt {
   margin-bottom: 0px;
 }
 
@@ -861,7 +859,8 @@ nav.clicked {
   border-top: none;
 }
 #mission-vision .container > div h2 {
-  padding: 10px;
+  padding: 8px;
+  font-size: 22px;
   text-align: center;
   font-weight: 500;
   text-align: center;
@@ -871,7 +870,10 @@ nav.clicked {
   border-top-right-radius: 22px;
 }
 #mission-vision .container > div p {
-  padding: 16px;
+  font-size: 14px;
+  line-height: 1.4;
+  padding: 10px;
+  text-align: center;
 }
 @media (min-width: 700px) {
   #mission-vision .container {
@@ -879,29 +881,45 @@ nav.clicked {
   }
 }
 
-.teamAbout .container > .header {
-  margin-top: -20px;
+.teamAbout .bg-blue {
+  margin-bottom: 1rem;
 }
-@media (min-width: 768px) {
-  .teamAbout .container > .header {
-    margin: 0;
-  }
+.teamAbout .team-container-about {
+  gap: 0px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
-.teamAbout .card-container.active {
-  display: none;
+.teamAbout .team-container-about .team-box {
+  max-width: 200px;
 }
-.teamAbout .container > .teamH {
-  margin: 30px 0px 0px;
+.teamAbout .team-container-about .team-box .img {
+  width: 100%;
 }
-.teamAbout .header-description {
-  margin-top: 0;
+.teamAbout .team-container-about .team-box .img img {
+  width: 100%;
+  border-radius: 8px;
+  height: 200px;
+  object-fit: cover;
+  background-color: #877b7b;
 }
-.teamAbout .container button {
-  border: none;
-  outline: none;
+.teamAbout .team-container-about .team-box h3 {
+  font-size: 16px;
 }
-.teamAbout .container button.active {
-  display: none;
+.teamAbout .team-container-about .team-box .title {
+  font-size: 12px;
+}
+.teamAbout .team-container-about .team-box .position {
+  gap: 10px;
+}
+.teamAbout .team-container-about .team-box .position p {
+  text-align: left;
+  font-size: 12px;
+}
+.teamAbout .team-container-about .team-box .position .profile-links {
+  width: 35%;
+}
+.teamAbout .team-container-about .team-box .position .profile-links img {
+  width: 20px;
+  height: 20px;
 }
 
 #concour .concour-boxes {
@@ -1009,7 +1027,6 @@ nav.clicked {
 .about .text {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 1rem;
 }
 
@@ -1017,9 +1034,8 @@ nav.clicked {
   text-align: center;
   padding-bottom: 20px;
 }
-.services .btn {
-  display: inline-block;
-  margin-top: 1rem;
+.services .link {
+  justify-content: center;
 }
 
 .stats {
@@ -1236,7 +1252,12 @@ nav.clicked {
   text-decoration: underline;
   font-weight: 600;
 }
-#notFound .container p, #notFound .container span {
+#notFound .container p,
+#notFound .container span {
   font-size: 1rem;
   margin-bottom: 1rem;
+}
+
+#notFound + #contact {
+  display: none;
 }

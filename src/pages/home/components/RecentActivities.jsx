@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 
-import orientation from '../../../img/orientation1.jpg';
-import WorldEng from '../../../img/orientation2.jpg';
-import Premed from '../../../img/orientation3.jpg';
+import orientation from '../../../assets/img/activities/orientation/orientation1.jpg';
+import WorldEng from '../../../assets/img/activities/orientation/orientation2.jpg';
+import Premed from '../../../assets/img/activities/orientation/orientation3.jpg';
 
 const RecentActivities = () => {
   return (

@@ -1,7 +1,9 @@
 import { Outlet } from 'react-router-dom';
-import staffs from '../../img/Staffs.jpg';
-
+import staffs from '../../assets/img/hero/Staffs.jpg';
+import UseScrollTop from '../../common/components/UseScrollTop';
 const Concours = () => {
+  const scrollToTop = UseScrollTop();
+
   return (
     <>
       {/*hero */}

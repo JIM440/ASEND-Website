@@ -1,7 +1,9 @@
 import React from 'react';
-import staffs from '../../img/Staffs.jpg';
+import staffs from '../../assets/img/hero/Staffs.jpg';
+import UseScrollTop from '../../common/components/UseScrollTop';
 
 const Services = () => {
+  const scrollToTop = UseScrollTop();
   return (
     <>
       {/*hero */}
@@ -29,8 +31,8 @@ const Services = () => {
         <div className="container">
           <h2 className="header">Our Services</h2>
           <p className="header-description">
-            Explore Our Services to Support Students Before, During, and After
-            the Concour
+            Explore Our Services to Support Students Before and After the
+            Concour
           </p>
           <h3 className="sub-header">Before Concour</h3>
 
