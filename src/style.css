@@ -923,6 +923,14 @@ nav.clicked {
   width: 20px;
   height: 20px;
 }
+@media (min-width: 820px) {
+  .teamAbout .team-container-about {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  .teamAbout .team-container-about .team-box {
+    max-width: 210px;
+  }
+}
 
 #concour .concour-boxes {
   display: grid;

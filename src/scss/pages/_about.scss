@@ -111,4 +111,13 @@
       }
     }
   }
+  @include breakpointDynamic(820px) {
+    .team-container-about {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+      .team-box {
+        max-width: 210px;
+      }
+    }
+  }
 }
