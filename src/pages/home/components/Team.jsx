@@ -77,10 +77,9 @@ const Team = () => {
         </div>
         <div className="mw container bg-blue">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. In tenetur
-            nostrum, asperiores quia obcaecati, a eligendi provident velit
-            perferendis nesciunt expedita vel explicabo. Quo fugiat molestiae,
-            excepturi inventore eaque voluptas.
+            Join us in making an impact today! Be a part of our team and help
+            students achieve their dreams of getting into their desired
+            professional school.
           </p>
           <Link to="" className="btn">
             Join Our Team

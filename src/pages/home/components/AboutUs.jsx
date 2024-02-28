@@ -8,9 +8,8 @@ const AboutUs = () => {
         <div className="text">
           <h2 className="header">About ASEND</h2>
           <p>
-            Welcome to ASEND, the leading prep class for competitive exams in
-            Cameroon. Our mission is to empower students with the knowledge,
-            skills, and confidence needed to excel in &nbsp;
+            Welcome to ASEND - your gateway to success in professional school
+            entrance exams&nbsp;(
             <Link
               to="/concours"
               style={{
@@ -20,14 +19,32 @@ const AboutUs = () => {
             >
               concours
             </Link>
-            &nbsp; and other challenging exams. With a team of experienced
-            mentors and a proven curriculum, we provide comprehensive
-            preparation that ensures our students are fully equipped to
-            outperform their peers. We offer personalized guidance and support,
-            helping students navigate through the complexities of exam content
-            and format.. Join ASend and unlock your potential for success.
-            Enroll today and let us be your partner in achieving your academic
-            goals.
+            )&nbsp; in Cameroon! At ASEND, we are dedicated to empowering
+            students to achieve their academic and professional goals through
+            comprehensive preparation courses and support services. Our team of
+            experienced educators provides mentorship, career orientation, and
+            personalized guidance to help students navigate the{' '}
+            <Link
+              to="/concours"
+              style={{
+                color: '#4169e1',
+                textDecoration: 'underline',
+              }}
+            >
+              competitive entrance exam
+            </Link>{' '}
+            process.
+            <br />
+            <br /> Our prep classes are designed to cover all subjects from
+            scratch, ensuring that students have a solid foundation and are
+            well-prepared to excel in their exams. We believe in the power of
+            education to transform lives and are committed to providing a
+            supportive and inclusive learning environment for all students.
+            <br />
+            <br /> Join us at ASEND and embark on a journey towards academic
+            excellence and a successful future in the professional school of
+            your choice. Let us help you unlock your full potential and reach
+            new heights in your educational journey.
           </p>
           <div className="btn-container">
             <Link to="about" className="btn">

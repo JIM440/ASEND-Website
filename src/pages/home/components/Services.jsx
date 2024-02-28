@@ -1,4 +1,7 @@
 import students from '../../../assets/icons/students.png';
+import online_tutoring from '../../../assets/icons/online_tutoring.png';
+import mentoring from '../../../assets/icons/mentoring.png';
+import career from '../../../assets/icons/career.png';
 import { Link } from 'react-router-dom';
 
 const Services = () => {
@@ -6,49 +9,51 @@ const Services = () => {
     <section className="services">
       <div className="container">
         <h2 className="header">Our Services</h2>
-        <p className="header-description">What we offer</p>
+        <p className="header-description">What We Offer</p>
 
         <div className="services-container">
           <div className="service-box">
-            <img src={students} alt="" />
+            <div className="img">
+              <img src={students} alt="" />
+            </div>
+            <h3 className="service-heading">Preparatory Classes</h3>
+            <p className="service-description">
+              Our experienced instructors cover essential topics starting from
+              the basics to ensure a solid foundation for acing entrance exam.
+            </p>
+          </div>
+          <div className="service-box">
+            <div className="img">
+              <img src={career} alt="" />
+            </div>
             <h3 className="service-heading">Career Orientation</h3>
             <p className="service-description">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
-              veritatis cum at velit, corporis quas?
+              Discover various career paths and industry trends/opportunities to
+              make informed decisions about your professional journey.
             </p>
           </div>
           <div className="service-box">
-            <img
-              src="https://t4.ftcdn.net/jpg/02/33/87/01/360_F_233870161_ff4IxGVm7dXS9wjxAB7hAMJ4qanRvt1R.jpg"
-              alt=""
-            />
-            <h3 className="service-heading">Online Mentorship</h3>
+            <div className="img">
+              <img src={mentoring} alt="" />
+            </div>
+            <h3 className="service-heading">Mentorship Program</h3>
             <p className="service-description">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
-              veritatis cum at velit, corporis quas?
+              Expert mentors offer support and insights to help students excel
+              through the university entrance exam preparation journey.
             </p>
           </div>
           <div className="service-box">
-            <img src={students} alt="" />
-            <h3 className="service-heading">Career Orientation</h3>
+            <div className="img">
+              <img src={online_tutoring} alt="" />
+            </div>
+            <h3 className="service-heading">Online tutoring</h3>
             <p className="service-description">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
-              veritatis cum at velit, corporis quas?
-            </p>
-          </div>
-          <div className="service-box">
-            <img
-              src="https://t4.ftcdn.net/jpg/02/33/87/01/360_F_233870161_ff4IxGVm7dXS9wjxAB7hAMJ4qanRvt1R.jpg"
-              alt=""
-            />
-            <h3 className="service-heading">Online Mentorship</h3>
-            <p className="service-description">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
-              veritatis cum at velit, corporis quas?
+              Virtual Tutoring Sessions Engage in interactive online tutoring
+              sessions tailored to GCE preparation before the concours.
             </p>
           </div>
         </div>
-        <Link to="services.html" className="link">
+        <Link to="/services" className="link">
           <span>See More</span>
           <i className="bx bxs-chevron-right"></i>
         </Link>

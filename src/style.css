@@ -187,18 +187,22 @@ section {
     gap: 1rem;
   }
 }
-.services-container .service-box img,
-.services-container .service-box i {
-  width: 50px;
-  padding: 6px;
-  border-radius: 8px;
+.services-container .service-box .img {
   background-color: #1967d2;
   margin-bottom: 6px;
+  padding: 6px;
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+}
+.services-container .service-box .img img {
+  border-radius: 8px;
+  max-height: 100%;
 }
 @media (min-width: 576px) {
-  .services-container .service-box img,
-  .services-container .service-box i {
+  .services-container .service-box .img {
     width: 80px;
+    height: 80px;
   }
 }
 .services-container .service-box .service-heading {
@@ -225,6 +229,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-self: center;
   gap: 0.8rem;
   padding: 8px;
   max-width: 400px;
@@ -274,6 +279,7 @@ section {
 .recent-activities-container .recent-activities-box {
   display: flex;
   flex-direction: column;
+  justify-self: center;
   gap: 0.8rem;
   padding: 8px;
   max-width: 400px;
@@ -293,6 +299,9 @@ section {
 }
 .recent-activities-container .recent-activities-box span.date {
   font-size: 12px;
+}
+.recent-activities-container .recent-activities-box .description {
+  font-size: 14px;
 }
 .recent-activities-container .recent-activities-box .link {
   align-self: center;
@@ -335,6 +344,7 @@ section {
 
 p.header-description {
   text-align: center;
+  text-transform: capitalize;
 }
 
 .bold {
@@ -1132,8 +1142,19 @@ nav.clicked {
   padding: 16px 10px;
 }
 .testimonials .testimonial-container .testimonial-box p {
-  font-size: 16px;
-  font-weight: normal;
+  font-size: 12px;
+}
+.testimonials .testimonial-container .testimonial-box .level {
+  font-size: 12px;
+}
+.testimonials .testimonial-container .testimonial-box .level span {
+  font-style: italic;
+}
+.testimonials .testimonial-container .testimonial-box .level::after, .testimonials .testimonial-container .testimonial-box .level::before {
+  content: '"';
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
 }
 .testimonials .testimonial-container .testimonial-box img {
   width: 120px;
@@ -1157,6 +1178,7 @@ nav.clicked {
   margin-inline: auto;
 }
 .faqs .faqs-container {
+  margin-top: 1rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -1164,11 +1186,8 @@ nav.clicked {
 .faqs .faqs-container .faq {
   cursor: pointer;
   width: 100%;
-  border: 1px solid black;
+  border: 1px solid #b3b3b3;
   padding: 10px;
-  margin-top: 15px;
-}
-.faqs .faqs-container .faq:hover {
   cursor: pointer;
 }
 .faqs .faqs-container .faq .question {
@@ -1178,12 +1197,14 @@ nav.clicked {
   align-items: start;
 }
 .faqs .faqs-container .faq .question i {
+  font-size: 18px;
   color: #877b7b;
 }
 .faqs .faqs-container .faq .answer {
   margin-top: 10px;
   color: #877b7b;
   display: none;
+  font-size: 14px;
 }
 .faqs .faqs-container .faq .question.active i {
   transform: rotate(180deg);
@@ -1213,14 +1234,9 @@ nav.clicked {
   width: 30px;
   height: 30px;
   max-width: 120px;
-  background-color: white;
   border-radius: 8px;
-}
-@media (min-width: 768px) {
-  .partners .partner-icons img {
-    width: 100px;
-    height: 100px;
-  }
+  width: 70px;
+  height: 70px;
 }
 @media (min-width: 576px) {
   .partners .partner-icons {

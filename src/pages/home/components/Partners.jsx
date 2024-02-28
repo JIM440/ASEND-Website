@@ -1,4 +1,6 @@
 import React from 'react';
+import chitechma from '../../../assets/img/partners/chitechma_university.png';
+import mountain from '../../../assets/img/partners/mountain_university.png';
 
 const Partners = () => {
   return (
@@ -7,12 +9,16 @@ const Partners = () => {
       <p className="header-description">Meet Our Trusted Partners</p>
       <div className="partners-container">
         <div className="partner-icons">
-          <img src="assets/img/partner4.png" alt="" />
-          <img src="assets/img/partner3.png" alt="" />
-          <img src="assets/img/partner4.png" alt="" />
-          <img src="assets/img/partner5.png" alt="" />
-          <img src="assets/img/partner3.png" alt="" />
-          <img src="assets/img/partner4.png" alt="" />
+          <a href="https://www.chitechma.com" rel="noreferrer" target="_blank">
+            <img src={chitechma} alt="logo of university" />
+          </a>
+          <a
+            href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiyi8uYms6EAxW1hv0HHf1FBbYQFnoECBUQAQ&url=https%3A%2F%2Fwww.facebook.com%2Fmhisscmr%2F&usg=AOvVaw35eqLKSzoa1zlPfUis10nF&opi=89978449"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img src={mountain} alt="logo of university" />
+          </a>
         </div>
       </div>
     </section>
