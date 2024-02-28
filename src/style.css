@@ -158,7 +158,6 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 1.2rem;
   justify-content: center;
-  align-items: center;
   padding-block: 20px;
   padding-inline: 3px;
 }
@@ -195,9 +194,11 @@ section {
   height: 50px;
   border-radius: 8px;
 }
-.services-container .service-box .img img {
+.services-container .service-box .img img,
+.services-container .service-box .img i {
   border-radius: 8px;
   max-height: 100%;
+  font-size: 24px;
 }
 @media (min-width: 576px) {
   .services-container .service-box .img {
@@ -256,6 +257,7 @@ section {
   gap: 1rem;
   width: 100%;
   text-align: left;
+  align-items: center;
   justify-content: space-between;
 }
 .team-container .team-box .position .profile-links {
@@ -1142,10 +1144,10 @@ nav.clicked {
   padding: 16px 10px;
 }
 .testimonials .testimonial-container .testimonial-box p {
-  font-size: 12px;
+  font-size: 14px;
 }
 .testimonials .testimonial-container .testimonial-box .level {
-  font-size: 12px;
+  font-size: 14px;
 }
 .testimonials .testimonial-container .testimonial-box .level span {
   font-style: italic;

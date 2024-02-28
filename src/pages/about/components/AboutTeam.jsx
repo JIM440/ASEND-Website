@@ -20,10 +20,10 @@ const AboutTeam = () => {
                 alt=""
               />
             </div>
-            <h3>Tracy D. Wright</h3>
-            <p className="title">MD Doctor Of Medicine</p>
+            <h3>Engr. David Baar</h3>
+            <p className="title">M.eng B.eng Telecommunications Engineering</p>
             <div className="position">
-              <p className="position">Medicine Tutor</p>
+              <p className="position">Co-Founder</p>
               <div className="profile-links">
                 <a href="linkendin.com">
                   <img src={Linkedin} alt="LinkenIn Icon" />
@@ -41,10 +41,10 @@ const AboutTeam = () => {
                 alt=""
               />
             </div>
-            <h3>Tracy D. Wright</h3>
-            <p className="title">Doctor Of Veterinary Medicine</p>
+            <h3>Dr. Ngongang N. Cabrel</h3>
+            <p className="title">Doctor Of Medicine (MD)</p>
             <div className="position">
-              <p className="position">Veterinary/Agriculture Tutor</p>
+              <p className="position">Co-Founder</p>
               <div className="profile-links">
                 <a href="linkendin.com">
                   <img src={Linkedin} alt="LinkenIn Icon" />
@@ -62,10 +62,10 @@ const AboutTeam = () => {
                 alt=""
               />
             </div>
-            <h3>Tracy D. Wright</h3>
-            <p className="title">B.eng Telecom Engineering</p>
+            <h3>Engr. Sone N. Epie</h3>
+            <p className="title">B.Tech Civil Engineering</p>
             <div className="position">
-              <p className="position">Engineering Tutor</p>
+              <p className="position">Co-Founder</p>
               <div className="profile-links">
                 <a href="linkendin.com">
                   <img src={Linkedin} alt="LinkenIn Icon" />
@@ -83,10 +83,10 @@ const AboutTeam = () => {
                 alt=""
               />
             </div>
-            <h3>Tracy D. Wright</h3>
-            <p className="title">MD Doctor Of Medicine</p>
+            <h3>Engr. Acha Golda Angwe</h3>
+            <p className="title">B.eng Electrical Power Systems Engineering</p>
             <div className="position">
-              <p className="position">Medicine Tutor</p>
+              <p className="position">General Coordinator</p>
               <div className="profile-links">
                 <a href="linkendin.com">
                   <img src={Linkedin} alt="LinkenIn Icon" />
@@ -104,10 +104,52 @@ const AboutTeam = () => {
                 alt=""
               />
             </div>
-            <h3>Tracy D. Wright</h3>
-            <p className="title">Doctor Of Veterinary Medicine</p>
+            <h3>Mombong Yannick Bebang</h3>
+            <p className="title">6th Year Medicine Student</p>
             <div className="position">
-              <p className="position">Veterinary/Agriculture Tutor</p>
+              <p className="position">Vice General Coordinator</p>
+              <div className="profile-links">
+                <a href="linkendin.com">
+                  <img src={Linkedin} alt="LinkenIn Icon" />
+                </a>
+                <a href="instagram.com">
+                  <img src={Instagram} alt="ig icon" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="team-box">
+            <div className="img">
+              <img
+                src="https://www.hindustantimes.com/ht-img/img/2023/09/02/1600x900/teachers_day_1693652054152_1693652065719.jpg"
+                alt=""
+              />
+            </div>
+            <h3>Engr. Usmanu Chuka</h3>
+            <p className="title">B.eng Telecommunications Engineering</p>
+            <div className="position">
+              <p className="position">DAAS</p>
+              <div className="profile-links">
+                <a href="linkendin.com">
+                  <img src={Linkedin} alt="LinkenIn Icon" />
+                </a>
+                <a href="instagram.com">
+                  <img src={Instagram} alt="ig icon" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="team-box">
+            <div className="img">
+              <img
+                src="https://www.hindustantimes.com/ht-img/img/2023/09/02/1600x900/teachers_day_1693652054152_1693652065719.jpg"
+                alt=""
+              />
+            </div>
+            <h3>Bungwa Lois Nabila</h3>
+            <p className="title">Bachelor Of Nursing Science</p>
+            <div className="position">
+              <p className="position">Secretary General</p>
               <div className="profile-links">
                 <a href="linkendin.com">
                   <img src={Linkedin} alt="LinkenIn Icon" />
@@ -122,10 +164,9 @@ const AboutTeam = () => {
         <div className="mw container bg-blue">
           <div className="mw">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. In
-              tenetur nostrum, asperiores quia obcaecati, a eligendi provident
-              velit perferendis nesciunt expedita vel explicabo. Quo fugiat
-              molestiae, excepturi inventore eaque voluptas.
+              Join us in making an impact today! Be a part of our team and help
+              students achieve their dreams of getting into their desired
+              professional school.
             </p>
             <Link to="/" className="btn">
               Join Our Team
@@ -368,7 +409,6 @@ const AboutTeam = () => {
             </div>
           </div>
         </div>
-        <button className="btn see-more">See More</button>
       </div>
     </section>
   );
