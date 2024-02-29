@@ -19,7 +19,7 @@ const MedicineTab = () => {
                 toggleVisible(1);
               }}
             >
-              FHS
+              FHS Buea
             </button>
             <button
               className={`${2 === visible ? 'active' : ''}`}
@@ -27,7 +27,7 @@ const MedicineTab = () => {
                 toggleVisible(2);
               }}
             >
-              COT
+              FHS Bamenda
             </button>
             <button
               className={`${3 === visible ? 'active' : ''}`}
@@ -35,7 +35,7 @@ const MedicineTab = () => {
                 toggleVisible(3);
               }}
             >
-              NAHPI
+              FMSP Dschang
             </button>
             <button
               className={`${4 === visible ? 'active' : ''}`}
@@ -43,7 +43,7 @@ const MedicineTab = () => {
                 toggleVisible(4);
               }}
             >
-              ENSTP
+              FMBS Yde
             </button>
             <button
               className={`${5 === visible ? 'active' : ''}`}
@@ -51,159 +51,36 @@ const MedicineTab = () => {
                 toggleVisible(5);
               }}
             >
-              POLYTECH
-            </button>
-            <button
-              className={`${6 === visible ? 'active' : ''}`}
-              onClick={() => {
-                toggleVisible(6);
-              }}
-            >
-              COLTECH
+              FMPS dla
             </button>
           </div>
           <div className="tab-content tab-content1">
-            <div id="fet" className={`${1 === visible ? 'active' : ''}`}>
+            <div id="fhs_buea" className={`${1 === visible ? 'active' : ''}`}>
               <h3 className="content-header">
                 Faculty Of Health Sciences, Buea
               </h3>
-              <span>4 years - Bachelor Of Engineering</span>
+              <span>4 years - Bachelors or 7 years - Doctor Of Medicine</span>
 
               <div className="requirements">
                 <div>
                   <div>
                     <h3>Departments</h3>
                     <ul>
-                      <li>Civil Engineering</li>
-                      <li>Computer Engineering</li>
-
-                      <li>Electrical Engineering</li>
-                      <li>Mechanical Engineering</li>
+                      <li>General Medicine</li>
+                      <li>Nursing | Midwifery</li>
+                      <li>Medical Laboratory Science</li>
+                      <li>Public Health and Hygiene</li>
+                      <li>Biomedical Science</li>
                     </ul>
                   </div>
                   <div>
                     <h3>Written Exam</h3>
                     <ul>
-                      <li>Mathematics</li>
+                      <li>Biology</li>
+                      <li>Chemistry</li>
                       <li>Physics</li>
-                    </ul>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h3>requirements</h3>
-                    <ul>
-                      <li>
-                        GCE O Level (in at least 5 subjects including Maths and
-                        Physics) & GCE A Level (in at least 2 subjects including
-                        Maths){' '}
-                      </li>
-                      <li>
-                        GCE Technical O Level and GCE Technical A Level in
-                        relevant subjects
-                      </li>
-                      <li>
-                        Any other certificate recognized equivalent by MINESUP
-                      </li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h3>Tuition</h3>
-                    <ul>
-                      <li>50, 000frs</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <Link to="/" className="link" target="_blank">
-                <span>Read More</span>
-                <i className="bx bxs-chevron-right"></i>
-              </Link>
-            </div>
-            <div id="cot" className={`${2 === visible ? 'active' : ''}`}>
-              <h3 className="content-header">College Of Technology, Buea</h3>
-              <span>3 years - Bachelor Of Technology</span>
-
-              <div className="requirements">
-                <div>
-                  <div>
-                    <h3>Departments</h3>
-                    <ul>
-                      <li>Computer Engineering</li>
-                      <li>Electrical & Electronic Engineering</li>
-                      <li>Mechanical Engineering</li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h3>Written Exam</h3>
-                    <ul>
-                      <li>Mathematics</li>
-                      <li>Physics</li>
-                      <li>English</li>
-                    </ul>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <h3>requirements</h3>
-                    <ul>
-                      <li>
-                        GCE O Level (in at least 5 subjects (excluding Relgious
-                        Studies) including English Language, Maths or Physics) &
-                        GCE A Level (in at least 2 subjects including Maths){' '}
-                      </li>
-                      <li>
-                        GCE Technical O Level and GCE Technical A Level in
-                        relevant subjects
-                      </li>
-                      <li>
-                        Baccalaureate C, D, F2, F3, and MISE, MEM, MFCM, SI, TI.
-                      </li>
-                      <li>
-                        Any other certificate recognized equivalent by MINESUP
-                      </li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h3>Tuition</h3>
-                    <ul>
-                      <li>50, 000frs</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <Link to="/" className="link" target="_blank">
-                <span>Read More</span> <i className="bx bxs-chevron-right"></i>
-              </Link>
-            </div>
-            <div id="nahpi" className={`${3 === visible ? 'active' : ''}`}>
-              <h3 className="content-header">
-                National Higher Polytechnic Institute
-              </h3>
-              <span>4 years - Bachelor Of Engineering</span>
-
-              <div className="requirements">
-                <div>
-                  <div>
-                    <h3>Departments</h3>
-                    <ul>
-                      <li>Civil Engineering and Architecture</li>
-                      <li>Chemical and Biological Engineering</li>
-                      <li>Computer Engineering</li>
-                      <li>Electrical & Electronic Engineering</li>
-                      <li>Mechanical and Industrial Engineering</li>
-                      <li>Minning and Mineral Engineering</li>
-                      <li>Petroleum Engineering</li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h3>Written Exam</h3>
-                    <ul>
-                      <li>Mathematics or Geology (based on concour)</li>
-                      <li>
-                        Physics or Biology and Chemistry (based on concour)
-                      </li>
                       <li>General Knowledge</li>
+                      <li>French and English</li>
                     </ul>
                   </div>
                 </div>
@@ -212,19 +89,176 @@ const MedicineTab = () => {
                     <h3>requirements</h3>
                     <ul>
                       <li>
-                        GCE O Level (in at least 5 subjects (excluding Relgious
-                        Studies) including English Language, Maths or Physics) &
-                        GCE A Level (in at least 2 subjects including Maths){' '}
+                        Atleast 4 papers at GCE O/L including English, Biology,
+                        Chemistry, and excluding Religious Knowledge or
+                        Probatoire C, D or I
                       </li>
                       <li>
-                        GCE Technical O Level and GCE Technical A Level in
-                        relevant subjects
+                        Atleast 2 papers at GCE A/L including Biology,
+                        Chemistry, Physics or Mathse or Baccalaureat C, D or I
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3>Tuition</h3>
+                    <ul>
+                      <li>50, 000frs</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="fhs_bda" className={`${2 === visible ? 'active' : ''}`}>
+              <h3 className="content-header">
+                Faculty Of Health Sciences, Bamenda
+              </h3>
+              <span>4 years - Bachelors or 7 years - Doctor Of Medicine</span>
+
+              <div className="requirements">
+                <div>
+                  <div>
+                    <h3>Departments</h3>
+                    <ul>
+                      <li>General Medicine</li>
+                      <li>Nursing | Midwifery</li>
+                      <li>Medical Laboratory Science</li>
+                      <li>Public Health and Hygiene</li>
+                      <li>Biomedical Science</li>
+                      <li>Clinical Science</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3>Written Exam</h3>
+                    <ul>
+                      <li>Biology</li>
+                      <li>Chemistry</li>
+                      <li>Physics</li>
+                      <li>General Knowledge</li>
+                      <li>French and English</li>
+                    </ul>
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <h3>requirements</h3>
+                    <ul>
+                      <li>
+                        Atleast 4 papers at GCE O/L including English, Biology,
+                        Chemistry, and excluding Religious Knowledge or
+                        Probatoire C, D or I
                       </li>
                       <li>
-                        Baccalaureate C, D, F2, F3, and MISE, MEM, MFCM, SI, TI.
+                        Atleast 2 papers at GCE A/L including Biology,
+                        Chemistry, Physics or Mathse or Baccalaureat C, D or I
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3>Tuition</h3>
+                    <ul>
+                      <li>50, 000frs</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              id="fmps_dschang"
+              className={`${3 === visible ? 'active' : ''}`}
+            >
+              <h3 className="content-header">
+                Faculty of Medicine and Pharmaceutical Science, Dschang
+              </h3>
+              <span>4 years - Bachelors or 7 years - Doctor Of Medicine</span>
+
+              <div className="requirements">
+                <div>
+                  <div>
+                    <h3>Departments</h3>
+                    <ul>
+                      <li>General Medicine</li>
+                      <li>Public Health</li>
+                      <li>Biomedical Science</li>
+                      <li>Pharmacy</li>
+                      <li>Physiotherapy</li>
+                      <li>Epidemiology</li>
+                      <li>Clinical Biology</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3>Written Exam</h3>
+                    <ul>
+                      <li>Biology</li>
+                      <li>Chemistry</li>
+                      <li>Physics</li>
+                    </ul>
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <h3>requirements</h3>
+                    <ul>
+                      <li>
+                        Atleast 4 papers at GCE O/L including English, Biology,
+                        Chemistry, and excluding Religious Knowledge or
+                        Probatoire C, D or I
                       </li>
                       <li>
-                        Any other certificate recognized equivalent by MINESUP
+                        Atleast 2 papers at GCE A/L including Biology,
+                        Chemistry, Physics or Mathse or Baccalaureat C, D or I
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3>Tuition</h3>
+                    <ul>
+                      <li>50, 000frs</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="fmbs_yde" className={`${4 === visible ? 'active' : ''}`}>
+              <h3 className="content-header">
+                Faculty of Medicine and Biomedical Science, Yaounde
+              </h3>
+              {/* <span>4 years - Bachelors or 7 years - Doctor Of Medicine</span>
+
+              <div className="requirements">
+                <div>
+                  <div>
+                    <h3>Departments</h3>
+                    <ul>
+                      <li>General Medicine</li>
+                      <li>Public Health</li>
+                      <li>Biomedical Science</li>
+                      <li>Pharmacy</li>
+                      <li>Physiotherapy</li>
+                      <li>Epidemiology</li>
+                      <li>Clinical Biology</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3>Written Exam</h3>
+                    <ul>
+                      <li>Biology</li>
+                      <li>Chemistry</li>
+                      <li>Physics</li>
+                    </ul>
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <h3>requirements</h3>
+                    <ul>
+                      <li>
+                        Atleast 4 papers at GCE O/L including English, Biology,
+                        Chemistry, and excluding Religious Knowledge or
+                        Probatoire C, D or I
+                      </li>
+                      <li>
+                        Atleast 2 papers at GCE A/L including Biology,
+                        Chemistry, Physics or Mathse or Baccalaureat C, D or I
                       </li>
                     </ul>
                   </div>
@@ -239,16 +273,64 @@ const MedicineTab = () => {
               <Link to="/" className="link" target="_blank">
                 <span>Read More</span>
                 <i className="bx bxs-chevron-right"></i>
-              </Link>
+              </Link> */}
             </div>
-            <div id="enstp" className={`${4 === visible ? 'active' : ''}`}>
-              enstp
-            </div>
-            <div id="polytech" className={`${5 === visible ? 'active' : ''}`}>
-              polytech
-            </div>
-            <div id="coltech" className={`${6 === visible ? 'active' : ''}`}>
-              coltech
+            <div id="fmps_dla" className={`${5 === visible ? 'active' : ''}`}>
+              <h3 className="content-header">
+                Faculty of Medicine and Pharmaceutical Science, Dschang
+              </h3>
+              <span>4 years - Bachelors or 7 years - Doctor Of Medicine</span>
+              {/* 
+              <div className="requirements">
+                <div>
+                  <div>
+                    <h3>Departments</h3>
+                    <ul>
+                      <li>General Medicine</li>
+                      <li>Public Health</li>
+                      <li>Biomedical Science</li>
+                      <li>Pharmacy</li>
+                      <li>Physiotherapy</li>
+                      <li>Epidemiology</li>
+                      <li>Clinical Biology</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3>Written Exam</h3>
+                    <ul>
+                      <li>Biology</li>
+                      <li>Chemistry</li>
+                      <li>Physics</li>
+                    </ul>
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <h3>requirements</h3>
+                    <ul>
+                      <li>
+                        Atleast 4 papers at GCE O/L including English, Biology,
+                        Chemistry, and excluding Religious Knowledge or
+                        Probatoire C, D or I
+                      </li>
+                      <li>
+                        Atleast 2 papers at GCE A/L including Biology,
+                        Chemistry, Physics or Mathse or Baccalaureat C, D or I
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3>Tuition</h3>
+                    <ul>
+                      <li>50, 000frs</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <Link to="/" className="link" target="_blank">
+                <span>Read More</span>
+                <i className="bx bxs-chevron-right"></i>
+              </Link> */}
             </div>
           </div>
         </div>

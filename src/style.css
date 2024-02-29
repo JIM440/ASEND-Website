@@ -401,6 +401,18 @@ nav .container .desktop-nav p {
   font-size: 18px;
   color: black;
 }
+nav .container .desktop-nav li:has(a.active) {
+  position: relative;
+}
+nav .container .desktop-nav li:has(a.active)::before {
+  content: "";
+  height: 2px;
+  background-color: #1967d2;
+  width: 100%;
+  position: absolute;
+  bottom: -7px;
+  left: 0;
+}
 nav .container .desktop-nav .btn {
   color: white;
   padding-inline: 9px;

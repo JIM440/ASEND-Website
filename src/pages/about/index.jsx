@@ -5,7 +5,7 @@ import Mission from './components/Mission';
 import UseScrollTop from '../../common/components/UseScrollTop';
 
 const About = () => {
-  const scrollToTop = UseScrollTop();
+  const scrollToTop = UseScrollTop;
 
   return (
     <>

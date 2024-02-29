@@ -52,7 +52,7 @@ const EngineeringTab = () => {
                 toggleVisible(5);
               }}
             >
-              POLYTECH
+              ENSPY
             </button>
             <button
               className={`${6 === visible ? 'active' : ''}`}
@@ -60,7 +60,7 @@ const EngineeringTab = () => {
                 toggleVisible(6);
               }}
             >
-              COLTECH
+              ENSPD
             </button>
           </div>
           <div className="tab-content tab-content1">
@@ -116,10 +116,6 @@ const EngineeringTab = () => {
                   </div>
                 </div>
               </div>
-              <Link to="/" className="link" target="_blank">
-                <span>Read More</span>
-                <i className="bx bxs-chevron-right"></i>
-              </Link>
             </div>
             <div id="cot" className={`${2 === visible ? 'active' : ''}`}>
               <h3 className="content-header">College Of Technology, Buea</h3>
@@ -173,13 +169,10 @@ const EngineeringTab = () => {
                   </div>
                 </div>
               </div>
-              <Link to="/" className="link" target="_blank">
-                <span>Read More</span> <i className="bx bxs-chevron-right"></i>
-              </Link>
             </div>
             <div id="nahpi" className={`${3 === visible ? 'active' : ''}`}>
               <h3 className="content-header">
-                National Higher Polytechnic Institute
+                National Higher Polytechnic Institute, Bamenda
               </h3>
               <span>4 years - Bachelor Of Engineering</span>
 
@@ -237,19 +230,157 @@ const EngineeringTab = () => {
                   </div>
                 </div>
               </div>
-              <Link to="/" className="link" target="_blank">
-                <span>Read More</span>
-                <i className="bx bxs-chevron-right"></i>
-              </Link>
             </div>
             <div id="enstp" className={`${4 === visible ? 'active' : ''}`}>
-              enstp
+              <h3 className="content-header">
+                National Advanced School Of Public Works, Yaounde
+              </h3>
+              <span>5 years - Masters Of Engineering</span>
+              <div className="requirements">
+                <div>
+                  <div>
+                    <h3>Departments</h3>
+                    <ul>
+                      <li>
+                        Higher Technician Cycle in Civil Engineering, Rural
+                        Engineering, Land Surveying and Town Planning
+                      </li>
+                      <li>
+                        Engineering Cycle (MEng) in Civil Engineering,
+                        Enviromental Engineering, Land Surveying and Rural
+                        Engineering
+                      </li>
+                      <li>
+                        Architecture or Engineering (MEng) in Town Planning
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3>Written Exam</h3>
+                    <ul>
+                      <li>Mathematics</li>
+                      <li>Physics </li>
+                      <li>Chemistry </li>
+                      <li>General Knowledge</li>
+                      <li>French and English</li>
+                    </ul>
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <h3>requirements</h3>
+                    <ul>
+                      <li>GCE Technical A Level Maths and Physics</li>
+                      <li>Baccalaureate C, D, E, F, TI.</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3>Tuition</h3>
+                    <ul>
+                      <li>235, 000frs</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div id="polytech" className={`${5 === visible ? 'active' : ''}`}>
-              polytech
+            <div id="enspy" className={`${5 === visible ? 'active' : ''}`}>
+              <h3 className="content-header">
+                National Advanced School Of Engineering, Yaounde
+              </h3>
+              <span>5 years - Masters Of Engineering</span>
+              <div className="requirements">
+                <div>
+                  <div>
+                    <h3>Departments</h3>
+                    <ul>
+                      <li>Civil Engineering</li>
+                      <li>Computer Engineering</li>
+                      <li>Electrical Engineering</li>
+                      <li>Industrial Engineering</li>
+                      <li>Telecommunications Engineering</li>
+                      <li>Mechanical Engineering</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3>Written Exam</h3>
+                    <ul>
+                      <li>Mathematics</li>
+                      <li>Physics </li>
+                    </ul>
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <h3>requirements</h3>
+                    <ul>
+                      <li>
+                        Pass in minimum 4 subjects GCE OLevel (Religious Studies
+                        exclusive)
+                      </li>
+                      <li>GCE Technical A Level FMaths, Maths and Physics</li>
+                      <li>Baccalaureate C, D, E, F, TI.</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3>Tuition</h3>
+                    <ul>
+                      <li>50, 000frs</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div id="coltech" className={`${6 === visible ? 'active' : ''}`}>
-              coltech
+            <div id="enspd" className={`${6 === visible ? 'active' : ''}`}>
+              <h3 className="content-header">
+                National Advanced School Of Engineering, Douala
+              </h3>
+              <span>5 years - Masters Of Engineering</span>
+              <div className="requirements">
+                <div>
+                  <div>
+                    <h3>Departments</h3>
+                    <ul>
+                      <li> Civil Engineering</li>
+                      <li> Automobile Engineering</li>
+                      <li> Informations & Telecommunications Engineering</li>
+                      <li> Electrical Engineering and Intelligent Systems</li>
+                      <li>
+                        Industrial Quality, Health, Securit and Environment
+                        Engineering
+                      </li>
+                      <li> Energetic Engineering</li>
+                      <li> Mechanical Engineering</li>
+                      <li> Maritime and Port Engineering</li>
+                      <li> Meteorology</li>
+                      <li> Process Engineering</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3>Written Exam</h3>
+                    <ul>
+                      <li>Mathematics</li>
+                      <li>Physics </li>
+                      <li>Chemistry </li>
+                      <li>Technology</li>
+                    </ul>
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <h3>requirements</h3>
+                    <ul>
+                      <li>GCE Technical A Level Maths and Physics</li>
+                      <li>Baccalaureate C, D, E, F, TI.</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3>Tuition</h3>
+                    <ul>
+                      <li>50, 000frs</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

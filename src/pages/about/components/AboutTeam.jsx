@@ -23,7 +23,7 @@ const AboutTeam = () => {
             <h3>Engr. David Baar</h3>
             <p className="title">M.eng B.eng Telecommunications Engineering</p>
             <div className="position">
-              <p className="position">Co-Founder</p>
+              <p className="position">Co-Founder | Board Member</p>
               <div className="profile-links">
                 <a href="linkendin.com">
                   <img src={Linkedin} alt="LinkenIn Icon" />
@@ -44,7 +44,7 @@ const AboutTeam = () => {
             <h3>Dr. Ngongang N. Cabrel</h3>
             <p className="title">Doctor Of Medicine (MD)</p>
             <div className="position">
-              <p className="position">Co-Founder</p>
+              <p className="position">Co-Founder | Board Member</p>
               <div className="profile-links">
                 <a href="linkendin.com">
                   <img src={Linkedin} alt="LinkenIn Icon" />
@@ -65,7 +65,7 @@ const AboutTeam = () => {
             <h3>Engr. Sone N. Epie</h3>
             <p className="title">B.Tech Civil Engineering</p>
             <div className="position">
-              <p className="position">Co-Founder</p>
+              <p className="position">Board Member</p>
               <div className="profile-links">
                 <a href="linkendin.com">
                   <img src={Linkedin} alt="LinkenIn Icon" />

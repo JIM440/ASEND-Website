@@ -45,6 +45,19 @@ nav {
         font-size: 18px;
         color: $black;
       }
+      li:has(a.active) {
+        position: relative;
+
+        &::before {
+          content: '';
+          height: 2px;
+          background-color: $primary-color;
+          width: 100%;
+          position: absolute;
+          bottom: -7px;
+          left: 0;
+        }
+      }
       .btn {
         color: $white;
         padding-inline: 9px;

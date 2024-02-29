@@ -59,27 +59,27 @@ const Navbar = () => {
           <ul className="desktop-nav">
             {/* Home */}
             <li className="first-link">
-              <Link to="/">
+              <NavLink to="/">
                 <p>Home</p>
-              </Link>
+              </NavLink>
             </li>
             {/* About */}
             <li className="first-link">
-              <Link to="about">
+              <NavLink to="about">
                 <p>About</p>
-              </Link>
+              </NavLink>
             </li>
             {/* Services */}
             <li className="first-link">
-              <Link to="services">
+              <NavLink to="services">
                 <p>Services</p>
-              </Link>
+              </NavLink>
             </li>
             {/* Concours */}
             <li className="first-link">
-              <Link to="concours">
+              <NavLink to="concours">
                 <p>Concours</p>
-              </Link>
+              </NavLink>
             </li>
             {/* call to action */}
             <Link to="support" className="btn">
