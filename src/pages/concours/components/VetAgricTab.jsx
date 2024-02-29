@@ -73,7 +73,7 @@ const VetAgricTab = () => {
                   <div>
                     <h3>requirements</h3>
                     <ul>
-                      <li>GCE Technical A Level Biology and Chemistry</li>
+                      <li>GCE A Level Biology and Chemistry</li>
                     </ul>
                   </div>
                   <div>
@@ -116,7 +116,7 @@ const VetAgricTab = () => {
                   <div>
                     <h3>requirements</h3>
                     <ul>
-                      <li>GCE Technical A Level in Biology and Chemistry</li>
+                      <li>GCE A Level in Biology and Chemistry</li>
                     </ul>
                   </div>
                   <div>
@@ -153,7 +153,7 @@ const VetAgricTab = () => {
                   <div>
                     <h3>requirements</h3>
                     <ul>
-                      <li>GCE Technical A Level in Biology and Chemistry</li>
+                      <li>GCE A Level in Biology and Chemistry</li>
                     </ul>
                   </div>
                   <div>
