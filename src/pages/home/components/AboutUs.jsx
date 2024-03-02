@@ -32,7 +32,7 @@ const AboutUs = () => {
               }}
             >
               competitive entrance exam
-            </Link>{' '}
+            </Link>
             process.
             <br />
             <br /> Our prep classes are designed to cover all subjects from
@@ -56,7 +56,7 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="image">
-          <img src={staffs} alt="" />
+          <img src={staffs} alt="asend staffs together" />
         </div>
       </div>
     </section>

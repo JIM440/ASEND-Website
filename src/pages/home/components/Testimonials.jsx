@@ -11,20 +11,20 @@ const Testimonials = () => {
       level: '2nd Year Medicine Student FHS',
     },
     {
-      name: 'John Doe',
+      name: 'Njidda Salifu',
       image:
         'https://media.gettyimages.com/id/1257207393/de/foto/single-male-college-student-blick-auf-kamera-f%C3%BCr-close-up-portrait.jpg?s=612x612&w=gi&k=20&c=X8mLl7x6uXmcs6fE5ayNcUVHKjwfz4CTbSr1z0KFezE=',
       content:
         "Before coming to ASEND, I was uncertain about my career path and lacked clarity on what I needed to venture into engineering. However, the staff at ASEND provided me with guidance based on my interests and helped me choose the right path. With their prep class, which covered everything from scratch, I successfully passed the entrance exam and now I'm in the Faculty of Engineering and Technology, studying computer engineering. ASEND truly paved the way for my academic journey.",
-      level: '2nd Year Computer Engineering FET',
+      level: 'Final Year Computer Engineering FET',
     },
     {
-      name: 'David Johnson',
+      name: 'Ako Mengot',
       image:
         'https://media.gettyimages.com/id/1438427420/de/foto/close-up-portrait-of-cheerful-young-black-hispanic-latin-teenager-man-smiling-at-camera-over.jpg?s=612x612&w=gi&k=20&c=DojZ5b8vxqyxaKpMkvsybvaj_luzibF1yXy_aCryQRk=',
       content:
         "I enrolled in ASEND's prep class with aspirations of pursuing a career in agriculture and veterinary medicine. The personalized attention and specialized guidance I received were invaluable in strengthening my knowledge and enhancing my understanding of the field. Thanks to ASEND, I successfully passed the entrance exam and gained admission into the Faculty of Agriculture and veterinary medicine Buea.",
-      level: '2nd Year Agriculture Student FAVM',
+      level: '2nd Year Veterinary Student FAVM',
     },
   ];
   return (

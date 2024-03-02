@@ -133,7 +133,7 @@ const Navbar = () => {
             </li>
           </div>
           <li>
-            <Link to="" className="btn">
+            <Link to="support" onClick={toggleAll} className="btn">
               Support Us
             </Link>
           </li>

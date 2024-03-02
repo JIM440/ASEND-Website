@@ -48,7 +48,7 @@ const Services = () => {
           <div className="services-container">
             <div className="service-box">
               <div className="img">
-                <img src={students} alt="" />
+                <img src={students} alt="students in class" />
               </div>
               <h3 className="service-heading">Preparatory Classes</h3>
               <p className="service-description">
@@ -58,7 +58,7 @@ const Services = () => {
             </div>
             <div className="service-box">
               <div className="img">
-                <img src={career} alt="" />
+                <img src={career} alt="career icon" />
               </div>
               <h3 className="service-heading">Career Orientation</h3>
               <p className="service-description">
@@ -66,9 +66,10 @@ const Services = () => {
                 to make informed decisions about your professional journey.
               </p>
             </div>
+
             <div className="service-box">
               <div className="img">
-                <img src={mentoring} alt="" />
+                <img src={mentoring} alt="mentor icon" />
               </div>
               <h3 className="service-heading">Mentorship Program</h3>
               <p className="service-description">
@@ -78,7 +79,7 @@ const Services = () => {
             </div>
             <div className="service-box">
               <div className="img">
-                <img src={online_tutoring} alt="" />
+                <img src={online_tutoring} alt="online tutoring icon" />
               </div>
               <h3 className="service-heading">Online tutoring</h3>
               <p className="service-description">
@@ -92,7 +93,7 @@ const Services = () => {
           <div className="services-container">
             <div className="service-box">
               <div className="img">
-                <img src={mentoring} alt="" />
+                <img src={mentoring} alt="mentor icon" />
               </div>
               <h3 className="service-heading">Mentorship Program</h3>
               <p className="service-description">
@@ -105,7 +106,7 @@ const Services = () => {
             </div>
             <div className="service-box">
               <div className="img">
-                <img src={leadership} alt="" />
+                <img src={leadership} alt="light" />
               </div>
               <h3 className="service-heading">Leadership Seminars</h3>
               <p className="service-description">
@@ -122,7 +123,7 @@ const Services = () => {
           <div className="services-container">
             <div className="service-box">
               <div className="img">
-                <img src={web} alt="" />
+                <img src={web} alt="development icon" />
               </div>
               <h3 className="service-heading">Web and Mobile Development</h3>
               <p className="service-description">
@@ -134,7 +135,7 @@ const Services = () => {
             </div>
             <div className="service-box">
               <div className="img">
-                <img src={design} alt="" />
+                <img src={design} alt="design icon" />
               </div>
               <h3 className="service-heading"> Flyer and Logo Design</h3>
               <p className="service-description">
@@ -146,7 +147,7 @@ const Services = () => {
             </div>
             <div className="service-box">
               <div className="img">
-                <img src={data} alt="" />
+                <img src={data} alt="data analysis icon" />
               </div>
               <h3 className="service-heading">Data Analysis</h3>
               <p className="service-description">
@@ -158,7 +159,7 @@ const Services = () => {
             </div>
             <div className="service-box">
               <div className="img">
-                <img src={maintenance} alt="" />
+                <img src={maintenance} alt="" computer maintenance icon />
               </div>
               <h3 className="service-heading">Computer Maintenance</h3>
               <p className="service-description">

@@ -1,4 +1,4 @@
-import staffs2 from '../../assets/img/hero/Staffs.jpg';
+import staffs2 from '../../assets/img/hero/Staffs3.jpg';
 // services images
 import { Link } from 'react-router-dom';
 import Faqs from './components/Faqs';

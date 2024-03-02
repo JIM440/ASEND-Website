@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 
-import orientation from '../../../assets/img/activities/orientation/orientation1.jpg';
-import WorldEng from '../../../assets/img/activities/orientation/orientation2.jpg';
-import Premed from '../../../assets/img/activities/orientation/orientation3.jpg';
+import WorldEng from '../../../assets/img/activities/worldEngineering/world1.jpg';
+import orientation from '../../../assets/img/activities/orientation/orientation2_copy.jpg';
+import Premed from '../../../assets/img/activities/premed_preengr_exams/premed1.jpg';
 
 const RecentActivities = () => {
   return (
@@ -13,7 +13,7 @@ const RecentActivities = () => {
         <div className="recent-activities-container">
           <div className="recent-activities-box">
             <div className="img">
-              <img src={WorldEng} alt="" />
+              <img src={orientation} alt="students in class" />
             </div>
             <div>
               <h3>Career Orientation</h3>
@@ -31,7 +31,7 @@ const RecentActivities = () => {
           </div>
           <div className="recent-activities-box">
             <div className="img">
-              <img src={Premed} alt="" />
+              <img src={WorldEng} alt="asend staff with two smart dustbins" />
             </div>
             <div>
               <h3>World Engineering Day</h3>
@@ -49,7 +49,7 @@ const RecentActivities = () => {
           </div>
           <div className="recent-activities-box">
             <div className="img">
-              <img src={orientation} alt="" />
+              <img src={Premed} alt="students writing premed/preengr exams" />
             </div>
             <div>
               <h3>PreMed/PreEngr Exams</h3>
@@ -79,7 +79,7 @@ const RecentActivities = () => {
             access to quality education, orientation, and the possibility of
             them studying their dream school.
           </p>
-          <Link to="" className="btn">
+          <Link to="/support" className="btn">
             Support Us
           </Link>
         </div>

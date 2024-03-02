@@ -11,6 +11,7 @@ import About from './pages/about';
 import Concours from './pages/concours';
 import Services from './pages/services';
 import NotFound from './pages/notfound/NotFound';
+import Support from './pages/supportus';
 import MedicineTab from './pages/concours/components/MedicineTab';
 import EngineeringTab from './pages/concours/components/EngineeringTab';
 import VetAgricTab from './pages/concours/components/VetAgricTab';
@@ -39,6 +40,8 @@ const router = createBrowserRouter(
       </Route>
       {/* sercices */}
       <Route path="services" element={<Services />} />
+      {/* support */}
+      <Route path="support" element={<Support />} />
       {/* not found */}
       <Route path="*" element={<NotFound />} />
     </Route>

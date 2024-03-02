@@ -1,0 +1,4 @@
+1. Do link to various pages
+2. Update How we started
+3. Make sure all links lead to a page 
+4. Watch SEO video and do what's said (e.g. give images alt and also each link should have an aria_label)

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Linkedin from '../../../assets/icons/linkedin.png';
 import Instagram from '../../../assets/icons/ig.jpg';
 // leaders images
-import david from '../../../assets/img/team/golda.jpg';
+import david from '../../../assets/img/team/david_baar.jpg';
 import cabrel from '../../../assets/img/team/golda.jpg';
 import sone from '../../../assets/img/team/golda.jpg';
 import golda from '../../../assets/img/team/golda.jpg';
@@ -24,10 +24,7 @@ const AboutTeam = () => {
         <div className="team-container team-container-about">
           <div className="team-box">
             <div className="img">
-              <img
-                src="https://images.squarespace-cdn.com/content/v1/5dc5d641498834108f7c46a5/564a726c-ec6a-470b-9769-1c5045358424/What%27s+Your+Why+Hero.jpg"
-                alt=""
-              />
+              <img src={david} alt="asend staff" />
             </div>
             <h3>Engr. David Baar</h3>
             <p className="title">M.eng B.eng Telecommunications Engineering</p>
@@ -47,7 +44,7 @@ const AboutTeam = () => {
             <div className="img">
               <img
                 src="https://www.hindustantimes.com/ht-img/img/2023/09/02/1600x900/teachers_day_1693652054152_1693652065719.jpg"
-                alt=""
+                alt="asend staff"
               />
             </div>
             <h3>Dr. Ngongang N. Cabrel</h3>
@@ -68,7 +65,7 @@ const AboutTeam = () => {
             <div className="img">
               <img
                 src="https://cdn.eduadvisor.my/articles/2022/04/how-to-be-teacher-malaysia-feature.png"
-                alt=""
+                alt="asend staff"
               />
             </div>
             <h3>Engr. Sone N. Epie</h3>
@@ -87,7 +84,7 @@ const AboutTeam = () => {
           </div>
           <div className="team-box">
             <div className="img">
-              <img src={golda} alt="" />
+              <img src={golda} alt="asend staff" />
             </div>
             <h3>Engr. Acha Golda Angwe</h3>
             <p className="title">B.eng Electrical Power Systems Engineering</p>
@@ -107,7 +104,7 @@ const AboutTeam = () => {
             <div className="img">
               <img
                 src="https://www.hindustantimes.com/ht-img/img/2023/09/02/1600x900/teachers_day_1693652054152_1693652065719.jpg"
-                alt=""
+                alt="asend staff"
               />
             </div>
             <h3>Mombong Yannick Bebang</h3>
@@ -126,7 +123,7 @@ const AboutTeam = () => {
           </div>
           <div className="team-box">
             <div className="img">
-              <img src={usman} alt="" />
+              <img src={usman} alt="asend staff" />
             </div>
             <h3>Engr. Usmanu Chuka</h3>
             <p className="title">B.eng Telecommunications Engineering</p>
@@ -144,9 +141,9 @@ const AboutTeam = () => {
           </div>
           <div className="team-box">
             <div className="img">
-              <img src={lois} alt="" />
+              <img src={lois} alt="asend staff" />
             </div>
-            <h3>Bungwa Lois Nabila</h3>
+            <h3>Nurse Bungwa Lois Nabila</h3>
             <p className="title">Bachelor Of Nursing Science</p>
             <div className="position">
               <p className="position">Secretary General</p>
@@ -182,7 +179,7 @@ const AboutTeam = () => {
             <div className="img">
               <img
                 src="https://media.licdn.com/dms/image/D4E12AQHreMR7tl4vHQ/article-cover_image-shrink_720_1280/0/1695244196953?e=2147483647&v=beta&t=6Jm12Vy1nlZoDARkn7ziO-WUxShJqSVC3XIBKRKrOVc"
-                alt=""
+                alt="asend staff"
               />
             </div>
             <h3>Tracy D. Wright</h3>
@@ -201,7 +198,7 @@ const AboutTeam = () => {
           </div>
           <div className="team-box">
             <div className="img">
-              <img src={salif} alt="" />
+              <img src={salif} alt="asend staff" />
             </div>
             <h3>Engr. Njidda Salifu</h3>
             <p className="title">
@@ -223,7 +220,7 @@ const AboutTeam = () => {
             <div className="img">
               <img
                 src="https://images.squarespace-cdn.com/content/v1/5dc5d641498834108f7c46a5/564a726c-ec6a-470b-9769-1c5045358424/What%27s+Your+Why+Hero.jpg"
-                alt=""
+                alt="asend staff"
               />
             </div>
             <h3>Tracy D. Wright</h3>
@@ -244,7 +241,7 @@ const AboutTeam = () => {
             <div className="img">
               <img
                 src="https://www.shutterstock.com/image-photo/portrait-happy-businessman-arms-crossed-600nw-388786822.jpg"
-                alt=""
+                alt="asend staff"
               />
             </div>
             <h3>Tracy D. Wright</h3>
@@ -265,7 +262,7 @@ const AboutTeam = () => {
             <div className="img">
               <img
                 src="https://www.hindustantimes.com/ht-img/img/2023/09/02/1600x900/teachers_day_1693652054152_1693652065719.jpg"
-                alt=""
+                alt="asend staff"
               />
             </div>
             <h3>Tracy D. Wright</h3>
@@ -286,7 +283,7 @@ const AboutTeam = () => {
             <div className="img">
               <img
                 src="https://cdn.eduadvisor.my/articles/2022/04/how-to-be-teacher-malaysia-feature.png"
-                alt=""
+                alt="asend staff"
               />
             </div>
             <h3>Tracy D. Wright</h3>
@@ -307,7 +304,7 @@ const AboutTeam = () => {
             <div className="img">
               <img
                 src="https://media.licdn.com/dms/image/D4E12AQHreMR7tl4vHQ/article-cover_image-shrink_720_1280/0/1695244196953?e=2147483647&v=beta&t=6Jm12Vy1nlZoDARkn7ziO-WUxShJqSVC3XIBKRKrOVc"
-                alt=""
+                alt="asend staff"
               />
             </div>
             <h3>Tracy D. Wright</h3>
@@ -328,7 +325,7 @@ const AboutTeam = () => {
             <div className="img">
               <img
                 src="https://www.shutterstock.com/image-photo/portrait-happy-businessman-arms-crossed-600nw-388786822.jpg"
-                alt=""
+                alt="asend staff"
               />
             </div>
             <h3>Tracy D. Wright</h3>
@@ -349,7 +346,7 @@ const AboutTeam = () => {
             <div className="img">
               <img
                 src="https://www.hindustantimes.com/ht-img/img/2023/09/02/1600x900/teachers_day_1693652054152_1693652065719.jpg"
-                alt=""
+                alt="asend staff"
               />
             </div>
             <h3>Tracy D. Wright</h3>
@@ -370,7 +367,7 @@ const AboutTeam = () => {
             <div className="img">
               <img
                 src="https://cdn.eduadvisor.my/articles/2022/04/how-to-be-teacher-malaysia-feature.png"
-                alt=""
+                alt="asend staff"
               />
             </div>
             <h3>Tracy D. Wright</h3>
@@ -391,7 +388,7 @@ const AboutTeam = () => {
             <div className="img">
               <img
                 src="https://media.licdn.com/dms/image/D4E12AQHreMR7tl4vHQ/article-cover_image-shrink_720_1280/0/1695244196953?e=2147483647&v=beta&t=6Jm12Vy1nlZoDARkn7ziO-WUxShJqSVC3XIBKRKrOVc"
-                alt=""
+                alt="asend staff"
               />
             </div>
             <h3>Tracy D. Wright</h3>

@@ -7,7 +7,7 @@ const Stats = () => {
     <section className="stats">
       <div className="container">
         <div>
-          <img src={students} alt="" />
+          <img src={students} alt="icon" />
           <div className="text">
             <h2>
               <span data-val="4000" className="num">
@@ -19,7 +19,7 @@ const Stats = () => {
           </div>
         </div>
         <div>
-          <img src={map} alt="" />
+          <img src={map} alt="cameroon map" />
           <div className="text">
             <h2>
               <span data-val="3" className="num">
@@ -30,7 +30,7 @@ const Stats = () => {
           </div>
         </div>
         <div>
-          <img className="team-icon" src={team} alt="" />
+          <img className="team-icon" src={team} alt="hands toether" />
           <div className="text">
             <h2>
               <span data-val="100" className="num">

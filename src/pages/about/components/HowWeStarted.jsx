@@ -21,7 +21,7 @@ const HowWeStarted = () => {
             </p>
           </div>
           <div className="img">
-            <img src={story} alt="" />
+            <img src={story} alt="asend staffs together" />
           </div>
         </div>
       </div>

@@ -14,7 +14,7 @@ const Services = () => {
         <div className="services-container">
           <div className="service-box">
             <div className="img">
-              <img src={students} alt="" />
+              <img src={students} alt="prep class icon" />
             </div>
             <h3 className="service-heading">Preparatory Classes</h3>
             <p className="service-description">
@@ -24,7 +24,7 @@ const Services = () => {
           </div>
           <div className="service-box">
             <div className="img">
-              <img src={career} alt="" />
+              <img src={career} alt="career orientation icon" />
             </div>
             <h3 className="service-heading">Career Orientation</h3>
             <p className="service-description">
@@ -34,7 +34,7 @@ const Services = () => {
           </div>
           <div className="service-box">
             <div className="img">
-              <img src={mentoring} alt="" />
+              <img src={mentoring} alt="mentorship icon" />
             </div>
             <h3 className="service-heading">Mentorship Program</h3>
             <p className="service-description">
@@ -44,7 +44,7 @@ const Services = () => {
           </div>
           <div className="service-box">
             <div className="img">
-              <img src={online_tutoring} alt="" />
+              <img src={online_tutoring} alt="online tutoring icon" />
             </div>
             <h3 className="service-heading">Online tutoring</h3>
             <p className="service-description">

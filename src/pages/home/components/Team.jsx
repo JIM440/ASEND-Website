@@ -12,7 +12,7 @@ const Team = () => {
         <div className="team-container">
           <div className="team-box">
             <div className="img">
-              <img src={usman} alt="" />
+              <img src={usman} alt="asend staff" />
             </div>
             <h3>Engr. Usmanu Chuka</h3>
             <p className="title">B.eng Telecommunications Engineering</p>
@@ -32,7 +32,7 @@ const Team = () => {
             <div className="img">
               <img
                 src="https://images.squarespace-cdn.com/content/v1/5dc5d641498834108f7c46a5/564a726c-ec6a-470b-9769-1c5045358424/What%27s+Your+Why+Hero.jpg"
-                alt=""
+                alt="asend staff"
               />
             </div>
             <h3>Sir Harry Mukete</h3>
@@ -55,7 +55,7 @@ const Team = () => {
             <div className="img">
               <img
                 src="https://www.shutterstock.com/image-photo/portrait-half-turn-brunet-hair-260nw-1216693528.jpg"
-                alt=""
+                alt="asend staff"
               />
             </div>
             <h3>Tracy D. Wright</h3>
