@@ -222,7 +222,7 @@ const MedicineTab = () => {
               <h3 className="content-header">
                 Faculty of Medicine and Biomedical Science, Yaounde
               </h3>
-              {/* <span>4 years - Bachelors or 7 years - Doctor Of Medicine</span>
+              <span>4 years - Bachelors or 7 years - Doctor Of Medicine</span>
 
               <div className="requirements">
                 <div>
@@ -273,14 +273,14 @@ const MedicineTab = () => {
               <Link to="/" className="link" target="_blank">
                 <span>Read More</span>
                 <i className="bx bxs-chevron-right"></i>
-              </Link> */}
+              </Link>
             </div>
             <div id="fmps_dla" className={`${5 === visible ? 'active' : ''}`}>
               <h3 className="content-header">
                 Faculty of Medicine and Pharmaceutical Science, Dschang
               </h3>
               <span>4 years - Bachelors or 7 years - Doctor Of Medicine</span>
-              {/* 
+
               <div className="requirements">
                 <div>
                   <div>
@@ -330,7 +330,7 @@ const MedicineTab = () => {
               <Link to="/" className="link" target="_blank">
                 <span>Read More</span>
                 <i className="bx bxs-chevron-right"></i>
-              </Link> */}
+              </Link>
             </div>
           </div>
         </div>

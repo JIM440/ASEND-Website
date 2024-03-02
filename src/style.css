@@ -266,8 +266,9 @@ section {
   width: 25%;
 }
 .team-container .team-box .position .profile-links img {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
+  min-width: 18px;
   background-color: rgb(247, 107, 107);
 }
 

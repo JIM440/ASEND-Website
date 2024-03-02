@@ -35,7 +35,7 @@ const VetAgricTab = () => {
                 toggleVisible(3);
               }}
             >
-              FS
+              FS Ng.
             </button>
           </div>
           <div className="tab-content tab-content1">
@@ -84,10 +84,6 @@ const VetAgricTab = () => {
                   </div>
                 </div>
               </div>
-              <Link to="/" className="link" target="_blank">
-                <span>Read More</span>
-                <i className="bx bxs-chevron-right"></i>
-              </Link>
             </div>
             <div id="fasa" className={`${2 === visible ? 'active' : ''}`}>
               <h3 className="content-header">

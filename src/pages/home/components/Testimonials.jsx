@@ -35,9 +35,8 @@ const Testimonials = () => {
         <div className="testimonial-container">
           {testimonials.map((testimonial, index) => (
             <div className="testimonial-box" key={index}>
-              <img src={testimonial.image} alt="" />
-              <h3 className="name">{testimonial.name}</h3>
               <p className="content">{testimonial.content}</p>
+              <h3 className="name">{testimonial.name}</h3>
               <p className="level">
                 <span>{testimonial.level}</span>
               </p>

@@ -2,6 +2,15 @@ import { Link } from 'react-router-dom';
 // images
 import Linkedin from '../../../assets/icons/linkedin.png';
 import Instagram from '../../../assets/icons/ig.jpg';
+// leaders images
+import david from '../../../assets/img/team/golda.jpg';
+import cabrel from '../../../assets/img/team/golda.jpg';
+import sone from '../../../assets/img/team/golda.jpg';
+import golda from '../../../assets/img/team/golda.jpg';
+import yannick from '../../../assets/img/team/golda.jpg';
+import usman from '../../../assets/img/team/usman.jpg';
+import lois from '../../../assets/img/team/Lois.jpg';
+// team images
 import salif from '../../../assets/img/team/salif.jpg';
 
 const AboutTeam = () => {
@@ -78,10 +87,7 @@ const AboutTeam = () => {
           </div>
           <div className="team-box">
             <div className="img">
-              <img
-                src="https://images.squarespace-cdn.com/content/v1/5dc5d641498834108f7c46a5/564a726c-ec6a-470b-9769-1c5045358424/What%27s+Your+Why+Hero.jpg"
-                alt=""
-              />
+              <img src={golda} alt="" />
             </div>
             <h3>Engr. Acha Golda Angwe</h3>
             <p className="title">B.eng Electrical Power Systems Engineering</p>
@@ -120,10 +126,7 @@ const AboutTeam = () => {
           </div>
           <div className="team-box">
             <div className="img">
-              <img
-                src="https://www.hindustantimes.com/ht-img/img/2023/09/02/1600x900/teachers_day_1693652054152_1693652065719.jpg"
-                alt=""
-              />
+              <img src={usman} alt="" />
             </div>
             <h3>Engr. Usmanu Chuka</h3>
             <p className="title">B.eng Telecommunications Engineering</p>
@@ -141,10 +144,7 @@ const AboutTeam = () => {
           </div>
           <div className="team-box">
             <div className="img">
-              <img
-                src="https://www.hindustantimes.com/ht-img/img/2023/09/02/1600x900/teachers_day_1693652054152_1693652065719.jpg"
-                alt=""
-              />
+              <img src={lois} alt="" />
             </div>
             <h3>Bungwa Lois Nabila</h3>
             <p className="title">Bachelor Of Nursing Science</p>

@@ -1,5 +1,6 @@
 import Linkedin from '../../../assets/icons/linkedin.png';
 import Instagram from '../../../assets/icons/ig.jpg';
+import usman from '../../../assets/img/team/usman.jpg';
 import { Link } from 'react-router-dom';
 
 const Team = () => {
@@ -11,10 +12,7 @@ const Team = () => {
         <div className="team-container">
           <div className="team-box">
             <div className="img">
-              <img
-                src="https://cdn.eduadvisor.my/articles/2022/04/how-to-be-teacher-malaysia-feature.png"
-                alt=""
-              />
+              <img src={usman} alt="" />
             </div>
             <h3>Engr. Usmanu Chuka</h3>
             <p className="title">B.eng Telecommunications Engineering</p>
