@@ -230,12 +230,9 @@ const MedicineTab = () => {
                     <h3>Departments</h3>
                     <ul>
                       <li>General Medicine</li>
-                      <li>Public Health</li>
-                      <li>Biomedical Science</li>
                       <li>Pharmacy</li>
-                      <li>Physiotherapy</li>
-                      <li>Epidemiology</li>
-                      <li>Clinical Biology</li>
+                      <li>Dental Medicine</li>
+                      <li>Public Health</li>
                     </ul>
                   </div>
                   <div>
@@ -287,12 +284,7 @@ const MedicineTab = () => {
                     <h3>Departments</h3>
                     <ul>
                       <li>General Medicine</li>
-                      <li>Public Health</li>
-                      <li>Biomedical Science</li>
                       <li>Pharmacy</li>
-                      <li>Physiotherapy</li>
-                      <li>Epidemiology</li>
-                      <li>Clinical Biology</li>
                     </ul>
                   </div>
                   <div>
