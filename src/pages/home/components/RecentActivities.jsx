@@ -17,14 +17,18 @@ const RecentActivities = () => {
             </div>
             <div>
               <h3>Career Orientation</h3>
-              <span className="date">26/02/2023</span>
+              <span className="date">26/02/2024</span>
             </div>
             <p className="description">
               ASEND organized a comprehensive career orientation session,
               enlightening students about various career paths available in the
               engineering, medical, agriculture and Veterinary medicine fields.
             </p>
-            <Link to="" className="link">
+            <Link
+              to=""
+              aria-label="link to read more on career orientation"
+              className="link"
+            >
               <span>Read More</span>
               <i className="bx bx-chevron-right"></i>
             </Link>
@@ -35,14 +39,18 @@ const RecentActivities = () => {
             </div>
             <div>
               <h3>World Engineering Day</h3>
-              <span className="date">03/03/23</span>
+              <span className="date">04/03/23</span>
             </div>
             <p className="description">
               ASEND actively participated in World Engineering Day. We showcased
               various engineering projects and highlighted the importance of
               engineering in driving innovation and global progress.
             </p>
-            <Link to="" className="link">
+            <Link
+              to=""
+              aria-label="link to read more on world engineering day"
+              className="link"
+            >
               <span>Read More</span>
               <i className="bx bx-chevron-right"></i>
             </Link>
@@ -62,7 +70,11 @@ const RecentActivities = () => {
               served as a valuable assessment tool but also gave students a
               foretaste of how the actual entrance examinations will look like.
             </p>
-            <Link to="" className="link">
+            <Link
+              to=""
+              aria-label="link to read more on premed/preengr exams"
+              className="link"
+            >
               <span>Read More</span>
               <i className="bx bx-chevron-right"></i>
             </Link>
@@ -79,7 +91,11 @@ const RecentActivities = () => {
             access to quality education, orientation, and the possibility of
             them studying their dream school.
           </p>
-          <Link to="/support" className="btn">
+          <Link
+            to="/support"
+            className="btn"
+            aria-label="link to support us page"
+          >
             Support Us
           </Link>
         </div>

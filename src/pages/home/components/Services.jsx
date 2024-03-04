@@ -53,8 +53,12 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <Link to="/services" className="link">
-          <span>See More</span>
+        <Link
+          to="/services"
+          aria-label="link to asend services page"
+          className="link"
+        >
+          <span>See More Services</span>
           <i className="bx bxs-chevron-right"></i>
         </Link>
       </div>

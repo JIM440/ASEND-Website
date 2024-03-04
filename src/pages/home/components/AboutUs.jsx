@@ -16,6 +16,7 @@ const AboutUs = () => {
                 color: '#4169e1',
                 textDecoration: 'underline',
               }}
+              aria-label="link to asend concour page"
             >
               concours
             </Link>
@@ -30,6 +31,7 @@ const AboutUs = () => {
                 color: '#4169e1',
                 textDecoration: 'underline',
               }}
+              aria-label="link to asend concour page"
             >
               competitive entrance exam
             </Link>
@@ -47,12 +49,20 @@ const AboutUs = () => {
             new heights in your educational journey.
           </p>
           <div className="btn-container">
-            <Link to="about" className="btn">
+            <Link
+              to="about"
+              className="btn"
+              aria-label="link to asend about us page"
+            >
               Learn More
             </Link>
-            <Link to="#contact" className="btn btn-white">
+            <a
+              href="#contact"
+              className="btn btn-white"
+              aria-label="link to contact form"
+            >
               Get Started
-            </Link>
+            </a>
           </div>
         </div>
         <div className="image">

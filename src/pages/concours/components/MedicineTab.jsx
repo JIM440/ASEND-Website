@@ -14,6 +14,7 @@ const MedicineTab = () => {
         <div className="tab">
           <div className="tab-menu">
             <button
+              aria-label="open FHS Bueacontent"
               className={`${1 === visible ? 'active' : ''}`}
               onClick={() => {
                 toggleVisible(1);
@@ -22,6 +23,7 @@ const MedicineTab = () => {
               FHS Buea
             </button>
             <button
+              aria-label="open FHS Bamenda content"
               className={`${2 === visible ? 'active' : ''}`}
               onClick={() => {
                 toggleVisible(2);
@@ -30,6 +32,7 @@ const MedicineTab = () => {
               FHS Bamenda
             </button>
             <button
+              aria-label="open FMSP DSCHANG content"
               className={`${3 === visible ? 'active' : ''}`}
               onClick={() => {
                 toggleVisible(3);
@@ -38,6 +41,7 @@ const MedicineTab = () => {
               FMSP Dschang
             </button>
             <button
+              aria-label="open  FMBS Yde content"
               className={`${4 === visible ? 'active' : ''}`}
               onClick={() => {
                 toggleVisible(4);
@@ -46,6 +50,7 @@ const MedicineTab = () => {
               FMBS Yde
             </button>
             <button
+              aria-label="open FMPS Dla content"
               className={`${5 === visible ? 'active' : ''}`}
               onClick={() => {
                 toggleVisible(5);
@@ -274,7 +279,7 @@ const MedicineTab = () => {
             </div>
             <div id="fmps_dla" className={`${5 === visible ? 'active' : ''}`}>
               <h3 className="content-header">
-                Faculty of Medicine and Pharmaceutical Science, Dschang
+                Faculty of Medicine and Pharmaceutical Science, Douala
               </h3>
               <span>4 years - Bachelors or 7 years - Doctor Of Medicine</span>
 

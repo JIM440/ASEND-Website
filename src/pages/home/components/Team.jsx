@@ -19,10 +19,13 @@ const Team = () => {
             <div className="position">
               <p className="position">DAAS | Engineering Tutor</p>
               <div className="profile-links">
-                <a href="linkedin.com">
+                <a href="linkedin.com" aria-label="link to staff linkedin page">
                   <img src={Linkedin} alt="LinkenIn Icon" />
                 </a>
-                <a href="instagram.com">
+                <a
+                  href="instagram.com"
+                  aria-label="link to staff instagram page"
+                >
                   <img src={Instagram} alt="ig icon" />
                 </a>
               </div>
@@ -42,10 +45,13 @@ const Team = () => {
                 Cordinator Medicine Buea | Medicine Tutor
               </p>
               <div className="profile-links">
-                <a href="linkedin.com">
+                <a href="linkedin.com" aria-label="link to staff linkedin page">
                   <img src={Linkedin} alt="LinkenIn Icon" />
                 </a>
-                <a href="instagram.com">
+                <a
+                  href="instagram.com"
+                  aria-label="link to staff instagram page"
+                >
                   <img src={Instagram} alt="ig icon" />
                 </a>
               </div>
@@ -63,10 +69,13 @@ const Team = () => {
             <div className="position">
               <p className="position">Vet/Agric Tutor</p>
               <div className="profile-links">
-                <a href="linkedin.com">
+                <a href="linkedin.com" aria-label="link to staff linkedin page">
                   <img src={Linkedin} alt="LinkenIn Icon" />
                 </a>
-                <a href="instagram.com">
+                <a
+                  href="instagram.com"
+                  aria-label="link to staff instagram page"
+                >
                   <img src={Instagram} alt="ig icon" />
                 </a>
               </div>

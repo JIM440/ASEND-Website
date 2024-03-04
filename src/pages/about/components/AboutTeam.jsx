@@ -31,10 +31,16 @@ const AboutTeam = () => {
             <div className="position">
               <p className="position">Co-Founder | Board Member</p>
               <div className="profile-links">
-                <a href="linkendin.com">
+                <a
+                  href="linkendin.com"
+                  aria-label="link to staff linkedin page"
+                >
                   <img src={Linkedin} alt="LinkenIn Icon" />
                 </a>
-                <a href="instagram.com">
+                <a
+                  href="instagram.com"
+                  aria-label="link to staff instagram page"
+                >
                   <img src={Instagram} alt="ig icon" />
                 </a>
               </div>
@@ -52,10 +58,16 @@ const AboutTeam = () => {
             <div className="position">
               <p className="position">Co-Founder | Board Member</p>
               <div className="profile-links">
-                <a href="linkendin.com">
+                <a
+                  href="linkendin.com"
+                  aria-label="link to staff linkedin page"
+                >
                   <img src={Linkedin} alt="LinkenIn Icon" />
                 </a>
-                <a href="instagram.com">
+                <a
+                  href="instagram.com"
+                  aria-label="link to staff instagram page"
+                >
                   <img src={Instagram} alt="ig icon" />
                 </a>
               </div>
@@ -73,10 +85,16 @@ const AboutTeam = () => {
             <div className="position">
               <p className="position">Board Member</p>
               <div className="profile-links">
-                <a href="linkendin.com">
+                <a
+                  href="linkendin.com"
+                  aria-label="link to staff linkedin page"
+                >
                   <img src={Linkedin} alt="LinkenIn Icon" />
                 </a>
-                <a href="instagram.com">
+                <a
+                  href="instagram.com"
+                  aria-label="link to staff instagram page"
+                >
                   <img src={Instagram} alt="ig icon" />
                 </a>
               </div>
@@ -91,10 +109,16 @@ const AboutTeam = () => {
             <div className="position">
               <p className="position">General Coordinator</p>
               <div className="profile-links">
-                <a href="linkendin.com">
+                <a
+                  href="linkendin.com"
+                  aria-label="link to staff linkedin page"
+                >
                   <img src={Linkedin} alt="LinkenIn Icon" />
                 </a>
-                <a href="instagram.com">
+                <a
+                  href="instagram.com"
+                  aria-label="link to staff instagram page"
+                >
                   <img src={Instagram} alt="ig icon" />
                 </a>
               </div>
@@ -112,10 +136,16 @@ const AboutTeam = () => {
             <div className="position">
               <p className="position">Vice General Coordinator</p>
               <div className="profile-links">
-                <a href="linkendin.com">
+                <a
+                  href="linkendin.com"
+                  aria-label="link to staff linkedin page"
+                >
                   <img src={Linkedin} alt="LinkenIn Icon" />
                 </a>
-                <a href="instagram.com">
+                <a
+                  href="instagram.com"
+                  aria-label="link to staff instagram page"
+                >
                   <img src={Instagram} alt="ig icon" />
                 </a>
               </div>
@@ -130,10 +160,16 @@ const AboutTeam = () => {
             <div className="position">
               <p className="position">DAAS</p>
               <div className="profile-links">
-                <a href="linkendin.com">
+                <a
+                  href="linkendin.com"
+                  aria-label="link to staff linkedin page"
+                >
                   <img src={Linkedin} alt="LinkenIn Icon" />
                 </a>
-                <a href="instagram.com">
+                <a
+                  href="instagram.com"
+                  aria-label="link to staff instagram page"
+                >
                   <img src={Instagram} alt="ig icon" />
                 </a>
               </div>
@@ -148,10 +184,16 @@ const AboutTeam = () => {
             <div className="position">
               <p className="position">Secretary General</p>
               <div className="profile-links">
-                <a href="linkendin.com">
+                <a
+                  href="linkendin.com"
+                  aria-label="link to staff linkedin page"
+                >
                   <img src={Linkedin} alt="LinkenIn Icon" />
                 </a>
-                <a href="instagram.com">
+                <a
+                  href="instagram.com"
+                  aria-label="link to staff instagram page"
+                >
                   <img src={Instagram} alt="ig icon" />
                 </a>
               </div>
@@ -165,7 +207,11 @@ const AboutTeam = () => {
               students achieve their dreams of getting into their desired
               professional school.
             </p>
-            <Link to="/" className="btn">
+            <Link
+              to="/"
+              aria-label="link to join our team google form"
+              className="btn"
+            >
               Join Our Team
             </Link>
           </div>
@@ -187,10 +233,16 @@ const AboutTeam = () => {
             <div className="position">
               <p className="position">Medicine Tutor</p>
               <div className="profile-links">
-                <a href="linkendin.com">
+                <a
+                  href="linkendin.com"
+                  aria-label="link to staff linkedin page"
+                >
                   <img src={Linkedin} alt="LinkenIn Icon" />
                 </a>
-                <a href="instagram.com">
+                <a
+                  href="instagram.com"
+                  aria-label="link to staff instagram page"
+                >
                   <img src={Instagram} alt="ig icon" />
                 </a>
               </div>
@@ -207,10 +259,16 @@ const AboutTeam = () => {
             <div className="position">
               <p className="position">Engineering Coordinator- Buea</p>
               <div className="profile-links">
-                <a href="linkendin.com">
+                <a
+                  href="linkendin.com"
+                  aria-label="link to staff linkedin page"
+                >
                   <img src={Linkedin} alt="LinkenIn Icon" />
                 </a>
-                <a href="instagram.com">
+                <a
+                  href="instagram.com"
+                  aria-label="link to staff instagram page"
+                >
                   <img src={Instagram} alt="ig icon" />
                 </a>
               </div>
@@ -228,10 +286,16 @@ const AboutTeam = () => {
             <div className="position">
               <p className="position">Medicine Tutor</p>
               <div className="profile-links">
-                <a href="linkendin.com">
+                <a
+                  href="linkendin.com"
+                  aria-label="link to staff linkedin page"
+                >
                   <img src={Linkedin} alt="LinkenIn Icon" />
                 </a>
-                <a href="instagram.com">
+                <a
+                  href="instagram.com"
+                  aria-label="link to staff instagram page"
+                >
                   <img src={Instagram} alt="ig icon" />
                 </a>
               </div>
@@ -249,10 +313,16 @@ const AboutTeam = () => {
             <div className="position">
               <p className="position">Engineering Tutor</p>
               <div className="profile-links">
-                <a href="linkendin.com">
+                <a
+                  href="linkendin.com"
+                  aria-label="link to staff linkedin page"
+                >
                   <img src={Linkedin} alt="LinkenIn Icon" />
                 </a>
-                <a href="instagram.com">
+                <a
+                  href="instagram.com"
+                  aria-label="link to staff instagram page"
+                >
                   <img src={Instagram} alt="ig icon" />
                 </a>
               </div>
@@ -270,10 +340,16 @@ const AboutTeam = () => {
             <div className="position">
               <p className="position">Veterinary/Agriculture Tutor</p>
               <div className="profile-links">
-                <a href="linkendin.com">
+                <a
+                  href="linkendin.com"
+                  aria-label="link to staff linkedin page"
+                >
                   <img src={Linkedin} alt="LinkenIn Icon" />
                 </a>
-                <a href="instagram.com">
+                <a
+                  href="instagram.com"
+                  aria-label="link to staff instagram page"
+                >
                   <img src={Instagram} alt="ig icon" />
                 </a>
               </div>
@@ -291,10 +367,16 @@ const AboutTeam = () => {
             <div className="position">
               <p className="position">Engineering Tutor</p>
               <div className="profile-links">
-                <a href="linkendin.com">
+                <a
+                  href="linkendin.com"
+                  aria-label="link to staff linkedin page"
+                >
                   <img src={Linkedin} alt="LinkenIn Icon" />
                 </a>
-                <a href="instagram.com">
+                <a
+                  href="instagram.com"
+                  aria-label="link to staff instagram page"
+                >
                   <img src={Instagram} alt="ig icon" />
                 </a>
               </div>
@@ -312,10 +394,16 @@ const AboutTeam = () => {
             <div className="position">
               <p className="position">Medicine Tutor</p>
               <div className="profile-links">
-                <a href="linkendin.com">
+                <a
+                  href="linkendin.com"
+                  aria-label="link to staff linkedin page"
+                >
                   <img src={Linkedin} alt="LinkenIn Icon" />
                 </a>
-                <a href="instagram.com">
+                <a
+                  href="instagram.com"
+                  aria-label="link to staff instagram page"
+                >
                   <img src={Instagram} alt="ig icon" />
                 </a>
               </div>
@@ -333,10 +421,16 @@ const AboutTeam = () => {
             <div className="position">
               <p className="position">Engineering Tutor</p>
               <div className="profile-links">
-                <a href="linkendin.com">
+                <a
+                  href="linkendin.com"
+                  aria-label="link to staff linkedin page"
+                >
                   <img src={Linkedin} alt="LinkenIn Icon" />
                 </a>
-                <a href="instagram.com">
+                <a
+                  href="instagram.com"
+                  aria-label="link to staff instagram page"
+                >
                   <img src={Instagram} alt="ig icon" />
                 </a>
               </div>
@@ -354,10 +448,16 @@ const AboutTeam = () => {
             <div className="position">
               <p className="position">Veterinary/Agriculture Tutor</p>
               <div className="profile-links">
-                <a href="linkendin.com">
+                <a
+                  href="linkendin.com"
+                  aria-label="link to staff linkedin page"
+                >
                   <img src={Linkedin} alt="LinkenIn Icon" />
                 </a>
-                <a href="instagram.com">
+                <a
+                  href="instagram.com"
+                  aria-label="link to staff instagram page"
+                >
                   <img src={Instagram} alt="ig icon" />
                 </a>
               </div>
@@ -375,10 +475,16 @@ const AboutTeam = () => {
             <div className="position">
               <p className="position">Engineering Tutor</p>
               <div className="profile-links">
-                <a href="linkendin.com">
+                <a
+                  href="linkendin.com"
+                  aria-label="link to staff linkedin page"
+                >
                   <img src={Linkedin} alt="LinkenIn Icon" />
                 </a>
-                <a href="instagram.com">
+                <a
+                  href="instagram.com"
+                  aria-label="link to staff instagram page"
+                >
                   <img src={Instagram} alt="ig icon" />
                 </a>
               </div>
@@ -396,10 +502,16 @@ const AboutTeam = () => {
             <div className="position">
               <p className="position">Medicine Tutor</p>
               <div className="profile-links">
-                <a href="linkendin.com">
+                <a
+                  href="linkendin.com"
+                  aria-label="link to staff linkedin page"
+                >
                   <img src={Linkedin} alt="LinkenIn Icon" />
                 </a>
-                <a href="instagram.com">
+                <a
+                  href="instagram.com"
+                  aria-label="link to staff instagram page"
+                >
                   <img src={Instagram} alt="ig icon" />
                 </a>
               </div>

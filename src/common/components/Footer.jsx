@@ -8,8 +8,8 @@ const Footer = () => {
       <div className="container">
         <div className="footer-grid-container">
           <div className="footer-grid-box">
-            <Link to="/" className="logo">
-              <img src={logo} alt="" />
+            <Link to="/" aria-label="link to home page" className="logo">
+              <img src={logo} alt="logo" />
               <h2>ASEND</h2>
             </Link>
             <form action="" className="flex-col">
@@ -22,7 +22,11 @@ const Footer = () => {
                   id="newsletter-email"
                   required
                 />
-                <button type="submit" className="btn">
+                <button
+                  type="submit"
+                  aria-label="submit newsletter"
+                  className="btn"
+                >
                   Subscribe
                 </button>
               </div>
@@ -31,16 +35,32 @@ const Footer = () => {
               <b>Follow Us:</b>
             </span>
             <div className="social-links">
-              <a href="/facebook.com">
+              <a
+                href="/facebook.com"
+                aria-label="link to asend facebook page"
+                target="_blank"
+              >
                 <i className="bi bi-facebook"></i>
               </a>
-              <a href="/youtube.com">
+              <a
+                href="/youtube.com"
+                aria-label="link to asend youtube page"
+                target="_blank"
+              >
                 <i className="bi bi-youtube"></i>
               </a>
-              <a href="/instagram.com">
+              <a
+                href="/instagram.com"
+                aria-label="link to asend instagram page"
+                target="_blank"
+              >
                 <i className="bi bi-instagram"></i>
               </a>
-              <a href="/whatsapp.me">
+              <a
+                href="/whatsapp.me"
+                aria-label="link to asend whatsapp page"
+                target="_blank"
+              >
                 <i className="bi bi-whatsapp"></i>
               </a>
             </div>
@@ -50,16 +70,24 @@ const Footer = () => {
             <p>Quick Links</p>
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/" aria-label="link to asend home page">
+                  Home
+                </Link>
               </li>
               <li>
-                <Link to="about">About</Link>
+                <Link to="about" aria-label="link to asend about page">
+                  About
+                </Link>
               </li>
               <li>
-                <Link to="services">Services</Link>
+                <Link to="services" aria-label="link to asend services page">
+                  Services
+                </Link>
               </li>
               <li>
-                <Link to="concours">Concours</Link>
+                <Link to="concours" aria-label="link to asend concours page">
+                  Concours
+                </Link>
               </li>
             </ul>
           </div>
@@ -68,13 +96,28 @@ const Footer = () => {
             <p>Concours</p>
             <ul>
               <li>
-                <Link to="concours/engineering">Engineering</Link>
+                <Link
+                  to="concours/engineering"
+                  aria-label="link to asend engineering concour page"
+                >
+                  Engineering
+                </Link>
               </li>
               <li>
-                <Link to="concours/medicine">Medicine</Link>
+                <Link
+                  to="concours/medicine"
+                  aria-label="link to asend medicine concour page"
+                >
+                  Medicine
+                </Link>
               </li>
               <li>
-                <Link to="concours/agriculture">Agric/Vet</Link>
+                <Link
+                  to="concours/agriculture"
+                  aria-label="link to asend agric/vet concour page"
+                >
+                  Agric/Vet
+                </Link>
               </li>
             </ul>
           </div>

@@ -15,6 +15,7 @@ const EngineeringTab = () => {
         <div className="tab">
           <div className="tab-menu">
             <button
+              aria-label="open FET content"
               className={`${1 === visible ? 'active' : ''}`}
               onClick={() => {
                 toggleVisible(1);
@@ -23,6 +24,7 @@ const EngineeringTab = () => {
               FET
             </button>
             <button
+              aria-label="open COT content"
               className={`${2 === visible ? 'active' : ''}`}
               onClick={() => {
                 toggleVisible(2);
@@ -31,6 +33,7 @@ const EngineeringTab = () => {
               COT
             </button>
             <button
+              aria-label="open NAHPI content"
               className={`${3 === visible ? 'active' : ''}`}
               onClick={() => {
                 toggleVisible(3);
@@ -39,6 +42,7 @@ const EngineeringTab = () => {
               NAHPI
             </button>
             <button
+              aria-label="open ENSTP content"
               className={`${4 === visible ? 'active' : ''}`}
               onClick={() => {
                 toggleVisible(4);
@@ -47,6 +51,7 @@ const EngineeringTab = () => {
               ENSTP
             </button>
             <button
+              aria-label="open ENSPY content"
               className={`${5 === visible ? 'active' : ''}`}
               onClick={() => {
                 toggleVisible(5);
@@ -55,6 +60,7 @@ const EngineeringTab = () => {
               ENSPY
             </button>
             <button
+              aria-label="open ENSPD content"
               className={`${6 === visible ? 'active' : ''}`}
               onClick={() => {
                 toggleVisible(6);

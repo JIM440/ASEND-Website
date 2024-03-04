@@ -72,7 +72,11 @@ const Contact = () => {
               placeholder="Message"
               required
             ></textarea>
-            <button type="submit" className="btn">
+            <button
+              type="submit"
+              aria-label="submit contact form"
+              className="btn"
+            >
               Send Message
             </button>
           </form>

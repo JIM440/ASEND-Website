@@ -28,10 +28,18 @@ const Home = () => {
             various professional schools in Cameroon.
           </p>
           <div className="btn-container">
-            <Link to="#contact" className="btn">
+            <a
+              href="#contact"
+              className="btn"
+              aria-label="link to contact form"
+            >
               Contact Us
-            </Link>
-            <Link to="about" className="btn btn-white">
+            </a>
+            <Link
+              to="about"
+              aria-label="link to about us page"
+              className="btn btn-white"
+            >
               Learn More
             </Link>
           </div>

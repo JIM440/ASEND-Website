@@ -14,6 +14,7 @@ const VetAgricTab = () => {
         <div className="tab">
           <div className="tab-menu">
             <button
+              aria-label="open FAVM content"
               className={`${1 === visible ? 'active' : ''}`}
               onClick={() => {
                 toggleVisible(1);
@@ -22,6 +23,7 @@ const VetAgricTab = () => {
               FAVM
             </button>
             <button
+              aria-label="open FASA content"
               className={`${2 === visible ? 'active' : ''}`}
               onClick={() => {
                 toggleVisible(2);
@@ -30,6 +32,7 @@ const VetAgricTab = () => {
               FASA
             </button>
             <button
+              aria-label="open FS Ngaoundere content"
               className={`${3 === visible ? 'active' : ''}`}
               onClick={() => {
                 toggleVisible(3);

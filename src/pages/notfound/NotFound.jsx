@@ -12,7 +12,9 @@ const NotFound = () => {
         <p>Sorry 😥 , can't find this page</p>
         <p>
           <span>Return to </span>
-          <Link to="/">Home Page</Link>
+          <Link to="/" aria-label="link to home page">
+            Home Page
+          </Link>
         </p>
       </div>
     </section>

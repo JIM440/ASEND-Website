@@ -58,9 +58,12 @@ nav {
           left: 0;
         }
       }
-      .btn {
-        color: $white;
-        padding-inline: 9px;
+      li:has(a.btn) {
+        padding-block: 8px;
+        a {
+          color: $white;
+          padding-inline: 9px;
+        }
       }
 
       // nav item
@@ -205,7 +208,7 @@ nav.clicked {
   scrollbar-color: transparent transparent;
   z-index: 10;
 
-  ul {
+  ul.links-container {
     display: flex;
     flex-direction: column;
     gap: 10px;

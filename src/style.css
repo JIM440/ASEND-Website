@@ -25,6 +25,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: "Quicksand", sans-serif;
+  font-display: swap;
 }
 
 body {
@@ -237,17 +238,17 @@ section {
 }
 .team-container .team-box .img {
   width: 100%;
+  min-height: 300px;
 }
 .team-container .team-box .img img {
   width: 100%;
+  height: 100%;
   border-radius: 8px;
-  height: 300px;
   object-fit: cover;
-  background-color: #877b7b;
 }
 .team-container .team-box .title {
   font-size: 14px;
-  color: #877b7b;
+  color: #524c4c;
 }
 .team-container .team-box h3 {
   color: #1967d2;
@@ -414,7 +415,10 @@ nav .container .desktop-nav li:has(a.active)::before {
   bottom: -7px;
   left: 0;
 }
-nav .container .desktop-nav .btn {
+nav .container .desktop-nav li:has(a.btn) {
+  padding-block: 8px;
+}
+nav .container .desktop-nav li:has(a.btn) a {
   color: white;
   padding-inline: 9px;
 }
@@ -544,59 +548,59 @@ nav.clicked {
   scrollbar-color: transparent transparent;
   z-index: 10;
 }
-.mobile-nav ul {
+.mobile-nav ul.links-container {
   display: flex;
   flex-direction: column;
   gap: 10px;
   max-width: 160px;
   justify-content: center;
 }
-.mobile-nav ul li {
+.mobile-nav ul.links-container li {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
 }
-.mobile-nav ul li a {
+.mobile-nav ul.links-container li a {
   display: flex;
   justify-content: start;
   padding: 1rem;
   align-items: center;
   gap: 2rem;
 }
-.mobile-nav ul li a span {
+.mobile-nav ul.links-container li a span {
   color: black;
   font-size: 20px;
 }
-.mobile-nav ul li a i {
+.mobile-nav ul.links-container li a i {
   color: black;
 }
-.mobile-nav ul li a:hover i,
-.mobile-nav ul li a:hover span {
+.mobile-nav ul.links-container li a:hover i,
+.mobile-nav ul.links-container li a:hover span {
   color: #1967d2;
 }
-.mobile-nav ul li a.active i,
-.mobile-nav ul li a.active span {
+.mobile-nav ul.links-container li a.active i,
+.mobile-nav ul.links-container li a.active span {
   color: #1967d2;
 }
-.mobile-nav ul .links {
+.mobile-nav ul.links-container .links {
   display: flex;
   flex-direction: column;
 }
-.mobile-nav ul .links a {
+.mobile-nav ul.links-container .links a {
   width: 100%;
 }
-.mobile-nav ul .social-links {
+.mobile-nav ul.links-container .social-links {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0px;
   gap: 16px;
 }
-.mobile-nav ul .social-links a {
+.mobile-nav ul.links-container .social-links a {
   padding: 16px 0px;
 }
-.mobile-nav ul .social-links i {
+.mobile-nav ul.links-container .social-links i {
   font-size: 28px;
 }
 
@@ -920,13 +924,13 @@ nav.clicked {
 }
 .teamAbout .team-container-about .team-box .img {
   width: 100%;
+  min-height: 200px;
 }
 .teamAbout .team-container-about .team-box .img img {
+  height: 100%;
   width: 100%;
   border-radius: 8px;
-  height: 200px;
   object-fit: cover;
-  background-color: #877b7b;
 }
 .teamAbout .team-container-about .team-box h3 {
   font-size: 16px;

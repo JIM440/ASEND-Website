@@ -50,8 +50,13 @@ const Navbar = () => {
       {/* NavBar */}
       <nav className={open ? 'clicked' : ''}>
         <div className="container">
-          <Link to="/" className="logo" onClick={toggleAll}>
-            <img src={logo} alt="" />
+          <Link
+            to="/"
+            aria-label="link to home page and also logo image"
+            className="logo"
+            onClick={toggleAll}
+          >
+            <img src={logo} alt="logo" />
             <h2>ASEND</h2>
           </Link>
 
@@ -59,34 +64,42 @@ const Navbar = () => {
           <ul className="desktop-nav">
             {/* Home */}
             <li className="first-link">
-              <NavLink to="/">
+              <NavLink to="/" aria-label="link to asend home page">
                 <p>Home</p>
               </NavLink>
             </li>
             {/* About */}
             <li className="first-link">
-              <NavLink to="about">
+              <NavLink to="about" aria-label="link to asend about us page">
                 <p>About</p>
               </NavLink>
             </li>
             {/* Services */}
             <li className="first-link">
-              <NavLink to="services">
+              <NavLink to="services" aria-label="link to asend services page">
                 <p>Services</p>
               </NavLink>
             </li>
             {/* Concours */}
             <li className="first-link">
-              <NavLink to="concours">
+              <NavLink to="concours" aria-label="link to asend concours page">
                 <p>Concours</p>
               </NavLink>
             </li>
             {/* call to action */}
-            <Link to="support" className="btn">
-              Support Us
-            </Link>
+            <li>
+              <Link
+                to="support"
+                className="btn"
+                aria-label="lint to support us page"
+              >
+                Support Us
+              </Link>
+            </li>
           </ul>
           <button
+            type="button"
+            aria-label="menu button"
             className={`menu-button ${open ? 'clicked' : ''}`}
             onClick={toggleOpen}
           >
@@ -98,6 +111,8 @@ const Navbar = () => {
       </nav>
 
       <button
+        type="button"
+        aria-label="back to top button"
         onClick={top}
         className={`scrollTop ${topVisible ? 'active' : ''}`}
       >
@@ -106,55 +121,97 @@ const Navbar = () => {
 
       {/* <!-- mobile nav --> */}
       <div className={`mobile-nav ${open ? 'active' : ''}`}>
-        <ul>
-          <div className="links">
+        <ul className="links-container">
+          <ul className="links">
             <li>
-              <NavLink to="/" onClick={toggleAll}>
+              <NavLink
+                to="/"
+                aria-label="link to asend home page"
+                onClick={toggleAll}
+              >
                 <i className="bx bxs-home"></i>
                 <span>Home</span>
               </NavLink>
             </li>
             <li>
-              <NavLink to="about" onClick={toggleAll}>
+              <NavLink
+                to="about"
+                aria-label="link to asend about page"
+                onClick={toggleAll}
+              >
                 <i className="bx bxs-user"></i> <span>About</span>
               </NavLink>
             </li>
             <li>
-              <NavLink to="services" onClick={toggleAll}>
+              <NavLink
+                to="services"
+                aria-label="link to asend services page"
+                onClick={toggleAll}
+              >
                 <i className="bx bxs-cog"></i>
                 <span>Services</span>
               </NavLink>
             </li>
             <li>
-              <NavLink to="concours" onClick={toggleAll}>
+              <NavLink
+                to="concours"
+                aria-label="link to asend concours page"
+                onClick={toggleAll}
+              >
                 <i className="bx bxs-book"></i>
                 <span>Concours</span>
               </NavLink>
             </li>
-          </div>
+          </ul>
           <li>
-            <Link to="support" onClick={toggleAll} className="btn">
+            <Link
+              to="support"
+              aria-label="link to support us page"
+              onClick={toggleAll}
+              className="btn"
+            >
               Support Us
             </Link>
           </li>
           <li>
             <div className="social-links">
-              <a href="/facebook.com">
+              <a
+                href="/facebook.com"
+                target="_blank"
+                aria-label="link to asend facebook page"
+              >
                 <i className="bi bi-facebook"></i>
               </a>
-              <a href="/youtube.com">
+              <a
+                href="/youtube.com"
+                target="_blank"
+                aria-label="link to asend youtube page"
+              >
                 <i className="bi bi-youtube"></i>
               </a>
-              <a href="/instagram.com">
+              <a
+                href="/instagram.com"
+                target="_blank"
+                aria-label="link to asend instagram page"
+              >
                 <i className="bi bi-instagram"></i>
               </a>
-              <a href="/whatsapp.me">
+              <a
+                href="/whatsapp.me"
+                target="_blank"
+                aria-label="link to asend whatsapp page"
+              >
                 <i className="bi bi-whatsapp"></i>
               </a>
             </div>
           </li>
           <li>
-            <a href="#contact" className="btn" onClick={toggleAll}>
+            <a
+              href="#contact"
+              className="btn"
+              onClick={toggleAll}
+              aria-label="link to contact form"
+            >
               Contact Us
             </a>
           </li>
