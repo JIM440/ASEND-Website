@@ -147,9 +147,6 @@ const Footer = () => {
                 <i className="bx bxs-envelope"></i>
                 <p>info@asendprep.com</p>
               </li>
-              <li>
-                <Link to="/"></Link>
-              </li>
             </ul>
           </div>
         </div>

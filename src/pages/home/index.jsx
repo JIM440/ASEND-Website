@@ -37,7 +37,7 @@ const Home = () => {
             </a>
             <Link
               to="about"
-              aria-label="link to about us page"
+              aria-label="link to asend about us page"
               className="btn btn-white"
             >
               Learn More
