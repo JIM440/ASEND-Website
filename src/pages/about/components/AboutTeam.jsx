@@ -12,6 +12,7 @@ import usman from '../../../assets/img/team/usman.jpg';
 import lois from '../../../assets/img/team/Lois.jpg';
 // team images
 import salif from '../../../assets/img/team/salif.jpg';
+import etien from '../../../assets/img/team/etien2.jpg';
 
 const AboutTeam = () => {
   return (
@@ -223,33 +224,6 @@ const AboutTeam = () => {
         <div className="team-container team-container-about">
           <div className="team-box">
             <div className="img">
-              <img
-                src="https://media.licdn.com/dms/image/D4E12AQHreMR7tl4vHQ/article-cover_image-shrink_720_1280/0/1695244196953?e=2147483647&v=beta&t=6Jm12Vy1nlZoDARkn7ziO-WUxShJqSVC3XIBKRKrOVc"
-                alt="asend staff"
-              />
-            </div>
-            <h3>Tracy D. Wright</h3>
-            <p className="title">MD Doctor Of Medicine</p>
-            <div className="position">
-              <p className="position">Medicine Tutor</p>
-              <div className="profile-links">
-                <a
-                  href="linkendin.com"
-                  aria-label="link to staff linkedin page"
-                >
-                  <img src={Linkedin} alt="LinkenIn Icon" />
-                </a>
-                <a
-                  href="instagram.com"
-                  aria-label="link to staff instagram page"
-                >
-                  <img src={Instagram} alt="ig icon" />
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="team-box">
-            <div className="img">
               <img src={salif} alt="asend staff" />
             </div>
             <h3>Engr. Njidda Salifu</h3>
@@ -274,71 +248,15 @@ const AboutTeam = () => {
               </div>
             </div>
           </div>
+
           <div className="team-box">
             <div className="img">
-              <img
-                src="https://images.squarespace-cdn.com/content/v1/5dc5d641498834108f7c46a5/564a726c-ec6a-470b-9769-1c5045358424/What%27s+Your+Why+Hero.jpg"
-                alt="asend staff"
-              />
+              <img src={etien} alt="asend staff" />
             </div>
-            <h3>Tracy D. Wright</h3>
-            <p className="title">MD Doctor Of Medicine</p>
+            <h3>Etiendem Betrand</h3>
+            <p className="title">4th Year Medicine Student</p>
             <div className="position">
-              <p className="position">Medicine Tutor</p>
-              <div className="profile-links">
-                <a
-                  href="linkendin.com"
-                  aria-label="link to staff linkedin page"
-                >
-                  <img src={Linkedin} alt="LinkenIn Icon" />
-                </a>
-                <a
-                  href="instagram.com"
-                  aria-label="link to staff instagram page"
-                >
-                  <img src={Instagram} alt="ig icon" />
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="team-box">
-            <div className="img">
-              <img
-                src="https://www.shutterstock.com/image-photo/portrait-happy-businessman-arms-crossed-600nw-388786822.jpg"
-                alt="asend staff"
-              />
-            </div>
-            <h3>Tracy D. Wright</h3>
-            <p className="title">B.eng Telecom Engineering</p>
-            <div className="position">
-              <p className="position">Engineering Tutor</p>
-              <div className="profile-links">
-                <a
-                  href="linkendin.com"
-                  aria-label="link to staff linkedin page"
-                >
-                  <img src={Linkedin} alt="LinkenIn Icon" />
-                </a>
-                <a
-                  href="instagram.com"
-                  aria-label="link to staff instagram page"
-                >
-                  <img src={Instagram} alt="ig icon" />
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="team-box">
-            <div className="img">
-              <img
-                src="https://www.hindustantimes.com/ht-img/img/2023/09/02/1600x900/teachers_day_1693652054152_1693652065719.jpg"
-                alt="asend staff"
-              />
-            </div>
-            <h3>Tracy D. Wright</h3>
-            <p className="title">Doctor Of Veterinary Medicine</p>
-            <div className="position">
-              <p className="position">Veterinary/Agriculture Tutor</p>
+              <p className="position">Assistant Medicine Coordinator - Kumba</p>
               <div className="profile-links">
                 <a
                   href="linkendin.com"
@@ -366,141 +284,6 @@ const AboutTeam = () => {
             <p className="title">B.eng Telecom Engineering</p>
             <div className="position">
               <p className="position">Engineering Tutor</p>
-              <div className="profile-links">
-                <a
-                  href="linkendin.com"
-                  aria-label="link to staff linkedin page"
-                >
-                  <img src={Linkedin} alt="LinkenIn Icon" />
-                </a>
-                <a
-                  href="instagram.com"
-                  aria-label="link to staff instagram page"
-                >
-                  <img src={Instagram} alt="ig icon" />
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="team-box">
-            <div className="img">
-              <img
-                src="https://media.licdn.com/dms/image/D4E12AQHreMR7tl4vHQ/article-cover_image-shrink_720_1280/0/1695244196953?e=2147483647&v=beta&t=6Jm12Vy1nlZoDARkn7ziO-WUxShJqSVC3XIBKRKrOVc"
-                alt="asend staff"
-              />
-            </div>
-            <h3>Tracy D. Wright</h3>
-            <p className="title">MD Doctor Of Medicine</p>
-            <div className="position">
-              <p className="position">Medicine Tutor</p>
-              <div className="profile-links">
-                <a
-                  href="linkendin.com"
-                  aria-label="link to staff linkedin page"
-                >
-                  <img src={Linkedin} alt="LinkenIn Icon" />
-                </a>
-                <a
-                  href="instagram.com"
-                  aria-label="link to staff instagram page"
-                >
-                  <img src={Instagram} alt="ig icon" />
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="team-box">
-            <div className="img">
-              <img
-                src="https://www.shutterstock.com/image-photo/portrait-happy-businessman-arms-crossed-600nw-388786822.jpg"
-                alt="asend staff"
-              />
-            </div>
-            <h3>Tracy D. Wright</h3>
-            <p className="title">B.eng Telecom Engineering</p>
-            <div className="position">
-              <p className="position">Engineering Tutor</p>
-              <div className="profile-links">
-                <a
-                  href="linkendin.com"
-                  aria-label="link to staff linkedin page"
-                >
-                  <img src={Linkedin} alt="LinkenIn Icon" />
-                </a>
-                <a
-                  href="instagram.com"
-                  aria-label="link to staff instagram page"
-                >
-                  <img src={Instagram} alt="ig icon" />
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="team-box">
-            <div className="img">
-              <img
-                src="https://www.hindustantimes.com/ht-img/img/2023/09/02/1600x900/teachers_day_1693652054152_1693652065719.jpg"
-                alt="asend staff"
-              />
-            </div>
-            <h3>Tracy D. Wright</h3>
-            <p className="title">Doctor Of Veterinary Medicine</p>
-            <div className="position">
-              <p className="position">Veterinary/Agriculture Tutor</p>
-              <div className="profile-links">
-                <a
-                  href="linkendin.com"
-                  aria-label="link to staff linkedin page"
-                >
-                  <img src={Linkedin} alt="LinkenIn Icon" />
-                </a>
-                <a
-                  href="instagram.com"
-                  aria-label="link to staff instagram page"
-                >
-                  <img src={Instagram} alt="ig icon" />
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="team-box">
-            <div className="img">
-              <img
-                src="https://cdn.eduadvisor.my/articles/2022/04/how-to-be-teacher-malaysia-feature.png"
-                alt="asend staff"
-              />
-            </div>
-            <h3>Tracy D. Wright</h3>
-            <p className="title">B.eng Telecom Engineering</p>
-            <div className="position">
-              <p className="position">Engineering Tutor</p>
-              <div className="profile-links">
-                <a
-                  href="linkendin.com"
-                  aria-label="link to staff linkedin page"
-                >
-                  <img src={Linkedin} alt="LinkenIn Icon" />
-                </a>
-                <a
-                  href="instagram.com"
-                  aria-label="link to staff instagram page"
-                >
-                  <img src={Instagram} alt="ig icon" />
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="team-box">
-            <div className="img">
-              <img
-                src="https://media.licdn.com/dms/image/D4E12AQHreMR7tl4vHQ/article-cover_image-shrink_720_1280/0/1695244196953?e=2147483647&v=beta&t=6Jm12Vy1nlZoDARkn7ziO-WUxShJqSVC3XIBKRKrOVc"
-                alt="asend staff"
-              />
-            </div>
-            <h3>Tracy D. Wright</h3>
-            <p className="title">MD Doctor Of Medicine</p>
-            <div className="position">
-              <p className="position">Medicine Tutor</p>
               <div className="profile-links">
                 <a
                   href="linkendin.com"

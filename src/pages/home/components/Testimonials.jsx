@@ -3,7 +3,7 @@ import React from 'react';
 const Testimonials = () => {
   const testimonials = [
     {
-      name: 'Jane Smith',
+      name: 'Menge Precious',
       image:
         'https://media.gettyimages.com/id/681887813/photo/close-up-portrait-of-boy-standing-in-classroom.jpg?s=612x612&w=gi&k=20&c=np7t5eZndwuf2WtU8Kl4SFerjdtEuGqmw_Pt0_eFLVs=',
       content:

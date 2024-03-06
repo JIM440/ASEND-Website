@@ -3,7 +3,7 @@ import staffs2 from '../../assets/img/hero/Staffs3.jpg';
 import { Link } from 'react-router-dom';
 import Faqs from './components/Faqs';
 import Partners from './components/Partners';
-import RecentActivities from './components/RecentActivities';
+import RecentActivities from '../../common/components/RecentActivities';
 import Testimonials from './components/Testimonials';
 import Team from './components/Team';
 import Services from './components/Services';
@@ -50,7 +50,10 @@ const Home = () => {
       <Stats />
       <Team />
       <Testimonials />
-      <RecentActivities />
+      <RecentActivities
+        title="Recent Activities"
+        description="Check Out Our Recent Activities"
+      />
       <Faqs />
       <Partners />
     </>

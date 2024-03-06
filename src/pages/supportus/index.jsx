@@ -1,6 +1,6 @@
 import React from 'react';
 import Testimonials from '../home/components/Testimonials';
-import RecentActivities from '../home/components/RecentActivities';
+import RecentActivities from '../../common/components/RecentActivities';
 
 const Support = () => {
   return (
@@ -19,8 +19,8 @@ const Support = () => {
         </div>
       </section>
       {/*  */}
-      <section>
-        <div className="container bg-blue">
+      <section className="support-bg">
+        <div className="container bg-blue ">
           <h2 className="header">Support</h2>
           <p>
             {/* include here the be an impact text, say here how they can help someone by paying tuition or sponsor an activity e.g. world engineering day */}
@@ -39,7 +39,7 @@ const Support = () => {
           </p>
         </div>
       </section>
-      <section className="mw">
+      <section className="mw donate-options">
         <div className="donate-options-container">
           <div className="donate-options-box">
             <div className="img">
@@ -65,7 +65,10 @@ const Support = () => {
         </div>
       </section>
       {/* recent activities */}
-      <RecentActivities />
+      <RecentActivities
+        title="Recent Activities"
+        description="Be a part Our Impact - Sponsor an activity"
+      />
       {/* testimonials */}
       <Testimonials />
     </>

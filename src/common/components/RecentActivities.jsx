@@ -1,15 +1,15 @@
 import { Link } from 'react-router-dom';
 
-import WorldEng from '../../../assets/img/activities/worldEngineering/world1.jpg';
-import orientation from '../../../assets/img/activities/orientation/orientation2_copy.jpg';
-import Premed from '../../../assets/img/activities/premed_preengr_exams/premed1.jpg';
+import WorldEng from '../../assets/img/activities/worldEngineering/world1.jpg';
+import orientation from '../../assets/img/activities/orientation/orientation2_copy.jpg';
+import Premed from '../../assets/img/activities/premed_preengr_exams/premed1.jpg';
 
-const RecentActivities = () => {
+const RecentActivities = ({ title, description }) => {
   return (
     <section id="recent-activities">
       <div className="container">
-        <h2 className="header">Recent Activities</h2>
-        <p className="header-description">Check Out Our Recent Activities</p>
+        <h2 className="header">{title}</h2>
+        <p className="header-description">{description}</p>
         <div className="recent-activities-container">
           <div className="recent-activities-box">
             <div className="img">

@@ -927,7 +927,7 @@ nav.clicked {
   min-height: 200px;
 }
 .teamAbout .team-container-about .team-box .img img {
-  height: 100%;
+  height: 230px;
   width: 100%;
   border-radius: 8px;
   object-fit: cover;
@@ -1275,6 +1275,10 @@ nav.clicked {
   .services .sub-header {
     font-size: 20px;
   }
+}
+
+.donate-options + #recent-activities .mw {
+  display: none;
 }
 
 #notFound {
