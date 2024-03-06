@@ -769,6 +769,29 @@ nav.clicked {
   justify-content: center;
   height: 60vh;
 }
+.hero .container p {
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+}
+@media (min-width: 576px) {
+  .hero .container p {
+    font-size: 18px;
+  }
+}
+.hero .container h1,
+.hero .container h2 {
+  text-align: center;
+  color: white;
+  font-size: 32px;
+}
+@media (min-width: 576px) {
+  .hero .container h1,
+  .hero .container h2 {
+    font-size: 48px;
+  }
+}
 @media (min-width: 576px) {
   .hero .container {
     height: 65vh;
@@ -780,26 +803,15 @@ nav.clicked {
     height: 100vh;
   }
 }
-.hero .container p {
-  color: white;
-  font-weight: 600;
-  font-size: 14px;
-}
-@media (min-width: 576px) {
-  .hero .container p {
-    font-size: 18px;
-    max-width: 750px;
-  }
-}
-.hero .container h1 {
+
+.hero-home p {
+  text-align: left !important;
   max-width: 750px;
-  color: white;
-  font-size: 32px;
 }
-@media (min-width: 576px) {
-  .hero .container h1 {
-    font-size: 48px;
-  }
+.hero-home h1,
+.hero-home h2 {
+  max-width: 750px;
+  text-align: left !important;
 }
 
 @media (min-width: 768px) {

@@ -19,6 +19,26 @@
     justify-content: center;
     height: 60vh;
 
+    p {
+      color: $white;
+      font-weight: 600;
+      font-size: 14px;
+      text-align: center;
+      @include breakpointTablet {
+        font-size: 18px;
+      }
+    }
+
+    h1,
+    h2 {
+      text-align: center;
+      color: $white;
+      font-size: 32px;
+      @include breakpointTablet {
+        font-size: 48px;
+      }
+    }
+
     @include breakpointTablet {
       height: 65vh;
     }
@@ -27,25 +47,18 @@
       padding-inline: 4rem;
       height: 100vh;
     }
+  }
+}
 
-    p {
-      color: $white;
-      font-weight: 600;
-      font-size: 14px;
-      @include breakpointTablet {
-        font-size: 18px;
-        max-width: 750px;
-      }
-    }
+.hero-home {
+  p {
+    text-align: left !important;
+    max-width: 750px;
+  }
 
-    h1 {
-      max-width: 750px;
-
-      color: $white;
-      font-size: 32px;
-      @include breakpointTablet {
-        font-size: 48px;
-      }
-    }
+  h1,
+  h2 {
+    max-width: 750px;
+    text-align: left !important;
   }
 }

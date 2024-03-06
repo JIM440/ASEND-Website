@@ -15,7 +15,7 @@ const Home = () => {
   const scrollToTop = UseScrollTop();
   return (
     <>
-      <section className="hero">
+      <section className="hero hero-home">
         <div
           className="container"
           style={{
