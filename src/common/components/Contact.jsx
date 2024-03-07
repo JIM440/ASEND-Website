@@ -34,16 +34,16 @@ const Contact = () => {
               <div>
                 <p className="bold underline">Call For Inquiries:</p>
                 <p>
-                  <span className="bold">Kumba:</span> 237-677-789-987 or
+                  <span className="bold">Kumba:</span> 237-654-812-052 or
                   675-453-355
                 </p>
                 <p>
-                  <span className="bold">Buea:</span> 237-677-789-987 or
-                  675-453-355
+                  <span className="bold">Buea:</span> xxx-xxx-xxx-xxx or
+                  xxx-xxx-xxx
                 </p>
                 <p>
-                  <span className="bold">Limbe:</span> 237-677-789-987 or
-                  675-453-355
+                  <span className="bold">Limbe:</span> 237-650-935-887 or
+                  xxx-xxx-xxx
                 </p>
               </div>
             </div>
