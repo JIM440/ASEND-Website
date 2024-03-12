@@ -1,6 +1,7 @@
 import Linkedin from '../../../assets/icons/linkedin.png';
 import Instagram from '../../../assets/icons/ig.jpg';
 import usman from '../../../assets/img/team/usman.jpg';
+import etien from '../../../assets/img/team/etien.jpg';
 import { Link } from 'react-router-dom';
 
 const Team = () => {
@@ -33,10 +34,7 @@ const Team = () => {
           </div>
           <div className="team-box">
             <div className="img">
-              <img
-                src="https://images.squarespace-cdn.com/content/v1/5dc5d641498834108f7c46a5/564a726c-ec6a-470b-9769-1c5045358424/What%27s+Your+Why+Hero.jpg"
-                alt="asend staff"
-              />
+              <img src="" alt="asend staff" />
             </div>
             <h3>Sir Harry Mukete</h3>
             <p className="title">6th Year Medical Student</p>

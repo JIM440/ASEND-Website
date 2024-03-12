@@ -238,6 +238,7 @@ section {
 }
 .team-container .team-box .img {
   width: 100%;
+  height: 330px;
   min-height: 300px;
 }
 .team-container .team-box .img img {
@@ -936,6 +937,7 @@ nav.clicked {
 }
 .teamAbout .team-container-about .team-box .img {
   width: 100%;
+  height: unset;
   min-height: 200px;
 }
 .teamAbout .team-container-about .team-box .img img {
