@@ -23,12 +23,6 @@ const Team = () => {
                 <a href="linkedin.com" aria-label="link to staff linkedin page">
                   <img src={Linkedin} alt="LinkenIn Icon" />
                 </a>
-                <a
-                  href="instagram.com"
-                  aria-label="link to staff instagram page"
-                >
-                  <img src={Instagram} alt="ig icon" />
-                </a>
               </div>
             </div>
           </div>
@@ -46,19 +40,13 @@ const Team = () => {
                 <a href="linkedin.com" aria-label="link to staff linkedin page">
                   <img src={Linkedin} alt="LinkenIn Icon" />
                 </a>
-                <a
-                  href="instagram.com"
-                  aria-label="link to staff instagram page"
-                >
-                  <img src={Instagram} alt="ig icon" />
-                </a>
               </div>
             </div>
           </div>
-          <div className="team-box">
+          {/* <div className="team-box">
             <div className="img">
               <img
-                src="https://www.shutterstock.com/image-photo/portrait-half-turn-brunet-hair-260nw-1216693528.jpg"
+                src=""
                 alt="asend staff"
               />
             </div>
@@ -78,7 +66,7 @@ const Team = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="mw container bg-blue">
           <p>
@@ -86,7 +74,12 @@ const Team = () => {
             students achieve their dreams of getting into their desired
             professional school.
           </p>
-          <Link to="" className="btn">
+          <Link
+            to="https://docs.google.com/forms/d/e/1FAIpQLSdquWN9INvQR4guv6cdP-_tZbeHP3ZZsp33po3Uk0GlGaqhGw/viewform?usp=sf_link"
+            target="_blank"
+            aria-label="link to join our team google form"
+            className="btn"
+          >
             Join Our Team
           </Link>
         </div>

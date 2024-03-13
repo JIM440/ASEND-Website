@@ -126,7 +126,8 @@ const AboutTeam = () => {
               professional school.
             </p>
             <Link
-              to="/"
+              to="https://docs.google.com/forms/d/e/1FAIpQLSdquWN9INvQR4guv6cdP-_tZbeHP3ZZsp33po3Uk0GlGaqhGw/viewform?usp=sf_link"
+              target="_blank"
               aria-label="link to join our team google form"
               className="btn"
             >

@@ -133,7 +133,7 @@ const Footer = () => {
                 </p>
               </li>
               <li>
-                <i className="bi bi-geo-alt-fill"></i>
+                <i className="bx bx-location-plus"></i>
                 <p>
                   <b>Kumba:</b> Diligent Bilingual School
                   <br />
