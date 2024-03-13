@@ -9,6 +9,7 @@ import usman from '../../../assets/img/team/usman.jpg';
 import lois from '../../../assets/img/team/Lois.jpg';
 // team images
 import salif from '../../../assets/img/team/salif.jpg';
+import stephan from '../../../assets/img/team/steph.jpg';
 import etien from '../../../assets/img/team/etien.jpg';
 import santina from '../../../assets/img/team/santina.jpg';
 import jim from '../../../assets/img/team/jim.jpg';
@@ -81,6 +82,14 @@ const AboutTeam = () => {
       name: 'Engr. Njidda Salifu',
       level: 'Final Year Software Engineerng Student - FET Buea',
       position: 'Engineering Coordinator- Buea',
+      LinkedInUrl: 'linkedin.com',
+      IgUrl: 'instagram.com',
+    },
+    {
+      image: stephan,
+      name: 'Nurse Kongchi Stephae',
+      level: 'Bachelors Of Nursing Sceince',
+      position: 'Medicine Coordinator - Kumba',
       LinkedInUrl: 'linkedin.com',
       IgUrl: 'instagram.com',
     },
