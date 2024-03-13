@@ -87,7 +87,7 @@ const AboutTeam = () => {
     },
     {
       image: stephan,
-      name: 'Nurse Kongchi Stephae',
+      name: 'Nurse Kongchi Stephane',
       level: 'Bachelors Of Nursing Sceince',
       position: 'Medicine Coordinator - Kumba',
       LinkedInUrl: 'linkedin.com',

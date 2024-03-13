@@ -180,28 +180,28 @@ const Navbar = () => {
                 target="_blank"
                 aria-label="link to asend facebook page"
               >
-                <i className="bi bi-facebook"></i>
+                <i className="bx bxl-facebook-circle"></i>
               </a>
               <a
                 href="/youtube.com"
                 target="_blank"
                 aria-label="link to asend youtube page"
               >
-                <i className="bi bi-youtube"></i>
+                <i className="bx bxl-youtube"></i>
               </a>
               <a
                 href="/instagram.com"
                 target="_blank"
                 aria-label="link to asend instagram page"
               >
-                <i className="bi bi-instagram"></i>
+                <i className="bx bxl-instagram-alt"></i>
               </a>
               <a
                 href="/whatsapp.me"
                 target="_blank"
                 aria-label="link to asend whatsapp page"
               >
-                <i className="bi bi-whatsapp"></i>
+                <i className="bx bxl-whatsapp-square"></i>
               </a>
             </div>
           </li>

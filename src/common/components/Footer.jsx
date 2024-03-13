@@ -133,7 +133,7 @@ const Footer = () => {
                 </p>
               </li>
               <li>
-                <i className="bx bx-location-plus"></i>
+                <i className="bx bx-current-location"></i>
                 <p>
                   <b>Kumba:</b> Diligent Bilingual School
                   <br />
