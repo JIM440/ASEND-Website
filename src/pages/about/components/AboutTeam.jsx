@@ -7,6 +7,7 @@ import golda from '../../../assets/img/team/golda.jpg';
 import yannick from '../../../assets/img/team/yannick.jpg';
 import usman from '../../../assets/img/team/usman.jpg';
 import lois from '../../../assets/img/team/Lois.jpg';
+import shanice from '../../../assets/img/team/shanice.jpg';
 // team images
 import salif from '../../../assets/img/team/salif.jpg';
 import stephan from '../../../assets/img/team/steph.jpg';
@@ -66,6 +67,14 @@ const AboutTeam = () => {
       LinkedInUrl: '',
       IgUrl: '',
     },
+    {
+      image: shanice,
+      name: 'Engr. Endah Shanice',
+      level: 'M.eng. B.eng Telecommunications Engineering',
+      position: 'Treasurer',
+      LinkedInUrl: '',
+      IgUrl: '',
+    },
     // {
     //   image: lois,
     //   name: 'Nurse Bungwa Lois Nabila',
@@ -79,7 +88,7 @@ const AboutTeam = () => {
   const team = [
     {
       image: salif,
-      name: 'Engr. Njidda Salifu',
+      name: 'Njidda Salifu',
       level: 'Final Year Software Engineerng Student - FET Buea',
       position: 'Engineering Coordinator- Buea',
       LinkedInUrl: 'linkedin.com',
