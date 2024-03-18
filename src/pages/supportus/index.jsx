@@ -1,8 +1,13 @@
 import React from 'react';
 import Testimonials from '../home/components/Testimonials';
 import RecentActivities from '../../common/components/RecentActivities';
+import UseScrollTop from '../../common/components/UseScrollTop';
+import mtn from '../../assets/img/mtn-logo.png';
+import orange from '../../assets/img/orange-money.jpg';
 
 const Support = () => {
+  const scrollToTop = UseScrollTop();
+
   return (
     <>
       {/*hero */}
@@ -80,23 +85,16 @@ const Support = () => {
         <div className="donate-options-container">
           <div className="donate-options-box">
             <div className="img">
-              <img src="" alt="" />
+              <img src={mtn} alt="" />
             </div>
-            <h3>Momo</h3>
+            <h3>Mobile Money</h3>
             <p>678 545 2542</p>
           </div>
           <div className="donate-options-box">
             <div className="img">
-              <img src="" alt="" />
+              <img src={orange} alt="" />
             </div>
-            <h3>Momo</h3>
-            <p>678 545 2542</p>
-          </div>
-          <div className="donate-options-box">
-            <div className="img">
-              <img src="" alt="" />
-            </div>
-            <h3>Momo</h3>
+            <h3>Orange Money</h3>
             <p>678 545 2542</p>
           </div>
         </div>
