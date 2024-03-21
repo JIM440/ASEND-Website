@@ -43,14 +43,14 @@ const AboutTeam = () => {
     //   LinkedInUrl: '',
     //   IgUrl: '',
     // },
-    // {
-    //   image: golda,
-    //   name: 'Engr. Acha Golda Angwe',
-    //   level: 'B.eng Electrical Power Systems Engineering',
-    //   position: 'General Coordinator',
-    //   LinkedInUrl: '',
-    //   IgUrl: '',
-    // },
+    {
+      image: golda,
+      name: 'Engr. Acha Golda Angwe',
+      level: 'B.eng Electrical Power Systems Engineering',
+      position: 'General Coordinator',
+      LinkedInUrl: '',
+      IgUrl: '',
+    },
     // {
     //   image: yannick,
     //   name: 'Mombong Yannick Bebang',
@@ -75,14 +75,14 @@ const AboutTeam = () => {
       LinkedInUrl: '',
       IgUrl: '',
     },
-    // {
-    //   image: lois,
-    //   name: 'Nurse Bungwa Lois Nabila',
-    //   level: 'Bachelor Of Nursing Science',
-    //   position: 'Secretary General',
-    //   LinkedInUrl: '',
-    //   IgUrl: '',
-    // },
+    {
+      image: lois,
+      name: 'Nurse Bungwa Lois Nabila',
+      level: 'Bachelor Of Nursing Science',
+      position: 'Secretary General',
+      LinkedInUrl: '',
+      IgUrl: '',
+    },
   ];
   // staffs
   const team = [
