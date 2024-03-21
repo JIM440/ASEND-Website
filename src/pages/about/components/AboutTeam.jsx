@@ -45,8 +45,8 @@ const AboutTeam = () => {
     // },
     {
       image: golda,
-      name: 'Engr. Acha Golda Angwe',
-      level: 'B.eng Electrical Power Systems Engineering',
+      name: 'Engr. Acha Golder Angwe',
+      level: 'B.eng Electrical and Electronics Engineering',
       position: 'General Coordinator',
       LinkedInUrl: '',
       IgUrl: '',

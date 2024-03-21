@@ -8,7 +8,7 @@ const HowWeStarted = () => {
           <div className="text">
             <h2 className="header">How We Started</h2>
             <p>
-              2014 was the birth year of ASEND. Afterthe 2014 Cameroon General
+              2014 was the birth year of ASEND. After the 2014 Cameroon General
               Certificate Examinations (CGCE), two childhood friends by name
               Baar David C. and Ngongang Cabrel from Diligent Bilingual Academy
               aimed at becoming future Engineers. At a time when Polytechnic
