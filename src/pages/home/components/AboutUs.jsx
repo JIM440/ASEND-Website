@@ -22,7 +22,7 @@ const AboutUs = () => {
             </Link>
             )&nbsp; in Cameroon! At ASEND, we are dedicated to empowering
             students to achieve their academic and professional goals through
-            comprehensive preparation courses and support services. Our team of
+            comprehensive preparatory classes and support services. Our team of
             experienced educators provides mentorship, career orientation, and
             personalized guidance to help students navigate the{' '}
             <Link

@@ -135,6 +135,7 @@ const EngineeringTab = () => {
                       <li>Computer Engineering</li>
                       <li>Electrical & Electronic Engineering</li>
                       <li>Mechanical Engineering</li>
+                      <li>Renewable Energy</li>
                     </ul>
                   </div>
                   <div>

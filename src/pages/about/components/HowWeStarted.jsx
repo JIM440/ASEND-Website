@@ -12,8 +12,8 @@ const HowWeStarted = () => {
               Certificate Examinations (CGCE), two childhood friends by name
               Baar David C. and Ngongang Cabrel from Diligent Bilingual Academy
               aimed at becoming future Engineers. At a time when Polytechnic
-              Yaounde was the only renounce Engineering school in Cameroon, the
-              then wanderkids search to no avail through South West and North
+              Yaounde was the only renowned Engineering school in Cameroon, the
+              then wonder kids search to no avail through South West and North
               West for a preparation to the Polytechnic Yaounde Entrance
               Examination. They traveled to Yaounde in search for a preparatory
               class for such a prestigious examination.

@@ -19,14 +19,14 @@ import TeamContainerAbout from './TeamContainerAbout';
 const AboutTeam = () => {
   // leaders
   const leaders = [
-    // {
-    //   image: david,
-    //   name: 'Engrr. David Baar',
-    //   level: 'M.eng B.eng Telecommunications Engineering',
-    //   position: 'Co-Founder | Board Member',
-    //   LinkedInUrl: '',
-    //   IgUrl: '',
-    // },
+    {
+      image: david,
+      name: 'Engr. David Baar',
+      level: 'M.eng B.eng Telecommunications Engineering',
+      position: 'Co-Founder | Board Member',
+      LinkedInUrl: '',
+      IgUrl: '',
+    },
     // {
     //   image: cabrel,
     //   name: 'Dr. Ngongang N. Cabrel',
