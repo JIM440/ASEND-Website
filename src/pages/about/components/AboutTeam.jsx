@@ -27,14 +27,14 @@ const AboutTeam = () => {
       LinkedInUrl: '',
       IgUrl: '',
     },
-    // {
-    //   image: cabrel,
-    //   name: 'Dr. Ngongang N. Cabrel',
-    //   level: 'Doctor Of Medicine (MD)',
-    //   position: 'Co-Founder | Board Member',
-    //   LinkedInUrl: '',
-    //   IgUrl: '',
-    // },
+    {
+      image: cabrel,
+      name: 'Dr. Ngongang N. Cabrel',
+      level: 'Doctor Of Medicine (MD)',
+      position: 'Co-Founder | Board Member',
+      LinkedInUrl: '',
+      IgUrl: '',
+    },
     // {
     //   image: sone,
     //   name: 'Engr. Sone N. Epie',
