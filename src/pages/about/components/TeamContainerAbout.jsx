@@ -13,22 +13,35 @@ const TeamContainerAbout = ({ staffs }) => {
                 </div>
                 <h3>{staff.name}</h3>
                 <p className="title">{staff.level}</p>
-                <div className="position">
-                  <p className="position">{staff.position}</p>
-                  <div className="profile-links">
-                    <a
-                      href={staff.LinkedInUrl}
-                      aria-label="link to staff linkedin page"
-                    >
-                      <img src={Linkedin} alt="LinkenIn Icon" />
-                    </a>
-                    {/* <a
+                <div className="position-container">
+                  <p
+                    className="position"
+                    style={{
+                      textAlign: `${
+                        staff.LinkedInUrl.length === 0 ? 'center' : 'left'
+                      }`,
+                    }}
+                  >
+                    {staff.position}
+                  </p>
+                  {staff.LinkedInUrl.length !== 0 && (
+                    <div className="profile-links">
+                      <a
+                        href={staff.LinkedInUrl}
+                        aria-label="link to staff linkedin page"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <img src={Linkedin} alt="LinkenIn Icon" />
+                      </a>
+                      {/* <a
                       href={staff.IgUrl}
                       aria-label="link to staff instagram page"
                     >
                       <img src={Instagram} alt="ig icon" />
                     </a> */}
-                  </div>
+                    </div>
+                  )}
                 </div>
               </div>
             ))

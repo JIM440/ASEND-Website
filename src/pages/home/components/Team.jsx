@@ -20,7 +20,10 @@ const Team = () => {
             <div className="position">
               <p className="position">DAAS | Engineering Tutor</p>
               <div className="profile-links">
-                <a href="linkedin.com" aria-label="link to staff linkedin page">
+                <a
+                  href="https://www.linkedin.com/in/jr-chuka-usmanu-376329232/"
+                  aria-label="link to staff linkedin page"
+                >
                   <img src={Linkedin} alt="LinkenIn Icon" />
                 </a>
               </div>

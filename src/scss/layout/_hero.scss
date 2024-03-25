@@ -4,7 +4,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(./assets/img/hero/Staffs2.jpg);
-  background-color: rgba(0, 0, 0, 0.4);
+  // background-color: rgba(0, 0, 0, 0.4);
+  background-color: lighten($text-muted, 20%);
   background-position: center;
   height: auto;
 

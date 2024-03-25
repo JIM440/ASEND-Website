@@ -24,16 +24,15 @@ const AboutTeam = () => {
       name: 'Engr. David Baar',
       level: 'M.eng B.eng Telecommunications Engineering',
       position: 'Co-Founder | Board Member',
-      LinkedInUrl: '',
-      IgUrl: '',
+      LinkedInUrl: 'https://www.linkedin.com/in/david-baar-c-m-eng-070997139/',
     },
     {
       image: cabrel,
       name: 'Dr. Ngongang N. Cabrel',
       level: 'Doctor Of Medicine (MD)',
       position: 'Co-Founder | Board Member',
-      LinkedInUrl: '',
-      IgUrl: '',
+      LinkedInUrl:
+        'https://www.linkedin.com/in/ngongang-ngansop-cabrel-329257291/',
     },
     // {
     //   image: sone,
@@ -48,8 +47,7 @@ const AboutTeam = () => {
       name: 'Engr. Acha Golder Angwe',
       level: 'B.eng Electrical and Electronics Engineering',
       position: 'General Coordinator',
-      LinkedInUrl: '',
-      IgUrl: '',
+      LinkedInUrl: 'https://www.linkedin.com/in/acha-golder-angwe-3a884a1b1/',
     },
     // {
     //   image: yannick,
@@ -57,23 +55,20 @@ const AboutTeam = () => {
     //   level: '6th Year Medicine Student',
     //   position: 'Vice General Coordinator',
     //   LinkedInUrl: '',
-    //   IgUrl: '',
     // },
     {
       image: usman,
       name: 'Engr. Usmanu Chuka',
       level: 'B.eng Telecommunications Engineering',
       position: 'DAAS',
-      LinkedInUrl: '',
-      IgUrl: '',
+      LinkedInUrl: 'https://www.linkedin.com/in/jr-chuka-usmanu-376329232/',
     },
     {
       image: shanice,
       name: 'Engr. Endah Shanice',
       level: 'M.eng. B.eng Telecommunications Engineering',
       position: 'Treasurer',
-      LinkedInUrl: '',
-      IgUrl: '',
+      LinkedInUrl: 'https://www.linkedin.com/in/shanice-samba-645954197/',
     },
     {
       image: lois,
@@ -81,7 +76,6 @@ const AboutTeam = () => {
       level: 'Bachelor Of Nursing Science',
       position: 'Secretary General',
       LinkedInUrl: '',
-      IgUrl: '',
     },
   ];
   // staffs
@@ -91,24 +85,21 @@ const AboutTeam = () => {
       name: 'Njidda Salifu',
       level: 'Final Year Software Engineerng Student - FET Buea',
       position: 'Engineering Coordinator- Buea',
-      LinkedInUrl: 'linkedin.com',
-      IgUrl: 'instagram.com',
+      LinkedInUrl: 'https://www.linkedin.com/in/njidda-salifu-942531217/',
     },
     {
       image: stephan,
       name: 'Nurse Kongchi Stephane',
       level: 'Bachelors Of Nursing Sceince',
       position: 'Medicine Coordinator - Kumba',
-      LinkedInUrl: 'linkedin.com',
-      IgUrl: 'instagram.com',
+      LinkedInUrl: 'https://www.linkedin.com/in/kongchi-stephane-33740a19a/',
     },
     {
       image: etien,
       name: 'Etiendem Betrand',
       level: '4th Year Medicine Student - FHS Buea',
       position: 'Assistant Medicine Coordinator - Kumba',
-      LinkedInUrl: 'linkedin.com',
-      IgUrl: 'instagram.com',
+      LinkedInUrl: 'https://www.linkedin.com/in/etiendem-betrand-8b5725259/',
     },
     // {
     //   image: jim,
@@ -123,8 +114,8 @@ const AboutTeam = () => {
       name: 'Engr. Santina Ejeck',
       level: 'B.Tech Mechanical Engineering',
       position: 'Engineering Tutor',
-      LinkedInUrl: 'linkedin.com',
-      IgUrl: 'instagram.com',
+      LinkedInUrl:
+        'https://www.linkedin.com/in/santina-ejeck-chifor-2b109323a/',
     },
   ];
 

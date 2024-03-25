@@ -35,7 +35,7 @@ const AboutUs = () => {
             >
               competitive entrance exam
             </Link>
-            process.
+            &nbsp; process.
             <br />
             <br /> Our prep classes are designed to cover all subjects from
             scratch, ensuring that students have a solid foundation and are

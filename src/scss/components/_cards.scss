@@ -129,11 +129,12 @@
       color: $primary-color;
     }
 
-    .position {
+    .position,
+    .position-container {
       display: flex;
       gap: 1rem;
       width: 100%;
-      text-align: left;
+      text-align: center;
       align-items: center;
       justify-content: space-between;
 
@@ -147,6 +148,10 @@
           min-width: 18px;
           background-color: rgb(247, 107, 107);
         }
+      }
+      .position {
+        font-size: 12px;
+        display: inline-block;
       }
     }
   }

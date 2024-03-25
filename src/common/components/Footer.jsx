@@ -36,32 +36,36 @@ const Footer = () => {
             </span>
             <div className="social-links">
               <a
-                href="/facebook.com"
-                aria-label="link to asend facebook page"
+                href="https://www.facebook.com/profile.php?id=100072205071757"
                 target="_blank"
+                rel="noreferrer"
+                aria-label="link to asend facebook page"
               >
-                <i className="bi bi-facebook"></i>
+                <i className="bx bxl-facebook-circle"></i>
               </a>
               <a
                 href="/youtube.com"
-                aria-label="link to asend youtube page"
                 target="_blank"
+                rel="noreferrer"
+                aria-label="link to asend youtube page"
               >
-                <i className="bi bi-youtube"></i>
+                <i className="bx bxl-youtube"></i>
               </a>
               <a
                 href="/instagram.com"
-                aria-label="link to asend instagram page"
                 target="_blank"
+                rel="noreferrer"
+                aria-label="link to asend instagram page"
               >
-                <i className="bi bi-instagram"></i>
+                <i className="bx bxl-instagram-alt"></i>
               </a>
               <a
                 href="/whatsapp.me"
-                aria-label="link to asend whatsapp page"
                 target="_blank"
+                rel="noreferrer"
+                aria-label="link to asend whatsapp page"
               >
-                <i className="bi bi-whatsapp"></i>
+                <i className="bx bxl-whatsapp-square"></i>
               </a>
             </div>
           </div>
